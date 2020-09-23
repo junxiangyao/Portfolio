@@ -4,13 +4,19 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="author" content="Junxiang Yao">
     <meta name="description" content="Junxiang Yao's portfolio site for UX, Design, Data Visualization, VR, AR">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jason Yao's Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <header>
       <nav>
         <div class="">
-          <div class="">
+          <div class="logo">
             <a href="index.html"><span class="">JUNXIANG YAO</span></a>
         	</div>
           <div class="">
@@ -24,7 +30,7 @@
       </nav>
     </header>
     <main>
-      <div>
+      <div id="hero-section">
         <div>
           <h1>Hi, my name is Jason Yao.
             <span>I am a UX designer and a creative coder based in San Francisco, CA. </span>
@@ -34,15 +40,15 @@
         </div>
       </div>
 
-      <div class="">
-        <div>
-          <div>
+      <div id="work-section">
+        <div class="project-wrapper">
+          <div class="project-image-wrapper">
             <picture>
               <!-- <source srcset="img/coffeechat/cover@1.png" media="(max-width:767px)"> -->
               <img src="img/coffeechat/cover.png" alt="Cover for CoffeeChat">
             </picture>
           </div>
-          <div>
+          <div class="project-info">
             <h3>CoffeeChat</h3>
             <p>
               CoffeeChat is a platform that facilitates the connections between students and professionals.
@@ -52,17 +58,17 @@
             <p>
               Skill: Design Research, Wireframing, Prototyping, User Testing
             </p>
-            <a href="coffeechat.html">Read more</a><!-- button or link label -->
+            <a href="coffeechat.html" class="button">Read more</a><!-- button or link label -->
           </div>
         </div>
-        <div>
-          <div>
+        <div class="project-wrapper">
+          <div class="project-image-wrapper">
             <picture>
               <!-- <source srcset="img/vr_data_viz/cover@1.png" media="(max-width:767px)"> -->
               <img src="img/vr_data_viz/cover.png" alt="Cover for VR Data Viz">
             </picture>
           </div>
-          <div>
+          <div class="project-info">
             <h3>Visualizing Time-Oriented Data in VR</h3>
             <p>
               This project is a 3D data visualization application that is developed for performing
@@ -73,7 +79,7 @@
             <p>
               Skill: Unity C# Coding, 3D Interface Design, Data Visualization
             </p>
-            <a href="">Read more</a><!-- button or link label -->
+            <a href="" class="button">Read more</a><!-- button or link label -->
           </div>
         </div>
       </div>
@@ -83,7 +89,7 @@
       <div class="">
         <h2>Get in Touch</h2>
         <div>
-          <a href="mailto:yaojxjason@gmail.com">Email me</a>
+          <a href="mailto:yaojxjason@gmail.com" class="button contact">Email me</a>
         </div>
         <div class="">
           <a href="http://www.linkedin.com/in/junxiangyao" target="_blank">
