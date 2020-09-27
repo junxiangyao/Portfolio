@@ -14,26 +14,24 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div class="">
-          <div class="logo">
-            <a href="index.html"><span class="">JUNXIANG YAO</span></a>
-        	</div>
-          <div class="">
-            <ul class="">
-              <li><a href="index.html">Works</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><span class="">JUNXIANG YAO</span></a>
         </div>
-      </nav>
+        <nav>
+          <ul class="">
+            <li><a href="index.html">Works</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <div id="hero-section">
-        <div>
+      <div id="hero">
+        <div class = "container center">
           <h1>Hi, my name is Jason Yao.
-            <span>I am a UX designer and a creative coder based in San Francisco, CA. </span>
+            <span>I am a UX designer and a creative coder based in San Francisco. </span>
           </h1>
           <!-- <canvas id="canvas" width="300" height="300"></canvas> -->
           <!-- <p></p> -->
@@ -41,7 +39,7 @@
       </div>
 
       <div id="work-section">
-        <div class="project-wrapper">
+        <div class="project-wrapper row">
           <div class="project-image-wrapper">
             <picture>
               <!-- <source srcset="img/coffeechat/cover@1.png" media="(max-width:767px)"> -->
@@ -61,7 +59,7 @@
             <a href="coffeechat.html" class="button">Read more</a><!-- button or link label -->
           </div>
         </div>
-        <div class="project-wrapper">
+        <div class="project-wrapper row">
           <div class="project-image-wrapper">
             <picture>
               <!-- <source srcset="img/vr_data_viz/cover@1.png" media="(max-width:767px)"> -->
@@ -86,7 +84,7 @@
     </main>
 
     <footer id="contact">
-      <div class="">
+      <div class="container">
         <h2>Get in Touch</h2>
         <div>
           <a href="mailto:yaojxjason@gmail.com" class="button contact">Email me</a>

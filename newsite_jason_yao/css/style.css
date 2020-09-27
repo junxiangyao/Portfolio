@@ -3,8 +3,6 @@ Colors used:
 Primary Color (Scarlet): #d7381a;
 Secondary Color (Warm Grey): #625857;
 */
-
-
 img {
   width: 100%;
 }
@@ -92,3 +90,76 @@ a:focus {
   background-color: #d63314;
   color: #ffffff;
 }
+
+
+
+/* Layout styling */
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+  /* display: inline-block; */
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow:    0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+}
+
+
+main {
+  padding-top: 133px;
+}
+
+#hero {
+  /* background-color: #ffe4c4; */
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+nav{
+  display: inline-block;
+  /* width: 100%; */
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  /* font-weight: 700; */
+  color: #4a4a4a;
+}
+
+/* nav > ul > li > a:visited.
+nav > ul > li > a:active.
+nav > ul > li > a:hover. */
