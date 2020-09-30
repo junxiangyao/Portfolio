@@ -32,7 +32,7 @@
 
     <main>
       <div class="container">
-        <div>
+        <div class="title">
           <h1>CoffeeChat</h1>
       		<h3>Jul. 2020</h3>
           <!-- <canvas id="canvas" width="300" height="300"></canvas> -->
@@ -40,45 +40,69 @@
         </div>
       </div>
 
-      <div class="introduction">
+      <section class="introduction">
         <!-- <h4>Introduction</h4> -->
-        <p>College students and recent college graduates need a way to find professionals in the field they are interested in for advice about career and life because of the mismatch between academia and industry. This app aims at facilitating the connection between students and professionals by providing a platform for students to ask for advice from the professionals who work in the industries they are interested in.</p>
-		    <p><span class="accentuate"> Advisor:</span> Terri Rodriguez-Hong, Sam Kashani, Dana Ragouzous, Dana Lynn</p>
-        <p><span class="accentuate"> Tools:</span> Figma, Balsamiq, Keynote, MURAL, Miro</p>
-        <p><span class="accentuate"> My Role:</span> Solo Project (Some of the research data were used from <a style="color:green" href="">this project</a>.)</p>
-        <p><span class="accentuate"> Duration:</span> 2 months</p>
-      </div>
+        <div class="objective">
+          <p>College students and recent college graduates need a way to find professionals in the field they are interested in for advice about career and life because of the mismatch between academia and industry. This app aims at facilitating the connection between students and professionals by providing a platform for students to ask for advice from the professionals who work in the industries they are interested in.</p>
+        </div>
 
-      <div class="case-study-hero">
+
+        <ul id="hori">
+          <li><h5>Team</h5>
+            <p>Solo Project <br> (Some of the research data were used from <a style="color:green" href="">this project</a>.)</p></li>
+          <li><h5>Tools</h5>
+            <p>Figma <br> Balsamiq <br> Keynote <br> MURAL <br> Miro</li>
+          <li><h5>Duration</h5>
+            <p>June, 2020 - July, 2020 <br> (9 Weeks)</li>
+          <li><h5>Advisor</h5>
+            <p>Terri Rodriguez-Hong <br> Sam Kashani <br> Dana Ragouzous <br> Dana Lynn</p></li>
+        </ul>
+
+        <ul id="vert">
+          <li><h5>Team</h5>
+            <p>Solo Project (Some of the research data were used from <a style="color:green" href="">this project</a>.)</p></li>
+          <li><h5>Tools</h5>
+            <p>Figma, Balsamiq, Keynote, MURAL, Miro</li>
+          <li><h5>Duration</h5>
+            <p>June, 2020 - July, 2020 (9 Weeks)</li>
+          <li><h5>Advisor</h5>
+            <p>Terri Rodriguez-Hong, Sam Kashani, Dana Ragouzous, Dana Lynn</p></li>
+        </ul>
+
+      </section>
+
+      <div class="small-hero-img">
         <picture>
           <img src="img/coffeechat/frame1.png" alt="Mockups">
         </picture>
       </div>
 
-      <div class="section-title">
-        <h1>
-  				The Challenge
-  			</h1>
-      </div>
+    <section>
+        <div class="section-title">
+          <h1>
+    				The Challenge
+    			</h1>
+        </div>
 
-	<!-- 		<h3>
-				Because of the mismatch between academia and industry, they need practical advice about career and life so that they can better use their time to enjoy college life while preparing for the future.
-			</h3> -->
-			<div class="normal-paragraph">
-				<p><b>Because of the mismatch between academia and industry, college students need practical advice about career and life to prepare for their graduation and start the career. </b>
-					<br>
-					<br>
-					Many college students are facing a long and hard pathway to start their careers. When they graduate, it is typical for them to take some time to transition to the job market and find the position that leverage their skill and experience from school. Especially under COVID-19, students are facing a more complicated reality as their future became more uncertain.
-				</p>
-        <ul>
-          <li>75% of HR professionals struggled in recruiting due to candidates’ lack of necessary skills.</li>
-          <li>75% of students felt "I don't know what positions are a fit for me." in job search.</li>
-          <li>Due to COVID-19, 28% of students are seriously considering a career change/path.</li>
-        </ul>
-      </div>
+  	<!-- 		<h3>
+  				Because of the mismatch between academia and industry, they need practical advice about career and life so that they can better use their time to enjoy college life while preparing for the future.
+  			</h3> -->
+  			<div class="paragraph">
+  				<p><b>Because of the mismatch between academia and industry, college students need practical advice about career and life to prepare for their graduation and start the career. </b>
+  					<br>
+  					<br>
+  					Many college students are facing a long and hard pathway to start their careers. When they graduate, it is typical for them to take some time to transition to the job market and find the position that leverage their skill and experience from school. Especially under COVID-19, students are facing a more complicated reality as their future became more uncertain.
+  				</p>
+          <ul class="flex-ul-3">
+            <li><div class="number">75%</div> <p>of HR professionals struggled in recruiting due to candidates’ lack of necessary skills.</p> </li>
+            <li><div class="number">75%</div> <p>of students felt "I don't know what positions are a fit for me." in job search.</p></li>
+            <li><div class="number">28%</div> <p>of students are seriously considering a career change/path due to COVID-19. </p></li>
+          </ul>
+        </div>
+      </section>
 
-      <div class="hmw">
-        <div>
+      <div class="hmw_section" style="background-color: #F4F0EF;">
+        <div class="hmw">
           <h3>How might we help college students/recent college graduates better identify and learn the "life skills" necessary in work that they may not have learned in school?</h3>
         </div>
       </div>
@@ -88,7 +112,7 @@
           <h1>Solution</h1>
         </div>
         <div class="flex">
-  				<div class="">
+  				<div class="paragraph">
   					<p>
   						CoffeeChat aims at facilitating the connection between students and professionals. Students could use it to find professionals who have a similar background with them and currently works in the field/company they are interested in.
   						<br>
@@ -97,60 +121,68 @@
   						It digitalize the coffee chats between students and professionals for aforementioned purpose, so that students won't be hindered when they are seeking suggesions from the industry even under the circumstance of COVID-19.
   					</p>
   				</div>
-  				<div class="">
+  				<!-- <div class="">
             <picture>
               <img src="img/coffeechat/solution.png" alt="Mockups">
             </picture>
-  				</div>
+  				</div> -->
   			</div>
       </section>
 
-      <section class="key-feature">
-        <div class="section-title">
+      <section class="">
+        <!-- <div class="section-title">
           <h1>Key Features</h1>
-        </div>
-        <div class="">
-          <div class="">
-            <picture>
-              <img src="img/coffeechat/kf1.png" alt="Call Booking">
-            </picture>
-          </div>
-          <div class="">
-            <h3>Call Booking</h3>
-            <p>
-              The users can search for consultants that fit their needs and check their information on their profile page. From there, they can book a video chat session for face to face consulting.
-            </p>
-          </div>
-        </div>
-
-        <div class="">
-          <div class="">
-            <picture>
-              <img src="img/coffeechat/kf2.png" alt="Question Asking">
-            </picture>
-          </div>
-          <div class="">
-            <h3>Question Asking</h3>
-            <p>
-              When the user has a simpler question they want to ask to a consultant, they can send a question to this consultant instead of booking a video call session. This is also a more flexible consulting approach when it is difficult to schedule a meeting time.
-            </p>
+        </div> -->
+<!-- 浅绿 #A5D74D 深绿 #6E9B25-->
+        <div class="key-feature-wrapper" style="background-color: #6E9B25; color:white;">
+          <div class="row key-feature">
+            <div class="col-1-2 feature-pic">
+              <picture >
+                <img src="img/coffeechat/kf1.png" alt="Call Booking">
+              </picture>
+            </div>
+            <div class="col-1-2 feature-description">
+              <div class="">
+                <h3>Call Booking</h3>
+                <p>
+                  The users can search for consultants that fit their needs and check their information on their profile page. From there, they can book a video chat session for face to face consulting.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="">
-          <div class="">
-            <picture>
-              <img src="img/coffeechat/kf4.png" alt="Pay with Coffee">
-            </picture>
-          </div>
-          <div class="">
-            <h3>Pay Consultants with "Coffee"</h3>
-            <p>
-              Because this app aims to retain the coffee chat, which is a great way before pandemic for students to chat with professionals, the price in the app is shown as a coffee cup icon. Users can always change the price to be numeric by toggling the switch.
-            </p>
+        <div class="key-feature-wrapper" style="background-color: #4DB1C6; color:white;">
+          <div class="row key-feature">
+            <div class="col-1-2 feature-description">
+              <h3>Question Asking and Searching</h3>
+              <p>
+                When the user has a simpler question they want to ask to a consultant, they can send a question to this consultant instead of booking a video call session. This is also a more flexible consulting approach when it is difficult to schedule a meeting time.
+              </p>
+            </div>
+            <div class="col-1-2 feature-pic">
+              <picture>
+                <img src="img/coffeechat/kf2.png" alt="Question Asking">
+              </picture>
+            </div>
           </div>
         </div>
 
+        <!-- 棕色 #8E6D61  中黄 #FFA014-->
+        <div class="key-feature-wrapper" style="background-color: #FFA014; color:white;">
+          <div class="row key-feature">
+            <div class="col-1-2 feature-pic">
+              <picture>
+                <img src="img/coffeechat/kf4.png" alt="Pay with Coffee">
+              </picture>
+            </div>
+            <div class="col-1-2 feature-description">
+              <h3>Pay Consultants with "Coffee"</h3>
+              <p>
+                Because this app aims to retain the coffee chat, which is a great way before pandemic for students to chat with professionals, the price in the app is shown as a coffee cup icon. Users can always change the price to be numeric by toggling the switch.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="research">
@@ -163,40 +195,55 @@
             <h3>Interviews</h3>
           </div>
 
-          <div class="flex">
-            <div class="">
-              <p>
-                Qualitative interviews were conducted to understand how recent college graduates feel about their graduation and how they prepared for it, and to gather their thoughts about the education they received from college.
-                <br>(Most of the research data were used from <a href="" style="color:green">this project</a>, which is a group project.)
-              </p>
-            </div>
+            <!-- <div class=""> -->
+          <ul class="flex-ul-4">
+            <li>
+              <div class="">
+                <p>
+                  Qualitative interviews were conducted to understand how recent college graduates feel about their graduation and how they prepared for it, and to gather their thoughts about the education they received from college.
+                  <br>(Most of the research data were used from <a href="" style="color:green">this project</a>, which is a group project.)
+                </p>
+              </div>
+            </li>
 
-            <div class="guote">
-              <p>"There's no one told me what I should do in life (before graduation). I searched online to see how other people dealt with similar problems before."
-                <br><br>
-              </p>
-              <p>
-                -- Eric, 22 years old, Industrial Designer, Graduated in May, 2019
-              </p>
-            </div>
-            <div class="quote">
-              <p>"I feel like it's not enough to have a degree, and then you can solve those problems at work. A lot of time was spent on something that is not really mattering as much (in school.)"
-                <br><br>
-              </p>
-              <p>
-                -- Harly, 22 years old, Software Engineer, Graduated in May, 2019
-              </p>
-            </div>
-            <div class="quote">
-              <p>"I struggled a lot when I was trying to find a job before graduation. I would like to help newer generations when they are starting their career. I don't want to earn money from it."
-                <br><br>
-              </p>
-              <p>-- John, 28 years old, Backend Engineer, 3 years in industry</p>
-            </div>
-          </div>
+            <li>
+              <div class="guote" style="color: #8E6D61;">
+                <p style="font-family: 'Libre Caslon Text', serif;font-weight: 100;margin:0;">"There's no one told me what I should do in life (before graduation). I searched online to see how other people dealt with similar problems before."
+                  <!-- <br> -->
+                </p>
+                <p>
+                  -- Eric, 22 years old, Industrial Designer, Graduated in May, 2019
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="quote" style="color: #8E6D61;">
+                <p style="font-family: 'Libre Caslon Text', serif;font-weight: 100;margin:0">"I feel like it's not enough to have a degree, and then you can solve those problems at work. A lot of time was spent on something that is not really mattering as much (in school.)"
+                  <!-- <br> -->
+                </p>
+                <p>
+                  -- Harly, 22 years old, Software Engineer, Graduated in May, 2019
+                </p>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="quote" style="color: #8E6D61; ">
+                <p style="font-family: 'Libre Caslon Text', serif; font-weight: 100;margin:0" >"I struggled a lot when I was trying to find a job before graduation. I would like to help newer generations when they are starting their career. I don't want to earn money from it."
+                  <!-- <br> -->
+                </p>
+                <p>-- John, 28 years old, Backend Engineer, 3 years in industry</p>
+              </div>
+            </li>
+
+          </ul>
+
+          <!-- </div> -->
         </div>
 
-        <div class="subsection">
+        <!-- <div class="subsection">
           <div class="sub-title">
             <h3>Insights</h3>
           </div>
@@ -223,13 +270,13 @@
               <img src="img/coffeechat/research4.png" alt="Feedback Loop Model">
             </picture>
           </div>
-        </div>
+        </div> -->
 
-        <div class="subsection">
+        <!-- <div class="subsection">
           <div class="sub-title">
             <h3>Opportunity Area</h3>
           </div>
-        </div>
+        </div> -->
 
         <div class="subsection">
           <div class="sub-title">
@@ -237,17 +284,17 @@
               Persona and Journey Map
              </h3>
           </div>
-          <div class="flex">
-            <div class="">
+          <div class="row-non-equal">
+            <div class="col-1-4">
               <p>
                 I created two personas based on the insights we gathered from our research to represent the needs, goals, motivations, and frustrations of common users. I then made a journey map for each persona to see how the key features from the opportunity area could help with their problems.
               </p>
             </div>
-            <div class="">
+            <div class="col-3-4">
               <picture>
                 <img src="img/coffeechat/persona1.png" alt="Persona 1">
               </picture>
-              <picture>
+              <!-- <picture>
                 <img src="img/coffeechat/journey1.png" alt="Journey Map 1">
               </picture>
               <picture>
@@ -255,7 +302,7 @@
               </picture>
               <picture>
                 <img src="img/coffeechat/journey2.png" alt="Journey Map 2">
-              </picture>
+              </picture> -->
             </div>
           </div>
         </div>
@@ -272,19 +319,19 @@
 
           <div class="">
             <p>
-              I created three user flows based on the two personas. The user flows are showing the tasks that utilizing the key features selected.
+              I created three user flows based on the two personas. <br>The user flows are showing the tasks that utilizing the key features selected.
             </p>
           </div>
           <div class="">
             <picture>
               <img src="img/coffeechat/userflow1.png" alt="Book a Call">
             </picture>
-            <picture>
+            <!-- <picture>
               <img src="img/coffeechat/userflow2.png" alt="Join a Call">
             </picture>
             <picture>
               <img src="img/coffeechat/userflow3.png" alt="Send a Question">
-            </picture>
+            </picture> -->
           </div>
         </div>
 
@@ -314,15 +361,17 @@
           <div class="sub-title">
             <h3>WireFrames</h3>
           </div>
-          <div class="">
-            <p>
-              I first sketched out the low fedelity wireframes on paper, and then used Figma to create mid-fidelity wireframes based on the sketches. Next, I used these wireframes to make a clickable mid-fidelity prototype in Figma for user testing.
-  					</p>
-          </div>
-          <div class="">
-            <picture>
-              <img src="img/coffeechat/sketch&wireframe.png" alt="Iteration">
-            </picture>
+          <div class="row-non-equal">
+            <div class="col-1-4">
+              <p>
+                I first sketched out the low fedelity wireframes on paper, and then used Figma to create mid-fidelity wireframes based on the sketches. Next, I used these wireframes to make a clickable mid-fidelity prototype in Figma for user testing.
+    					</p>
+            </div>
+            <div class="col-3-4">
+              <picture>
+                <img src="img/coffeechat/sketch&wireframe.png" alt="Iteration">
+              </picture>
+            </div>
           </div>
         </div>
 
@@ -330,8 +379,8 @@
           <div class="sub-title">
             <h3>User Testing</h3>
           </div>
-          <div class="flex">
-            <div class="">
+          <div class="row-non-equal">
+            <div class="col-1-3">
               <p>I conducted 6 rounds of remote user testing sessions because of the pandemic. The tool I used for testing are Zoom and Figma.
   							<br>
   							Full Testing Script: <a href="" style="color:green"> click here</a>.
@@ -342,76 +391,83 @@
   							Testing Report: <a href="" style="color:green"> click here</a>. </p>
             </div>
             <!-- add findings in more detail  -->
-            <div class="">
+            <div class="col-2-3 project-image-wrapper">
               <picture>
                 <img src="img/coffeechat/test.png" alt="Test Results Analysis">
               </picture>
             </div>
           </div>
         </div>
-
-        <div class="subsection">
-          <div class="sub-title">
-            <h3>Design Choices Reflection</h3>
-          </div>
-          <div class="subsubsection">
-            <div class="subsub-title">
-              <h4>Date&Time Picker</h4>
+        <div style="background-color: #8E6D61; color: white; padding-top: 30px; padding-bottom: 30px;">
+          <div class="subsection">
+            <div class="sub-title">
+              <h3>Design Choices Reflection</h3>
             </div>
-            <div class="flex">
-              <div class="">
-                <p>The user needs to pick the date and time from the consultants available times to schedule a video call sessioin. To reduce the steps to go through for booking, the challenge is visualizing the availability in a limited screen real estate.
+            <div class="subsubsection">
+              <div class="subsub-title">
+                <h4>Date&Time Picker</h4>
+              </div>
+              <div class="row-non-equal">
+                <div class="col-1-3">
+                  <p>The user needs to pick the date and time from the consultants available times to schedule a video call sessioin. To reduce the steps to go through for booking, the challenge is visualizing the availability in a limited screen real estate.
+                    <br>
+                    <br>
+                    Inspired by Google Calendar, my solution is, in one page, asking users to choose the duration, then to pick an ideal period of time, and to pick the start time of the call at the end. The iterations of this screen are shown on the right.
+                  </p>
+                </div>
+                <div class="col-2-3">
+                  <picture>
+                    <img src="img/coffeechat/pickdatetime.png" alt="Time Picker">
+                  </picture>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsubsection">
+              <div class="subsub-title">
+                <h4>Replace Numeric Price with Coffee Cups</h4>
+              </div>
+              <div class="row-non-equal">
+                <div class="col-1-3">
+                  <p>
+                  As the goal of the app is to bring the coffee chats to a digital format, it is important to tell users the consulting fees are at the price of cups of coffee. In addition, from the testing and critique sessions, I learned that showing this price strategy is effective to encourage new users to tryout this app. Thus, I used coffee cup icons to represent numeric price to keep the focus on experience and knowledge sharing, instead of money and profit.
                   <br>
                   <br>
-                  Inspired by Google Calendar, my solution is, in one page, asking users to choose the duration, then to pick an ideal period of time, and to pick the start time of the call at the end. The iterations of this screen are shown on the right.
-                </p>
-              </div>
-              <div class="">
-                <picture>
-                  <img src="img/coffeechat/pickdatetime.png" alt="Time Picker">
-                </picture>
-              </div>
-            </div>
-          </div>
-
-          <div class="subsubsection">
-            <div class="subsub-title">
-              <h4>Replace Numeric Price with Coffee Cups</h4>
-            </div>
-            <div class="flex">
-              <div class="">
-                As the goal of the app is to bring the coffee chats to a digital format, it is important to tell users the consulting fees are at the price of cups of coffee. In addition, from the testing and critique sessions, I learned that showing this price strategy is effective to encourage new users to tryout this app. Thus, I used coffee cup icons to represent numeric price to keep the focus on experience and knowledge sharing, instead of money and profit.
-  							<br>
-  							<br>
-  							The current solution is shown on the right. However, I am still looking for a better solution. I think more user testing sessions on this feature will bring insights about the directions to refine the current solution.
-              </div>
-              <div class="">
-                <picture>
-                  <img src="img/coffeechat/cupprice.png" alt="Time Picker">
-                </picture>
+                  The current solution is shown on the right. However, I am still looking for a better solution. I think more user testing sessions on this feature will bring insights about the directions to refine the current solution.
+                  </p>
+                </div>
+                <div class="col-2-3">
+                  <picture>
+                    <img src="img/coffeechat/cupprice.png" alt="Time Picker">
+                  </picture>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
       </section>
 
       <section>
         <div class="section-title">
           <h1>Deliverables</h1>
         </div>
-        <div class="sub-title">
-          <h3>Clickable Prototype</h3>
+        <div class="subsection">
+          <div class="sub-title" style="text-align: center">
+            <h3>Clickable Prototype</h3>
+          </div>
+          <div class="prototype-container">
+            <iframe style="border: 1px solid rgb(255,255,255);" width="1080" height="720" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5OfWgZOun5DyP8QF2Gw0LN%2FCF-Iteration-4-Section-6%3Fnode-id%3D178%253A69%26viewport%3D384%252C381%252C0.04734044894576073%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
+          </div>
         </div>
-        <div class="prototype_container">
-          <iframe style="border: 1px solid rgb(255,255,255);" width="1080" height="720" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5OfWgZOun5DyP8QF2Gw0LN%2FCF-Iteration-4-Section-6%3Fnode-id%3D178%253A69%26viewport%3D384%252C381%252C0.04734044894576073%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
-        </div>
+
       </section>
 
-      <section class="reflections ">
+      <section class="reflections">
         <div class="section-title">
           <h1>Future Steps</h1>
         </div>
-        <div class="">
+        <div class="paragraph">
           <p>In my design, I have several hypotheses:
             <ol>
               <li>Users prefer to see price shown as cups of coffee as CoffeeChat is trying to digitalize the coffee chats between students and professionals, which is not viable under pandemic.</li>
@@ -439,18 +495,23 @@
     </div> -->
     <footer id="contact">
       <div class="">
-        <h2>Get in Touch</h2>
-        <div>
-          <a href="mailto:yaojxjason@gmail.com" class="button contact">Email me</a>
+        <div class="footer-title">
+          <h2>Get in Touch</h2>
         </div>
-        <div class="">
-          <a href="http://www.linkedin.com/in/junxiangyao" target="_blank">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="3%" height="auto"
-            viewBox="0 0 382 382" style="enable-background:new 0 0 382 382;" xml:space="preserve">
-              <path style="fill:#0077B7;" d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472L341.91,330.654L341.91,330.654z"/>
-            </svg>
-          </a>
+        <div class="contact-btn">
+          <div style="padding: 2%;">
+            <a href="mailto:yaojxjason@gmail.com" class="button contact">Email me</a>
+          </div>
+          <div class="">
+            <a href="http://www.linkedin.com/in/junxiangyao" target="_blank">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20%" height="auto"
+              viewBox="0 0 382 382" style="enable-background:new 0 0 382 382;" xml:space="preserve">
+                <path style="fill:#0077B7;" d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472L341.91,330.654L341.91,330.654z"/>
+              </svg>
+            </a>
+          </div>
         </div>
+
         <p>Copyright Junxiang Yao 2020</p>
       </div>
     </footer>

@@ -27,26 +27,27 @@
       </div>
     </header>
     <main>
-      <div class="container">
+      <!-- <div class="container">
         <div>
           <h1>About Me</h1>
         </div>
-      </div>
+      </div> -->
 
       <div class="">
         <div class="container">
-          <div>
+          <div id="headshot">
             <picture>
               <!-- <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)"> -->
               <img src="img/headshot.png" alt="My Image">
             </picture>
           </div>
           <div><!-- row for columns -->
-            <div class="my-story">
-              <h2>My Story</h2>
-
+            <div id="my-story">
+              <div class="about-title">
+                <h2>My Story</h2>
+              </div>
               <p>
-                I'm an interaction designer and creative coder based in SF.
+                Hi, I am Junxiang Yao. I'm an interaction designer and creative coder based in SF.
                 I believe human-centered design is the answer to utilizing technology in the most empathetic way.
                 In return, technology is a critical reinforcement that enhances the interaction between humans and their life.
                 <br>
@@ -59,29 +60,38 @@
                 Beyond that, I am passionate about emergent media for interaction especially the ones involve 3D Interfaces. I spend my spare time playing with code, headset, and browsers, and exploring interaction possibilities in immersive environments like VR and AR.
                 <br>
                 <br>
-                <strong>
+                <!-- <strong>
                   Currently Reading
                 </strong>
                 <ul>
                   <li>JavaScript Ninja</li>
                   <li>The Road to React</li>
                   <li>A Study on the System of Forbidden Guards in the Wei, Jin, Southern and Northern Dynasties</li>
-                </ul>
-
-
+                </ul> -->
               </p>
             </div>
-            <div class="skills-tools row">
-              <h2>Skills & Tools</h2>
-              <div class="skill"><!-- row for columns -->
-                <div class="">
-                  <h3>Skill</h3>
-                  <ul>
-                    <li>Design – User Interviews, Competitive Analysis, System Mapping, Storyboarding, Prototyping, Usability Testing</li>
-                    <li>Software - Figma, Framer X, Unity 3D, Adobe Creative Suite</li>
-                    <li>Programming - JavaScript, HTML, CSS, C#, Processing, Arduino</li>
+            <div id="skills-tools">
+              <div class="about-title">
+                <h2>Skills & Tools</h2>
+              </div>
+              <div><!-- row for columns -->
+                <!-- <div class=""> -->
+                  <ul id="hori">
+                    <li><h4>Design</h4>
+                      <p>User Interviews <br> Competitive Analysis <br> Affinity Mapping <br> Insights Finding <br> System Mapping <br> Models & Frameworks <br> Storyboarding <br> Wireframing <br> Prototyping <br> Usability Testing </p></li>
+
+                    <li><h4>Software</h4> <p>Figma <br> Sketch <br> Framer X <br> Unity 3D <br> Adobe Creative Suite <br> Balsamiq </li>
+                    <li><h4>Programming</h4> <p>JavaScript (React, P5, Three) <br> HTML<br> CSS<br>  C#<br>  Processing<br>  Arduino</p></li>
                   </ul>
-                </div>
+
+                  <ul id="vert">
+                    <li><h4>Design</h4>
+                      <p>User Interviews, Competitive Analysis, Affinity Mapping, Insights Finding, System Mapping, Models & Frameworks, Storyboarding, Wireframing, Prototyping, Usability Testing </p></li>
+
+                    <li><h4>Software</h4> <p>Figma, Sketch, Framer X, Unity 3D, Adobe Creative Suite, Balsamiq </li>
+                    <li><h4>Programming</h4> <p>JavaScript (React, P5, Three), HTML, CSS, C#, Processing, Arduino</p></li>
+                  </ul>
+                <!-- </div> -->
                 <!-- <div class="">
                   <h3></h3>
                   <ul>
@@ -90,8 +100,10 @@
                 </div> -->
               </div>
             </div>
+            <div class="resume">
+              <a href="resume_09_13_2020.pdf" target="_blank" class="button">View Resume</a>
+            </div>
 
-            <a href="resume_09_13_2020.pdf" target="_blank" class="button">View CV</a>
           </div>
         </div>
       </div>
