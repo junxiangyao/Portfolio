@@ -68,8 +68,9 @@ a {
 
 a:hover,
 a:focus {
-  color: #a62417;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  /* color: #a62417; */
+  /* text-decoration: underline; */
+  /* Underlining when hovering over a link */
 }
 
 
@@ -102,7 +103,7 @@ a:focus {
 }
 
 .button.contact:hover {
-  background-color: #d63314;
+  /* background-color: #d63314; */
   color: #ffffff;
 }
 
@@ -132,7 +133,6 @@ a:focus {
 
 header {
   background-color: white;
-  text-align: center;
   padding: 10px 0;
   position: fixed;
   width: 100%;
@@ -155,7 +155,7 @@ main {
 
 nav{
   display: inline-block;
-  /* width: 100%; */
+  width: 100%;
 }
 nav > ul {
   list-style-type: none;
@@ -163,9 +163,7 @@ nav > ul {
   margin: 0 auto;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
+
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -174,6 +172,12 @@ nav > ul > li > a {
   color: #4a4a4a;
 }
 
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
 /* nav > ul > li > a:visited.
 nav > ul > li > a:active.
 nav > ul > li > a:hover. */
@@ -446,14 +450,13 @@ section {
 }
 
 .contact-btn{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center ;
-}
-.contact-btn div{
   text-align: center;
 }
+.contact-btn a svg{
+  width:50px;
+  margin: 0 20px;
+}
+
 .prototype-container{
   width: 100%;
   margin-left: auto;
@@ -533,6 +536,44 @@ Small screens up to 640px
     margin-top: 4px;
   }
 
+
+  nav > ul {
+    margin: 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+  .navtoggle li:last-child {
+    display: inline-block;
+  }
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    color: black;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+  }
+
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+  }
+
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
+
   body{
     font-weight: 200;
     font-size: 12px;
@@ -561,6 +602,8 @@ Small screens up to 640px
     text-align: center;
   }
 
+
+
   /* .section-title{
     text-align: left;
     width:92%;
@@ -574,7 +617,9 @@ Small screens up to 640px
 
   .logo{
       margin: 0 auto;
-      display: block;
+      /* display: inline-block; */
+      max-width: 150px;
+      padding: 10px 0 4px;
   }
 
   .row {
@@ -678,6 +723,13 @@ Medium devices (640px and larger)
     /* margin-top: 4px; */
   }
 
+  nav > ul > li {
+    display: inline-block;
+  }
+
+
+
+
   main{
     /* background-color: yellow; */
     padding-top: 99px;
@@ -741,6 +793,8 @@ Large devices (1024px or larger)
     display: block;
   }
 
+
+
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -750,6 +804,10 @@ Large devices (1024px or larger)
     width: auto;
     float: right;
     /* margin-top: 4px; */
+  }
+
+  nav > ul > li {
+    display: inline-block;
   }
 
   main{
