@@ -354,10 +354,16 @@ nav > ul > li > a:hover. */
   text-align: center;
 }
 
+.title{
+  text-align: left;
+  margin: 100px 0 150px 0;
+  font-size: 30px;
+}
 
-.title, .section-title, .section-subtitle{
+.explore_title, .section-title, .section-subtitle{
   margin: 0 auto;
   text-align: center;
+
 }
 
 /* .section-title{
@@ -750,7 +756,7 @@ Medium devices (640px and larger)
     position: relative;
     height: 48vw;
     color: white;
-  } 
+  }
 
   .project-wrapper{
     color: white;
