@@ -3,20 +3,35 @@
   margin: 0; /* 25px top and bottom, 0 left and right */
   display: flex;
   flex-direction: row;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
 }
 
-#hori{
+#hori, #hori-3{
   display: flex;
   flex-direction: row;
   list-style-type: none;
   padding: 0;
   /* background-color: yellow; */
 }
+
+
+
+#hori .paragraph{
+  flex-basis: 37%;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
 #hori li{
+  flex-basis: 21%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#hori-3 li{
   flex-basis: 33%;
   padding-left: 10px;
   padding-right: 10px;
@@ -66,12 +81,25 @@
   padding: 30px;
 }
 
-.col-1-2 {
-  flex-basis: 50%;
-  padding: 10px;
-  align-items:center;
-}
+  .col-1-2 {
+    flex-basis: 50%;
+    /* padding: 10px; */
+    align-items:center;
+  }
 
+  .col-1-2-l {
+    flex-basis: 50%;
+    padding: 10px;
+    align-items:center;
+    padding-left: 10%;
+  }
+
+  .col-1-2-r {
+    flex-basis: 50%;
+    padding: 10px;
+    align-items:center;
+    padding-right: 10%;
+  }
 
 
 .col-4-10 {
@@ -142,6 +170,12 @@
   align-items: center;
 }
 
+.col-2-3-t{
+  flex-basis: 67%;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+}
+
 .col-2-3 picture{
   margin: 0 auto;
   padding-left: 4%;
@@ -172,6 +206,11 @@
 Small screens up to 640px
 ================================= */
 @media only screen and (max-width: 640px) {
+  body{
+    font-size: 17px;
+  }
+  h1{font-size: 36px}
+  h2{font-size:20px}
   .col-1-2-cg {
     flex-basis: 50%;
     padding: 10px;
@@ -264,6 +303,10 @@ Medium devices (640px and larger)
 
   .flex-ul-4 li{
     padding-bottom: 20px;
+  }
+
+  .flex-ul-3 {
+    flex-direction: column;
   }
 }
 
