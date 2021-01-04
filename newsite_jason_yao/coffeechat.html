@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/casestudy.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -61,7 +62,7 @@
             <p style="margin-top:5px"><b>An exercise of end-to-end product design</b> <br> To study the challenges college students face when they prepare for their careers and how technology can facilitate the process.</p>
           </li>
           <li><h5>My Role</h5>
-               <p style="margin-top:5px">Research <br> Prototyping <br> User Testing <br> UI Design <br> Design Language System</li>
+               <p style="margin-top:5px">Research <br> Design Strategy <br> Prototyping <br> User Testing <br> UI Design </li>
           <!-- <li>
             <h5>Duration</h5>
               <p style="margin-top:5px">May, 2020 - July, 2020 <br> (9 Weeks)</p></li> -->
@@ -75,10 +76,11 @@
 
         <ul id="vert">
           <li><h5>Objective</h5>
-          <p style="margin-top:5px"><b>An exercise of end-to-end product design</b> <br> To study the challenges college students face when they prepare for their careers and how technology can facilitate the process.</p>
+          <p style="margin-top:5px"><b>An exercise of end-to-end product design</b> <br>
+            To study the challenges college students face when preparing for their careers and how technology can facilitate the process.</p>
           </li>
           <li><h5>My Role</h5>
-               <p>Research, Prototyping, User Testing, UI Design, Design Language <br></li>
+               <p>Research, Design, Strategy, Prototyping, User Testing, UI Design <br></li>
           <li><h5>Team</h5>
             <p>Solo Project</p></li>
             <!-- <p>(Some of the research data were used from <a style="color:green" href="">this project</a>.)</p></li> -->
@@ -222,8 +224,7 @@
             <h3>Interviews with Students</h3>
           </div>
 
-            <!-- <div class=""> -->
-          <ul class="flex-ul-3">
+          <ul class="flex-ul-3" style="padding-bottom: 0px;">
             <li>
               <div class="">
                 <p>
@@ -257,16 +258,7 @@
 
           </ul>
 
-          <!-- </div> -->
-        </div>
-
-        <div class="subsection">
-          <div class="sub-title">
-            <h3>Interviews with Professionals</h3>
-          </div>
-
-            <!-- <div class=""> -->
-          <ul class="flex-ul-3">
+          <ul class="flex-ul-3" style="padding-bottom: 0px;">
             <li>
               <div class="">
                 <p>
@@ -297,10 +289,54 @@
               </div>
             </li>
           </ul>
-          <!-- </div> -->
+
+          <div class="" style="margin-top: 20px; margin-bottom: 160px">
+            <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
+              <div class="carousel-cell-full"><img src="img/coffeeChat/research1.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+              <div class="carousel-cell-full"><img src="img/coffeeChat/research2.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+              <div class="carousel-cell-full"><img src="img/coffeeChat/research3.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+              <div class="carousel-cell-full"><img src="img/coffeeChat/research4.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+            </div>
+          </div>
+
         </div>
 
-        <!--  -->
+        <!-- <div class="subsection">
+          <div class="sub-title">
+            <h3>Interviews with Professionals</h3>
+          </div>
+          <ul class="flex-ul-3">
+            <li>
+              <div class="">
+                <p>
+                  I also interviewed prople who graduates within 3 years to learn their journey of starting their career and their thoughts on mentoring younger generations.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="quote" style="color: #614A42; ">
+                <p style="font-family: 'Libre Caslon Text', serif; font-weight: 100;margin:0" >
+                  "I struggled a lot when I was trying to find a job before graduation. I would like to help newer generations when they are starting their career. I don't want to earn money from it."
+                </p>
+                <p> -- John, Backend Engineer, 3 years in industry</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="quote" style="color: #614A42;">
+                <p style="font-family: 'Libre Caslon Text', serif;font-weight: 100;margin:0;">
+                  "If it takes a mentor too much commitment and time, I think it's fair for the mentee to offer something back."
+                </p>
+                <p>
+                  -- Sam, Software Engineer, 1 year in industry
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div> -->
+
+
+
 
 
         <!-- <div class="subsection">
@@ -312,36 +348,45 @@
         <div class="subsection">
           <div class="sub-title">
             <h3>
-              Insights
+              Findings
              </h3>
           </div>
           <div class="flex-ul-3">
             <li>
             <!-- <div class="col-1-3"> -->
+            <div style="padding:0 100px">
               <picture>
-                <img src="img/coffeechat/userflow1.png" alt="Book a Call">
+                <img src="img/coffeechat/Guidance.png" alt="Guidance">
               </picture>
+            </div>
               <p>
-                <!-- As there is a mismatch between what society needs and what schools encourage,  -->
-                College students lack timelines and directions for career preparation. It is hard to find experienced people who understand their situation.
+                <!-- As there is a mismatch between what society needs and what schools encourage,
+                college students lack timelines and directions for career preparation. It is hard to find experienced people who understand their situation. -->
+
+                Students need guidance from experienced people who understand their situation to preprare for their career. However, these people are hard to find.
               </p>
             <!-- </div> -->
             </li>
             <li>
             <!-- <div class="col-1-3"> -->
+            <div style="padding:0 100px">
               <picture>
-                <img src="img/coffeechat/userflow1.png" alt="Book a Call">
+                <img src="img/coffeechat/Money.png" alt="Money">
               </picture>
+            </div>
               <p>
-                In general, students don't want to pay too much for consultancy and mentorship. And if they need to pay more, it is essential to ensure the quality of the service.
+                In general, students don't want to pay too much for consultancy and mentorship. They need to ensure the quality of the service if they need to pay more.
               </p>
             <!-- </div> -->
             </li>
             <li>
             <!-- <div class="col-1-3"> -->
+            <div style="padding:0 100px">
               <picture>
-                <img src="img/coffeechat/userflow1.png" alt="Book a Call">
+                <img src="img/coffeechat/Controversial.png" alt="controversial">
               </picture>
+            </div>
+
               <p>
                 It is controversial whether people should pay for mentorship relationships, and there is yet no standard price if payment is involved.
               </p>
@@ -367,21 +412,36 @@
           <div class="row-non-equal">
             <div class="col-1-3">
               <p>
-                I studied how the current market solves this problem.
-                There are two types of services, charged and free.
+                I studied how the current market solves this problem and found out that
+                there are two types of services, charged and free.
                 <br>
+                <br>
+                The charged ones are charging users high prices
+                (Like in MentorCruise, a 30-min introductory call can cost from $39 to $100)
+                with more standardized service.
+                As for free ones like UX Coffee Hours, professionals join as volunteers to give back to the community.
+                However, the coverage of current services is limited for the reasons shown in the table.
+                <!-- <br>
                 <br>
                 In general, the price of the charged ones is kind of high for students.
                 In MentorCruise, a 30-min introductory call can cost from $39 to $100.
+                It also asks more commitment from mentors, which will stop professionals to sign up.
                 <br>
                 <br>
-                As for the free ones, like UX Coffee Hours,  there are only a finite number of spots available, and they can be booked out fast.
+                As for the free ones, like UX Coffee Hours,  there are only a finite number of slots available, and they can be booked out fast.
+                And it didn't provide enough icentives to moitvate more professionals investing more time.
+
+                <br>
+                <br>
                 As a result, the coverage of current services is limited.
+                <br>
+                <br> -->
+
               </p>
             </div>
             <div class="col-2-3">
               <picture>
-                <img src="img/coffeechat/persona1.png" alt="Persona 1">
+                <img src="img/coffeechat/Market.png" alt="Market">
               </picture>
             </div>
           </div>
@@ -404,11 +464,11 @@
         </div>
         <div class="subsection">
           <div class="sub-title">
-            <h5 style="color: #8E6d61;">OPPORTUNITY #1</h5>
-            <h4>How might we help students to consult professionals with ease？</h4>
+            <h4 style="color: #8E6d61;">OPPORTUNITY #1</h4>
+            <h3>How might we help students to consult professionals with ease？</h3>
           </div>
-          <div class="row-non-equal">
-            <div class="col-1-2">
+          <div class="row">
+            <div class="col-1-2" style="padding-right: 2%;">
               <p>
                 To facilitate the process students consulting professionals, CoffeeChat uses video chat and text-based questions as the consulting channels.
                 <br><br>
@@ -418,25 +478,20 @@
                 Thus, to increase the flexibility and accessibility, CoffeeChat allows students to send consultants questions as text-based consultation.
               </p>
             </div>
-            <div class="col-1-2">
+            <div class="col-1-2" style="padding-top:10px;">
               <picture>
-                <img src="img/coffeechat/userflow1.png" alt="Book a Call">
+                <img src="img/coffeechat/Channels.png" alt="Channels">
               </picture>
             </div>
           </div>
         </div>
         <div class="subsection">
           <div class="sub-title">
-            <h5 style="color: #8E6d61;">OPPORTUNITY #2</h5>
-            <h4>How might we design a service that could cover a larger group of
-              students and professionals？</h4>
+            <h4 style="color: #8E6d61;  margin-bottom: 6px">OPPORTUNITY #2</h4>
+            <h3>How might we design a service that could cover a larger group of
+              students and professionals？</h3>
           </div>
           <div class="row-non-equal">
-            <div class="col-1-3">
-              <picture>
-                <img src="img/coffeechat/userflow1.png" alt="Book a Call">
-              </picture>
-          </div>
             <div class="col-2-3-t">
               <p>
                 To attract professional to become consultants at CoffeeChat, incentives are important, as the professionals don’t have to use a platform to find mentees.
@@ -449,9 +504,13 @@
 
               </p>
             </div>
-
-
-
+            <div class="col-1-3" style="padding-top:20px">
+              <div id="token">
+                <picture>
+                  <img src="img/coffeechat/CoffeeCupToken.png" alt="Token">
+                </picture>
+              </div>
+          </div>
             <!-- <picture>
               <img src="img/coffeechat/userflow2.png" alt="Join a Call">
             </picture>
@@ -459,13 +518,18 @@
               <img src="img/coffeechat/userflow3.png" alt="Send a Question">
             </picture> -->
           </div>
+        </div>
+        <div class="subsection">
+          <div class="sub-title">
+            <h4>How does it work?</h4>
+          </div>
           <picture>
-            <img src="img/coffeechat/userflow1.png" alt="Book a Call">
+            <img src="img/coffeechat/Paying.png" alt="Paying">
           </picture>
           <div class="row">
-            <div class="col-1-2" style="background-color: #F4F0EF; margin-right:30px; border-radius: 25px">
+            <div class="col-1-2-s" style="background-color: #F4F0EF;">
               <div style="padding: 50px; font-size:17px">
-                  <h4>Students</h4>
+                  <h5>Students</h5>
                   <p>
                     <!-- <b> -->
                     Coffee cups are used as tokens to pay for a limited number of consultations every month. If they want to book more sessions, they will need to pay for a higher price without using the tokens.
@@ -477,29 +541,29 @@
 
                   <ul style="list-style-type: none; padding:0">
                     <li style="list-style-type: none; display:flex; flex-direction:row">
-                      <picture>
-                        <img style="width:24px; margin:0 10px" src="img/coffeechat/userflow1.png" alt="Book a Call">
+                      <picture style="padding-top:2px">
+                        <img style="width:24px; margin:0 10px" src="img/coffeechat/Token.png" alt="Token">
                       </picture>
                       <p>Once students registered, there will be 8 coffee cups available for them to book calls.</p>
                     </li>
                     <li style="list-style-type: none; display:flex; flex-direction:row">
-                      <picture>
-                        <img style="width:24px; margin:0 10px" src="img/coffeechat/userflow1.png" alt="Book a Call">
+                      <picture style="padding-top:2px">
+                        <img style="width:24px; margin:0 10px" src="img/coffeechat/Token.png" alt="Token">
                       </picture>
                       <p>Every week, the user can receive 1 cup for free until the number reached 10, which is the maximum.</p>
                     </li>
                     <li style="list-style-type: none; display:flex; flex-direction:row">
-                      <picture>
-                        <img style="width:24px; margin:0 10px" src="img/coffeechat/userflow1.png" alt="Book a Call">
+                      <picture style="padding-top:2px">
+                        <img style="width:24px; margin:0 10px" src="img/coffeechat/Token.png" alt="Token">
                       </picture>
                       <p>Users can complete tasks (like watching ads) to earn coffee cups or purchase some directly.</p>
                     </li>
                   </ul>
               </div>
             </div>
-            <div class="col-1-2" style="background-color: #FFE6C2;  margin-left:30px; border-radius: 25px">
+            <div class="col-1-2-s" style="background-color: #FFE6C2;">
               <div style="padding: 50px; font-size:17px">
-                  <h4>Consultants</h4>
+                  <h5>Consultants</h5>
                   <!-- <picture>
                     <img src="img/coffeechat/userflow1.png" alt="Book a Call">
                   </picture> -->
@@ -510,6 +574,41 @@
                     When the slots are all booked, they can still respond to several questions or set open consultation slots with higher prices. They can invest more time and open more high-price slots to earn more money.
                   </p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="subsection">
+          <div class="sub-title">
+            <h4>Scenarios of Paying</h4>
+          </div>
+          <picture>
+            <img src="img/coffeechat/Scenario.png" alt="Scenarios">
+            <img src="img/coffeechat/Scenario-medium.png" alt="Scenarios">
+            <img src="img/coffeechat/Scenario-heavy.png" alt="Scenarios">
+          </picture>
+        </div>
+
+        <div class="subsection">
+          <div class="sub-title">
+            <h4>Advantages</h4>
+          </div>
+          <div class="row">
+            <div class="col-1-2-l">
+              <p><b>For Social Good</b></p>
+              <p>
+              As the goal is to digitalize coffee chat, coffee cup tokens encouraged people's goodwill to help the younger generation.
+              It downplays the transactional aspects of the service. Students could pay with it as if they were paying with cups of coffee, the way they did in real coffee chats.
+              For consultants, the number of tokens they received will be displayed to encourage them to help more.
+              </p>
+            </div>
+            <div class="col-1-2-r">
+              <p><b>For Business</b></p>
+              <p>
+                For consultants, coffee cups can be transferred to real money.  Along with displaying the number of cups they have received, this token could serve as an incentive to motivate professionals to sign up and invest their time in CoffeeChat.
+                <br><br>
+                The strategy is to cultivate trust by providing flexibility, making the charged consultation more acceptable to students. As they know what they are paying for, they are more likely to purchase the high-priced services.
+              </p>
             </div>
           </div>
         </div>
@@ -543,7 +642,8 @@
           <div class="row-non-equal">
             <div class="col-1-4">
               <p>
-                I first sketched out the low fedelity wireframes on paper, and then used Figma to create mid-fidelity wireframes based on the sketches. Next, I used these wireframes to make a clickable mid-fidelity prototype in Figma for user testing.
+                I first sketched out the low fedelity wireframes on paper, and then used Figma to create mid-fidelity wireframes accordingly.
+                Next, I used these wireframes to make a clickable mid-fidelity prototype in Figma for user testing.
     					</p>
             </div>
             <div class="col-3-4">
@@ -560,14 +660,21 @@
           </div>
           <div class="row-non-equal">
             <div class="col-1-3">
-              <p>I conducted 6 rounds of remote user testing sessions because of the pandemic. The tool I used for testing are Zoom and Figma.
+              <p>
+                I tested the mid-fidelity prototype with 6 participants.
+                Then, I used Miro to debrief these testing sessions and sort them into themes.
+                Next, I used the Rainbow Spreadsheet and Jakob Nielson's usability scale to measure the intensity of the usability issues.
+                The images shown are the screenshots of these two processes.
+                <br>
+                <br>
+                This is the major testing session that tested all the main features.
+                  After making changes according to the result, I did multiple rounds of iterations with more task-based testing, A/B testing, and card sorting to validate ideas and assumptions.
   							<br>
-  							Full Testing Script: <a href="" style="color:green"> click here</a>.
+  							<!-- Full Testing Script: <a href="" style="color:green"> click here</a>. -->
+
+  							<!-- In synthesizing the data, I used miro to debrief all the test sessions on the virtual sticky notes in miro, and the sort them into themes based on four categories: observations, positive quotes, negative quotes, and errors. Next, I used Jakob Nielson’s usability scale to measure the intensity of the errors from 0 to 4, with 4 being a catastrophic usability issue. -->
   							<br>
-  							<br>
-  							In synthesizing the data, I used miro to debrief all the test sessions on the virtual sticky notes in miro, and the sort them into themes based on four categories: observations, positive quotes, negative quotes, and errors. Next, I used Jakob Nielson’s usability scale to measure the intensity of the errors from 0 to 4, with 4 being a catastrophic usability issue.
-  							<br>
-  							Testing Report: <a href="" style="color:green"> click here</a>. </p>
+  							<!-- Testing Report: <a href="" style="color:green"> click here</a>. </p> -->
             </div>
             <!-- add findings in more detail  -->
             <div class="col-2-3 project-image-wrapper">
@@ -584,14 +691,18 @@
             </div>
             <div class="subsubsection">
               <div class="subsub-title">
-                <h4>Date&Time Picker</h4>
+                <h5>Displaying Availability</h5>
               </div>
               <div class="row-non-equal">
                 <div class="col-1-3">
-                  <p>The user needs to pick the date and time from the consultants available times to schedule a video call sessioin. To reduce the steps to go through for booking, the challenge is visualizing the availability in a limited screen real estate.
+                  <p>The user needs to pick the date and time from the consultant's available slots to schedule a video call session.
+                    The challenge is visualizing the availability in a limited screen real estate.
+                    <br><br>
+                    Inspired by Google Calendar, my solution is to ask users to choose the duration, pick an ideal slot, and pick the start time of the call at the end.
+                    From A/B testing, I learned that users prefer this one over the pattern Calendarly is using, because CoffeeChat is more straightforward and all the tasks can be done in one page.
                     <br>
                     <br>
-                    Inspired by Google Calendar, my solution is, in one page, asking users to choose the duration, then to pick an ideal period of time, and to pick the start time of the call at the end. The iterations of this screen are shown on the right.
+                    <!-- Below is how this screen evolved based on the feedback from critiques and testing sessions. -->
                   </p>
                 </div>
                 <div class="col-2-3">
@@ -601,18 +712,50 @@
                 </div>
               </div>
             </div>
-
+            <br><br>
             <div class="subsubsection">
               <div class="subsub-title">
-                <h4>Replace Numeric Price with Coffee Cups</h4>
+                <h5>Displaying Tokens & Price</h5>
               </div>
               <div class="row-non-equal">
                 <div class="col-1-3">
                   <p>
-                  As the goal of the app is to bring the coffee chats to a digital format, it is important to tell users the consulting fees are at the price of cups of coffee. In addition, from the testing and critique sessions, I learned that showing this price strategy is effective to encourage new users to tryout this app. Thus, I used coffee cup icons to represent numeric price to keep the focus on experience and knowledge sharing, instead of money and profit.
+                    In the early phases, the coffee cup is considered only a representation of the numeric price to downplay this service's transactional aspect.
+                    So users will need to memorize the exchanging ratio.
+                    Though in the testing sessions with students, participants found it acceptable, they agreed that this could be more intuitive.
                   <br>
                   <br>
-                  The current solution is shown on the right. However, I am still looking for a better solution. I think more user testing sessions on this feature will bring insights about the directions to refine the current solution.
+                  <!-- Attempts to remind users of the monetary value of the cups: -->
+
+                  From the professionals' testing, I realized that I need to go deeper to design a complete token system and think more about viability.
+
+                  <br><br>
+                  Thus, in the new token system, coffee cup tokens became an independent payment method instead of a pure representation of the numeric price.
+                  As users don't have to memorize the cup's monetary value anymore, the interaction became more intuitive.
+                  <!-- This is how a problem of UI and interaction is solved by designing the system. -->
+                  </p>
+                </div>
+                <div class="col-2-3">
+                  <picture>
+                    <img src="img/coffeechat/cupprice.png" alt="Time Picker">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <br><br>
+            <div class="subsubsection">
+              <div class="subsub-title">
+                <h5>Replacing Rating with Stars</h5>
+              </div>
+              <div class="row-non-equal">
+                <div class="col-1-3">
+                  <p>
+                    When I tested it with students, the star rating system seems fine as it helps students to choose professionals to work with.
+                    However, I realized that the consultation session from professionals' goodwill shouldn't be rated with stars from the testing with professionals.
+                    The real coffee chats shouldn't be rated this way either.
+                    So I redesigned the feedback system as thumb-ups and optional text-based feedback that could be sent privately to the consultants at the end of each session.
+                  <br>
+                  <br>
                   </p>
                 </div>
                 <div class="col-2-3">
@@ -646,34 +789,52 @@
           <div style="padding: 120px;">
               <h4>Metrics</h4>
               <p>
-                <!-- <b> -->
-                Coffee cups are used as tokens to pay for a limited number of consultations every month. If they want to book more sessions, they will need to pay for a higher price without using the tokens.
-              <!-- </b> -->
-              <br>
-              <br>
-              Here are some of the rules:
+                To measure the effectiveness of the design decisions made in this project, here are 4 metrics that should be tracked:
+
+                <ol>
+                  <li>  The number of consultations students booked and the number of cups they used per month.</li>
+                  <li>  The average time students take to spend their first coffee cup tokens for call-booking.</li>
+                  <li>  The ratio of question-based consultation to video sessions and how it changes over time.</li>
+                  <li>  The average ratio of slots paid with tokens to the ones paid with money and how it changes over time.</li>
+                </ol>
+
             </p>
-              <ul style="list-style-type: none; padding:0">
-                <li style="list-style-type: none; display:flex; flex-direction:row">
-                  <p>Once students registered, there will be 8 coffee cups available for them to book calls.</p>
-                </li>
-                <li style="list-style-type: none; display:flex; flex-direction:row">
-                  <p>Every week, the user can receive 1 cup for free until the number reached 10, which is the maximum.</p>
-                </li>
-                <li style="list-style-type: none; display:flex; flex-direction:row">
-                  <p>Users can complete tasks (like watching ads) to earn coffee cups or purchase some directly.</p>
-                </li>
-              </ul>
+
           </div>
         </div>
         <div class="col-1-2" style="background-color: #F4F0EF;">
           <div style="padding: 120px;">
               <h4>Future Steps</h4>
               <p>
-                Professionals have the freedom to set the number of call slots that can be paid with coffee cup tokens. The tokens they received will be shown in their data and be transferred as real money in their account.
+                <b>Classification of Consultations</b>
                 <br>
+                The UX patterns of different types of consultation should be different.
+                More research on different types of consultation (e.g., CV Feedback, Work Review, Interview Preparation) is needed to understand both students and professionals' mental models.
+                <!-- Also, the research of this project focused on students major in design and engineering.
+                More research is needed to study students from other fields. -->
+              </p>
+              <p>
+                <b>Other Formats of Consultations</b>
                 <br>
-                When the slots are all booked, they can still respond to several questions or set open consultation slots with higher prices. They can invest more time and open more high-price slots to earn more money.
+                For now, CoffeeChat focuses on one-time consultation only.
+                It should also include other types consultation, like long-term mentorship and career coachings.
+                <!-- two other ways students use to receive career advice. -->
+                <!-- The payment pattern and how the tokens are used will be different from the current strategy. -->
+              </p>
+
+              <p>
+                <b>Detailed Plan for Question-Based Consultation </b>
+                <br>
+                The current question-based consultation can only be sent to one consultant and be paid with one token.
+                More testing sessions are needed to determine the ideal mechanism for consultants answering those questions.
+                <!-- like the pricing policy and the number of slots for answering questions. -->
+              </p>
+              <p>
+                <b>App for Consultants</b>
+                <br>
+                Because this project aims to design the student's side of CoffeeChat app first,
+                the next step is to figure out the consultant's side of it.
+                More research is needed to understand their motivations and concerns about helping students and joining CoffeeChat.
               </p>
           </div>
         </div>
@@ -683,13 +844,10 @@
           <h2>Reflections</h2>
         </div>
         <div class="paragraph">
-          <p>In my design, I have several hypotheses:</p>
-            <ol>
-              <li>Users prefer to see price shown as cups of coffee as CoffeeChat is trying to digitalize the coffee chats between students and professionals, which is not viable under pandemic.</li>
-              <li>The information about consultants presented in each card and the profile page is enough. However, I will still try refining it by adding and removing content.</li>
-            </ol>
-          <p>
-            To test the hypothesis, I will conduct another round of user test with a higher fidelity of the prototype. Because Figma doesn't have code components, it cannot save the states of the prototype. For instance, it cannot really remember if the user had already booked a call with a specific consultant. I think this interferes with the testing results because the participants are not really regarding this prototype as realistic once they find out only several buttons in the prototype are clickable. They tend to rely on the indicators presented by Figma when they are not sure where to tap. I could use tools like Framer X to build a prototype with higher fidelity that can remember the state of the prototype.
+          <p>This project helped me learn the process of end-to-end product design and understand why system thinking is crucial in experience design.
+            When designing a platform containing both service providers and receivers, it is important to include both sides of users in designing the system.
+            Even though I can only start with one side of the platform, I need to understand other users to make decisions.
+            Design decisions and features for one side are usually decided by the need and preference of the other side.
           </p>
         </div>
       </section>
@@ -757,5 +915,6 @@
 
       </div>
     </footer>
+    <script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script>
   </body>
 </html>
