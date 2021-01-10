@@ -19,7 +19,7 @@ hr{
 body {
   /* background-color: #ffffff; */
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
+  font-size: 14px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
@@ -102,19 +102,59 @@ a:focus {
   color: #ffffff;
 }
 
-.button.contact {
+.button .contact {
   background-color: transparent;
   color: #d63314;
   text-transform: uppercase;
   border: 2px solid #d63314;
 }
 
-.button.contact:hover {
+.button .contact:hover {
   /* background-color: #d63314; */
   color: #ffffff;
 }
 
-/* Layout styling */
+#linkedin-btn{
+  background-image: url("../img/contact/linkedin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 96%;
+  width:48px;
+  height:48px;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease; /* Opera */
+  transition: all .5s ease;
+  display: inline-block;
+    margin:20px;
+}
+
+#linkedin-btn:hover {
+    background-image: url("../img/contact/linkedin_highlight.png");
+}
+#email-btn{
+  background-image: url("../img/contact/email_line.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 96%;
+  width:48px;
+  height:48px;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease; /* Opera */
+  transition: all .5s ease;
+  display: inline-block;
+  margin:20px;
+}
+
+#email-btn:hover {
+    background-image: url("../img/contact/email_line_highlight.png");
+}
+
+
+
 
 * {
   box-sizing: border-box;
@@ -266,10 +306,39 @@ nav > ul > li > a:hover. */
   opacity:0;
 }
 
+
+
 .project-content{
   /* color: #4a; */
   border: none;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  background-color: #eeeeee;
+  transition: 0.3s;
+  border-radius: 25px;
+}
+.project-content p{
+  padding-bottom: 72px;
+}
+#vrsmallcover {
+  background-image: url("../img/5i.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#vrsmallcover:hover {
+  background-image: url("../img/5.png");
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+#ccmcover .project-content{
+  /* color: #4a; */
+  border: none;
+  /* padding: 16px 32px; */
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
@@ -307,11 +376,11 @@ nav > ul > li > a:hover. */
 }
 
 #ccmcover:hover {
-  background-color: #ae39f2;
+  background-color: #200E32;
 }
 
 #kitchencover:hover {
-  background-color: #74a30e;
+  background-color: #FA5316;
 }
 
 #qhcover:hover {
@@ -343,6 +412,10 @@ nav > ul > li > a:hover. */
   width: 66%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.research{
+  width: 80%;
 }
 
 
@@ -380,11 +453,7 @@ nav > ul > li > a:hover. */
   padding-top: 60px;
 } */
 
-.small-hero-img{
-  width: 66%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* .quote{
 
@@ -401,7 +470,7 @@ section {
   padding-bottom: 30px;
 }
 .subsection{
-  width:92%;
+  width:66%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -415,17 +484,26 @@ section {
   text-align: center;
 }
 
-.contact-btn{
+.contact-btns{
   text-align: center;
+  margin: 0 auto;
 }
-.contact-btn a svg{
+/* .contact-btns a svg{
   width:50px;
   margin: 0 20px;
-}
+} */
+
+
 footer{
   width:100%;
   display: block;
+  margin:0;
+  background-color: black;
+  color:white;
+  border:solid black;
 }
+
+
 
 @keyframes color-change {
   from {fill: #edc655;}
@@ -572,11 +650,13 @@ Small screens up to 640px
     width:92%;
   } */
 
-  #hero .container h1 {
+  #hero .container h1{
     font-weight: 200;
     font-size: 17px;
     /* background-color: green; */
   }
+
+
 
   .logo{
       margin: 0 auto;
@@ -737,7 +817,12 @@ Medium devices (640px and larger)
   .subsection{
     margin-top: 20px;
     margin-bottom: 40px;
+    width:92%;
   }
+
+
+
+
 
   #my-story, #skills-tools, .introduction, .paragraph, .hmw{
     width: 92%;
@@ -829,7 +914,7 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   body {
-    font-size: 18px; /* Sets the font size to 16px */
+    font-size: 17px; /* Sets the font size to 16px */
   }
   #hero span {
     display: block;
@@ -841,6 +926,19 @@ Large devices (1024px or larger)
   .container h1 {
     font-weight: 400;
   }
+  #hero h3 {
+    font-weight: 400;
+  }
+
+
+  .subsection{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width:92%;
+  }
+
+
+
 
   #hero {
     /* background-color: #ffe4c4; */
@@ -872,7 +970,7 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
   body {
-    font-size: 20px; /* Sets the font size to 16px */
+    font-size: 17px; /* Sets the font size to 16px */
   }
   #hero span {
     display: block;

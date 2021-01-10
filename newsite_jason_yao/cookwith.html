@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Junxiang Yao">
+    <meta name="description" content="Digitalizing the coffee chats between students and professionals">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cookwith</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/casestudy.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><span class="">JUNXIANG YAO</span></a>
+        </div>
+        <nav>
+          <ul class="">
+            <li><a href="index.html">Works</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="introduction">
+        <div class="title">
+          <h1>Cookwith</h1>
+          <!-- <h5>Facilitating the connection between students and professionals.</h5> -->
+          <!-- <h5>Bridging the gap between college students and the industry.</h5> -->
+          <h5>A cooking assistant that guides and supports people cooking with recipes.</h5>
+          <!-- <br>
+          <h5>Feb 2020, Sept 2020 - Dec 2020</h5> -->
+        </div>
+      </div>
+
+      <div class="small-hero-img">
+        <picture>
+          <img src="img/cookwith/PlaceHolder.png" alt="Mockups">
+        </picture>
+      </div>
+
+      <section class="introduction">
+        <!-- <h4>Introduction</h4> -->
+
+        <ul id="hori">
+          <li class="paragraph">
+            <h5>Objective</h5>
+            <p style="margin-top:5px">
+              <b>An exercise of designing for systems</b> <br>
+              To understand people’s journey of cooking with recipes, and improve their experience by analyzing the cooking process and rethinking the role of technology within this system.
+            </p>
+          </li>
+          <li><h5>My Role</h5>
+               <p style="margin-top:5px">Research <br> Prototyping <br> Usability Testing <br> UI Design <br> Project Management </li>
+          <!-- <li>
+            </li> -->
+
+          <li><h5>Team</h5>
+            <p style="margin-top:5px">Hardik Kumar <br> Luyuan Li</p>
+          </li>
+          <li>
+            <h5>Advisor</h5>
+              <p style="margin-top:5px">Alexander Baumgardt</p>
+            <h5>Duration</h5>
+              <p style="margin-top:5px">Feb, Sept - Dec, 2020</p>
+          </li>
+        </ul>
+
+        <ul id="vert">
+          <li><h5>Objective</h5>
+          <p style="margin-top:5px">
+            <b>An exercise of designing for systems</b> <br>
+            To understand people’s journey of cooking with recipes, and improve their experience by analyzing the cooking process and rethinking the role of technology within this system.
+            </p>
+          </li>
+          <li><h5>My Role</h5>
+               <p>Research, Prototyping, Usability Testing, UI Design, Project Management</li>
+          <li><h5>Team</h5>
+            <p>Hardik Kumar, Luyuan Li</p>
+          </li>
+            <!-- <p>(Some of the research data were used from <a style="color:green" href="">this project</a>.)</p></li> -->
+          <!-- <li><h5>Tools</h5>
+            <p>Figma, Miro, Zoom</p>
+          </li> -->
+          <!-- <li><h5>Duration</h5>
+            <p>June, 2020 - July, 2020 (9 Weeks)</li> -->
+          <li><h5>Advisor</h5>
+            <p>Alexander Baumgardt</li>
+        </ul>
+        <br>
+        <br>
+        <hr>
+      </section>
+
+
+
+    <section>
+        <div class="section-title">
+          <h2>
+    				Challenge
+    			</h2>
+        </div>
+  			<div class="paragraph">
+  				<h4>Cooking with recipe can be stressful for millenials who are less experienced in the kitchen.</h4>
+          <p>
+            60% of millenials use digital recipes to cook. However, there is a high chance that the non-pros fail when trying a new dish even with recipes.
+            As cooking with recipes can be unorganized and intrusive, this frequently replaced the joyful experience of cooking with stress.
+          <!-- <br>
+          <ul class="flex-ul-3">
+            <li><div class="number">75%</div> <p>of HR professionals struggled in recruiting due to candidates’ lack of necessary skills.</p> </li>
+            <li><div class="number">75%</div> <p>of students felt "I don't know what positions are a fit for me." in job search.</p></li>
+            <li><div class="number">28%</div> <p>of students are seriously considering a career change/path due to COVID-19. </p></li>
+          </ul> -->
+        </div>
+      </section>
+
+      <div class="hmw_section" style="background-color: #F4F0EF;">
+        <div class="hmw">
+            <h3>How might we reduce the stress in trying a new recipe so that they can enjoy the experience more?</h3>
+        </div>
+      </div>
+
+      <section>
+        <div class="section-title">
+          <h2>Solution</h2>
+        </div>
+        <div class="flex">
+  				<div class="paragraph">
+  					<p>
+  						Cookwith is a cooking assistant that enables non-professionals to manage their cooking experience with recipes with ease.
+              It aims to improve cooking efficiency by closing the communication gap of following a recipe while cooking.
+  					</p>
+  				</div>
+  				<!-- <div class="">
+            <picture>
+              <img src="img/coffeechat/solution.png" alt="Mockups">
+            </picture>
+  				</div> -->
+  			</div>
+      </section>
+
+      <section class="">
+        <!-- <div class="section-title">
+          <h2>Key Features</h2>
+        </div> -->
+        <div class="key-feature-wrapper" >
+          <div class="row key-feature">
+            <div class="col-1-2 feature-pic">
+              <picture >
+                <img src="img/cookwith/PlaceHolder.png" alt="Flexible">
+              </picture>
+            </div>
+            <div class="col-1-2 feature-description">
+              <div class="">
+                <h3>Flexible Recipes</h3>
+                <p>
+                  People can change the scale of recipes and replace ingredients.
+                  They can also change a module, which is a group of ingredients altogether, like changing the sauce used in a burger.
+                  The instructions will be adjusted accordingly.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- style="background-color: #287080; color:white;" -->
+        <div class="key-feature-wrapper" >
+          <div class="row key-feature">
+            <div class="col-1-2 feature-description">
+                <div class="">
+                  <h3>Step-by-step Cooking Guide</h3>
+                  <p>
+                    Recipes were broken down into several major steps to reduce user' information load when following recipes.
+                    Each major step can be divided into 1-3 paragraphs with an organized layout so that users won't have to remember too much information.
+                    Also, pro tips are available in case people need them.
+                  </p>
+              </div>
+            </div>
+            <div class="col-1-2 feature-pic">
+              <picture>
+                <img src="img/cookwith/PlaceHolder.png" alt="Recipe Broken Down">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <div class="key-feature-wrapper" >
+          <div class="row key-feature">
+            <div class="col-1-2 feature-pic">
+              <picture>
+                <img src="img/cookwith/PlaceHolder.png" alt="Notification">
+              </picture>
+            </div>
+            <div class="col-1-2 feature-description">
+                <div class="">
+              <h3>Notification System Tailored to Cooking Methods</h3>
+              <p>
+                The notification system consists of a timer and a reminder system.
+                They help users to use the shortest time and effort in cooking by multitasking.
+                This system is tailored to different cooking methods to reach a balance between providing guidance and offering flexibility for people to use this app.
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="research" style="margin-bottom:0">
+        <div class="section-title">
+          <h2>Research</h2>
+        </div>
+
+        <div class="subsection">
+          <div class="sub-title">
+            <h3>Interviews & Synthesizing</h3>
+          </div>
+          <div class="row-text-carousel">
+            <div class="text-carousel-1-3">
+              <p>
+                We conducted 7 interviews to understand how people uses recipe from the very beginning (get inspired by a recipe) to the end (serving).
+                From debriefing and synthesizing the interview results, it is clear that the core of the problem, which is also the core of the experience we are designing for, is the experience in the kitchen.
+              </p>
+            </div>
+            <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 20px">
+              <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
+                <div class="carousel-cell-full"><img src="img/cookwith/PlaceHolder.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                <div class="carousel-cell-full"><img src="img/cookwith/PlaceHolder.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                <div class="carousel-cell-full"><img src="img/cookwith/PlaceHolder.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                <div class="carousel-cell-full"><img src="img/cookwith/PlaceHolder.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="subsection">
+          <div class="sub-title">
+            <h3>
+              Findings
+             </h3>
+          </div>
+          <div class="flex-ul-3">
+            <li>
+            <!-- <div class="col-1-3"> -->
+            <div style="padding:0 100px">
+              <picture>
+                <img src="img/coffeechat/Guidance.png" alt="Difficult">
+              </picture>
+            </div>
+              <p>
+                Although missing steps and alternating ingredients may lead to failure, it's hard for people to follow recipes exactly as they are.
+            <!-- </div> -->
+            </li>
+            <li>
+            <!-- <div class="col-1-3"> -->
+            <div style="padding:0 100px">
+              <picture>
+                <img src="img/coffeechat/Money.png" alt="frustration">
+              </picture>
+            </div>
+              <p>
+                There is a relatively high possibility of failure when trying a new recipe, which is another factor that stops people from trying very often.
+            <!-- </div> -->
+            </li>
+            <li>
+            <!-- <div class="col-1-3"> -->
+            <div style="padding:0 100px">
+              <picture>
+                <img src="img/coffeechat/Controversial.png" alt="multiple thread">
+              </picture>
+            </div>
+
+              <p>
+                Meal preparation is not a single-threaded process. People tend to multitask to save time.
+              </p>
+            <!-- </div> -->
+            </li>
+          </div>
+        </div>
+
+        <div class="subsection">
+          <div class="sub-title">
+            <h3>
+              Observations
+             </h3>
+          </div>
+          <div class="row-non-equal">
+            <div class="col-1-3">
+              <p>
+                To gain a deeper understanding of the recipe following process, we decided to observe how people used recipes in their kitchen.
+                We observed 3 people cooking and baking with recipes they found.
+              </p>
+            </div>
+            <div class="col-2-3">
+              <picture>
+                <img src="img/cookwith/PlaceHolder.png" alt="Observation">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <div class="subsection">
+          <div class="sub-title">
+            <h3>
+              Pain Points
+             </h3>
+          </div>
+          <div class="row">
+            <div class="col-1-2" style="padding-right:10px;">
+              <h5>Ingredients Are Not Ready</h5>
+              <p>
+                "The meat takes much longer to defrost than I expected."
+              </p>
+              <p>
+                "I forgot to buy the corn starch."
+              </p>
+            </div>
+            <div class="col-1-2" style="margin-bottom:20px;">
+              <h5>Forgetting Details</h5>
+              <div style="display:flex; flex-direction: row;">
+                <div style="width:50%; ">
+                  <p>
+                    "I forgot to keep the spaghetti water. Now I have to boil the spaghetti again."
+                  </p>
+                </div>
+                <div style="width:50%; margin-top: 20px; margin-left:10px;">
+                  <picture>
+                    <img src="img/cookwith/PlaceHolder.png" alt="Observation">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="margin-bottom:0">
+            <div class="col-1-2" style="padding-right:10px; margin-bottom: 30px">
+              <h5>Need More Instructions</h5>
+              <p>
+                "I am not sure about the size of the meat I should cut into."
+              </p>
+            </div>
+            <div class="col-1-2" style="margin-bottom: 30px">
+              <h5>Distraction from Multitasks</h5>
+              <p>
+                "I heated the pan for too long on the stove top while I am chopping onions."
+              </p>
+            </div>
+          </div>
+
+          <h5>Referring to Recipes While Cooking</h5>
+          <div class="row-non-equal">
+            <div class="col-1-3">
+              <p>
+                Participants had to jump back and forth between recipes and their kitchen.
+                They have to wash their hands often or wash their phones before and after cooking, like shown in the image I took from one session.
+                <br>
+                <br>
+                Another problem is the place to locate their device.
+                It is inspiring to see people utilizing the cabinet handles.
+              </p>
+            </div>
+            <div class="col-2-3" style="margin-top:20px">
+              <picture>
+                <img src="img/cookwith/PlaceHolder.png" alt="Observation">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="subsection">
+          <div class="sub-title">
+            <h3>
+              Learned from Observation
+             </h3>
+          </div>
+        </div>
+        </section>
+
+        <div class="" >
+          <img src="img/cookwith/PlaceHolder.png" alt="Gap" style="display: block">
+        </div>
+
+
+
+        <div class="hmw_section" style="background-color: #F4F0EF;">
+          <div class="hmw" style="text-align: ">
+              <h4 style="color: #8E6d61;">DESIGN OPPORTUNITY</h4>
+              <h3>How might we reduce the communication gap of following a recipe while cooking?</h3>
+          </div>
+        </div>
+      <section class="research">
+        <div class="subsection" style="margin-top: 100px">
+          <div class="sub-title">
+            <h3>
+              Market Research
+            </h3>
+          </div>
+          <div class="row-non-equal">
+            <div class="col-1-3">
+              <p>
+                We did some research to understand how the current product from the market solves this problem.
+                <br>
+                <br>
+                Here are the four apps that split their recipes into steps for people to follow while cooking.
+                Three of them implement the step-by-step mode with a timer.
+                However, the timer system is not tailored to the actual cooking process, resulting in the limited freedom for people to use for different situations that may occur in cooking.
+                <br>
+                <b>A balance between providing guidance and allowing flexibility is needed as cooking process is not fixed by its nature.</b>
+              </p>
+            </div>
+            <div class="col-2-3">
+              <picture>
+                <img src="img/cookwith/PlaceHolder.png" alt="Market">
+              </picture>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="hmw_section" style="background-color: #F4F0EF;">
+          <div class="hmw">
+              <h4 style="color: #8E6d61;">OPPORTUNITY #2</h4>
+              <h3>How might we design a service that could cover a larger group of
+                students and professionals？
+              </h3>
+          </div>
+        </div> -->
+      </section>
+
+      <section class="ideation">
+        <div class="section-title">
+          <h2>Ideation</h2>
+        </div>
+        <div class="subsection">
+          <div class="row-text-carousel">
+            <div class="text-carousel-1-3">
+              <p>
+                In the ideation phases, we started with creating the value proposition and the business model of this project.
+                We then brainstormed the potential features based on our research findings and used 2 by 2 matrix to prioritize different ideas.
+              </p>
+            </div>
+            <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 60px">
+              <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
+                <div class="carousel-cell-full"><img src="img/cookwith/PlaceHolder.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                <div class="carousel-cell-full"><img src="img/cookwith/PlaceHolder.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row-non-equal">
+            <div class="col-1-3" style="padding-right: 2%;">
+              <p>
+                Thus, for different cooking methods in the recipe, timers, alarm clocks, and reminders will be used accordingly.
+                Timers and alarms will notify users when the task is done to avoid overcooking.
+                For the last category, as it is not time-sensitive and is safe to set it aside when it is done, it doesn't need to use an alarm to notify its completion.
+                The reminders will remind users of certain actions to be taken to the ongoing tasks from the 2nd category in multitasking.
+              </p>
+            </div>
+            <div class="col-2-3" style="padding-top:10px;">
+              <picture>
+                <img src="img/cookwith/PlaceHolder.png" alt="Classification">
+              </picture>
+            </div>
+          </div>
+          <div class="row-non-equal">
+            <div class="col-1-3" style="padding-right: 2%;">
+              <p>
+                As I want to balance guiding people with the steps and offering flexibility for people to use, I think this system should be tailored to cooking methods as different cooking methods have different characteristics.
+                <br><br>
+                I divided the cooking methods into 4 categories according to the attention required in cooking.
+                The first one requires constant attention while cooking.
+                The other 3 categories don't require constant attention, and they are the opportunity for multitasking.
+                The 2nd and 3rd categories require people's attention when they are done.
+                The difference is that the 2nd requires some attention in the middle.
+                Like people need to stir the noodle when it is boiling.
+              </p>
+            </div>
+            <div class="col-2-3" style="padding-top:10px;">
+              <picture>
+                <img src="img/cookwith/PlaceHolder.png" alt="Classification">
+              </picture>
+            </div>
+          </div>
+          <p>People are not machines.
+            In cooking, one step may take longer, while others may take a shorter amount of time.
+            Thus, when multitasking in cooking, the timer may run out earlier or later than planned in the recipe.
+            Cookwith allows users to adjust the order of the steps in the recipe on the go in an intuitive way.
+            Check out the animations that show how it happened behind the screen.</p>
+          <button type="button" class="collapsible">Animations</button>
+          <div class="content">
+            <br>
+            <br>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                  This recipe requires boiling noodles.
+                  The noodles are supposed to be drained as soon as it is boiled.
+                  So these two steps are linked,  as the completion of the former is the latter's precondition, and the latter should be executed as soon as the completion of the former.
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/cookwith/PlaceHolder.png" alt="Market">
+                </picture>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="row-non-equal">
+                <div class="col-1-3">
+                  <p>
+                      When the noodles are ready earlier, the user can drain the noodles first and go back to the current task.
+                  </p>
+                </div>
+                <div class="col-2-3">
+                  <picture>
+                    <img src="img/cookwith/PlaceHolder.png" alt="Market">
+                  </picture>
+                </div>
+
+          </div>
+
+                        <br>
+                        <br>
+
+          <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                    They can also choose to finish the current task first, and then drain the noodles.
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/cookwith/PlaceHolder.png" alt="Market">
+                </picture>
+              </div>
+          </div>
+          <br>
+          <br>
+
+          <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                      Another scenario includes deep frying the marinated chicken. The chicken is suggested to be marinated for 20 minutes. However, the user finishes all the tasks within 15 minutes. He/She can either skip the timer or wait.
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/cookwith/PlaceHolder.png" alt="Market">
+                </picture>
+              </div>
+          </div>
+          <br>
+          <br>
+        </div>
+
+
+
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }
+        </script>
+      </section>
+
+      <section class="iteration">
+        <div class="section-title">
+          <h2>Iteration</h2>
+        </div>
+        <div class="subsection">
+          <div class="sub-title">
+            <h3>Prototyping and Testing</h3>
+          </div>
+          <div class="row-non-equal">
+            <div class="col-1-4">
+              <p>
+                We did 3 rounds of iteration from wireframes to high-fidelity prototype.
+                I also conducted 3 usability testing sessions to validate our ideas.
+    					</p>
+            </div>
+            <div class="col-3-4">
+              <picture>
+                <img src="img/cookwith/Placeholder.png" alt="Evolution">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="subsection">
+          <div class="sub-title">
+            <h3>Changes from Testing</h3>
+          </div>
+          <div class="subsubsection">
+            <div class="subsub-title">
+              <h5>Adding Timers to the Tasks Requiring Constant Attention</h5>
+            </div>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>We consider that for tasks like "stir fry for 30 seconds,"  users won't bother to set a timer for such a short amount of time.
+                  As this types of task is the first category of cooking methods that requires full attention of people.
+                  <br>
+                  <br>
+                  However, from the usability testing, this timer is a crucial checkpoint for people lacking cooking experience.
+                  It is the most concrete way for them to know that the food is ready, compared with terms like "change of color of the meat."
+                  So we added another type of timer as shown in the updated screen.
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/cookwith/Placeholder.png" alt="short-timer">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="subsubsection">
+            <div class="subsub-title">
+              <h5>Displaying Ingredients</h5>
+            </div>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                  When designing the instruction screen in step-by-step mode, we split the ingredients and the action.
+                  We have two major variants of displaying:
+                <ol>
+                  <li>Using bullet points with colors/formats related to the corresponding ingredient as distinguishers.</li>
+                  <br>
+                  <li>Using PNG images of ingredients and put this list on top of the instructions.    </li>
+                </ol>
+                  <br>
+                  From A/B testings, people prefer the first variant, but bullet points are less intuitive than the PNG images.
+                  So the new iteration combines the two variants.
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/cookwith/Placeholder.png" alt="Ingredients">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div style="background-color: #8E6D61; color: white; padding-top: 30px; padding-bottom: 30px;">
+
+        </div> -->
+      </section>
+      <div class="row">
+        <div class="col-1-2" style="background-color: #FFE6C2;">
+          <div style="padding: 120px;">
+              <h4>Metrics</h4>
+              <p>
+                Here are 3 metrics that should be tracked to measure the design decisions:
+                <ol>
+                  <li>  The percentage of people getting to the final screens of the step-by-step mode.</li>
+                  <li>  The average time spent in each session and the difference compared with the estimated time.</li>
+                  <li>  The rating of the cooking experience gathered at the end of each session.</li>
+                  <!-- <li>  The average ratio of slots paid with tokens to the ones paid with money and how it changes over time.</li> -->
+                </ol>
+            </p>
+
+          </div>
+        </div>
+        <div class="col-1-2" style="background-color: #F4F0EF;">
+          <div style="padding: 120px;">
+              <h4>Future Steps</h4>
+              <p>
+                <b>Designing for AR</b>
+                <br>
+                With the presented solutions, the user still needs to jump between real kitchen space and the digital recipes.
+                To solve this problem, we thought the best way is to utilize the emergent technology.
+                We picked three technologies with related products in the market, gesture control, audio control, and Augmented Reality (AR).
+
+                <br>
+                <br>
+                After comparison, AR is the best tool to solve this problem. So the next step for us would be designing the experience with 3D user interfaces in an AR environment and utilize the physical space to close the communication gap.
+              </p>
+          </div>
+        </div>
+      </div>
+      <section class="reflections">
+        <div class="section-title">
+          <h2>Reflections</h2>
+        </div>
+        <div class="paragraph">
+          <p>What I found very helpful in research is documenting our observation sessions.
+            All the details were contained in journey maps with images showing the details.
+            It helped the team be on the same page and helped the stakeholders understand the context quickly in meetings.
+            <br>
+            <br>
+            Another takeaway of mine is about system thinking in design.
+            When designing the interaction within a system, it is crucial to understand the existing interaction and relationships among all the system elements.
+            I found it was conducive to identifying problems when I  keep them in mind in observations and research.
+            As a result, the system should be broken down and assembled again with new interactions uniting the system elements.
+          </p>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+      </section>
+<!--
+      <div class="spread">
+        <picture>
+          <img src="img/coffeechat/frame2.png" alt="Mockups">
+        </picture>
+      </div> -->
+
+    </main>
+
+
+    <!-- <div>
+      <picture>
+        <source srcset="img/coffeechat/cover@1.png" media="(max-width:767px)">
+        <img src="img/coffeechat/cover.png" alt="Cover for CoffeeChat">
+      </picture>
+    </div> -->
+
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-title">
+          <h2>Get in Touch</h2>
+        </div>
+        <div class="contact-btns">
+          <a href="http://www.linkedin.com/in/junxiangyao" target="_blank">
+            <div id="linkedin-btn"></div>
+          </a>
+          <a href="mailto:yaojxjason@gmail.com">
+            <div id="email-btn"></div>
+          </a>
+        </div>
+        <div style="text-align:center">
+          <p>Copyright © 2021 Junxiang Yao</p>
+        </div>
+      </div>
+    </footer>
+    <script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
