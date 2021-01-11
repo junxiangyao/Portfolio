@@ -82,8 +82,16 @@
 }
 
 
-.ideation, .iteration, .decision{
+
+
+
+.ideation, .iteration, .decision, .other-projects{
   width:80%
+}
+
+.project-wrapper-small{
+  flex-basis: 33%;
+  padding: 10px;
 }
 
 #hori .paragraph{
@@ -303,7 +311,7 @@ p ol li{
   /* background: #8C8; */
   border-radius: 5px;
   counter-increment: gallery-cell;
-  padding:60pxol
+  /* padding:60px; */
   padding-top:20px;
 }
 
@@ -331,6 +339,8 @@ p ol li{
 row ol li{
   padding: 8px 0;
 }
+
+
 
 /* ==============================
 Small screens up to 640px
@@ -383,6 +393,11 @@ Small screens up to 640px
     padding-bottom: 30px;
   }
 
+  .project-wrapper-small{
+      flex-basis: 100%;
+      padding: 10px;
+  }
+
   .flex-ul-4{
     flex-direction: column;
   }
@@ -395,7 +410,7 @@ Small screens up to 640px
     flex-direction: column;
   }
 
-  .ideation, .iteration, .decision{
+  .ideation, .iteration, .decision, .other-projects{
     width:92%
   }
 }
@@ -444,9 +459,16 @@ Medium devices (640px and larger)
   .flex-ul-3 {
     flex-direction: column;
   }
-  .ideation, .iteration, .decision{
+  .ideation, .iteration, .decision, .other-projects{
     width:92%
   }
+
+  .project-wrapper-small{
+    flex-basis: 50%;
+    padding: 10px;
+  }
+
+
 }
 
 /* ==============================

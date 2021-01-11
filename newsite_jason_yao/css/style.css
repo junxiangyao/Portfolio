@@ -127,7 +127,7 @@ a:focus {
   -o-transition: all .5s ease; /* Opera */
   transition: all .5s ease;
   display: inline-block;
-    margin:20px;
+  margin:20px;
 }
 
 #linkedin-btn:hover {
@@ -223,6 +223,34 @@ nav > ul > li > a {
 nav > ul > li > a:active.
 nav > ul > li > a:hover. */
 
+/* stroke */
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav.stroke ul li a{
+  position: relative;
+}
+nav.stroke ul li a:after{
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  /* background: #fdfdfd; */
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
 #work-section{
   width : 80%;
   margin: 0 auto;
@@ -274,7 +302,7 @@ nav > ul > li > a:hover. */
   transform: translate(-50%, -50%);
   color: black;
   text-align: center;
-  background-color: #eeeeee;
+  background-color: #f2f2f2;
   width: 100%;
   opacity: 0.9;
   /* max-width: 100%; */
@@ -316,7 +344,7 @@ nav > ul > li > a:hover. */
   font-size: 16px;
   margin: 4px 2px;
   transition: 0.3s;
-  background-color: #eeeeee;
+  background-color: #f2f2f2;
   transition: 0.3s;
   border-radius: 25px;
 }
@@ -343,7 +371,7 @@ nav > ul > li > a:hover. */
   font-size: 16px;
   margin: 4px 2px;
   transition: 0.3s;
-  background-color: #eeeeee;
+  background-color: #f2f2f2;
   transition: 0.3s;
   border-radius: 25px;
 }
@@ -366,7 +394,7 @@ nav > ul > li > a:hover. */
   transform: translate(-50%, -50%);
 }
 /* #coffeechatcover {
-  background-color: #eeeeee;
+  background-color: #f2f2f2;
   transition: 0.3s;
   border-radius: 10px;
 } */
