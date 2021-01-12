@@ -86,32 +86,30 @@ a:focus {
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #d63314;
-  color: #ffffff; /* needed to override the default link color */
+  /* background-color: #d63314; */
+  color: #4a4a4a; /* needed to override the default link color */
   font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  padding: 15px 60px;
+  border-radius: 100px;
+  border: 3px solid #4a4a4a; /* width of the border, type, color */
   transition: 1s opacity;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease; /* Opera */
+  transition: all .5s ease;
+  display: inline-block;
 }
 
 
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  /* opacity: 0.8;  */
+  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
   color: #ffffff;
-}
-
-.button .contact {
-  background-color: transparent;
-  color: #d63314;
-  text-transform: uppercase;
-  border: 2px solid #d63314;
-}
-
-.button .contact:hover {
-  /* background-color: #d63314; */
-  color: #ffffff;
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 100px;
 }
 
 #linkedin-btn{
@@ -463,6 +461,8 @@ nav.stroke ul li a:hover:after {
 .resume{
   margin: 0 auto;
   text-align: center;
+  padding:60px;
+  /* width: 100%; */
 }
 
 .title{
