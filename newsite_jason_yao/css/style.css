@@ -112,6 +112,36 @@ a:focus {
   border-radius: 100px;
 }
 
+.button-round {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  /* background-color: #d63314; */
+  color: #4a4a4a; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 13px 5px;
+  border-radius: 100px;
+  border: 3px solid #4a4a4a; /* width of the border, type, color */
+  transition: 1s opacity;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease; /* Opera */
+  transition: all .5s ease;
+  width:60px;
+  height:60px;
+  text-align:center;
+}
+
+.button-round:hover {
+  /* opacity: 0.8;  */
+  /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+  color: #ffffff;
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 100px;
+}
+
+
 #linkedin-btn{
   background-image: url("../img/contact/linkedin.png");
   background-position: center;
@@ -167,7 +197,7 @@ a:focus {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 300px;
   display: inline-block;
 }
 
@@ -468,7 +498,13 @@ nav.stroke ul li a:hover:after {
 .title{
   text-align: left;
   margin: 100px 0 150px 0;
-  font-size: 30px;
+  font-size: 24px;
+}
+
+.title-expl{
+  text-align: center;
+  margin: 60px 0 30px 0 ;
+  font-size: 20px;
 }
 
 .explore_title, .section-title, .section-subtitle{

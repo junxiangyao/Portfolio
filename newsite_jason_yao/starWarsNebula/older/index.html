@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>star Wars Nebula</title>
+
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css">
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+	<!-- <script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.dom.min.js"></script>
+	<script src="libraries/p5.easycam.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css"
+	href="../assets/css/layoutProject.css"> -->
+
+
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			overflow: hidden;
+		}
+		canvas {
+			margin:auto;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a href="../../index.html"><span class="navbar-brand">JUNXIANG YAO</span></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-nav">
+				<ul class="nav navbar-nav">
+					<li><a href="../../index.html">Works</a></li>
+					<li><a href="../../about.html">About</a></li>
+					<li><a href="../../projects/starWarsNebula.html">Documentation</a></li>
+				</ul>
+			</div>
+		</div>
+
+
+		</div>
+
+	</nav>
+
+			<!-- <div id="easycamhud" class="hud unselectable"> -->
+			<div id="easycamhud" class="hud unselectable">
+				<h1>STAR WARS NEBULA</h2>
+					<p>Checkout Times and Duration Data of the Former 6 in the Movie Series in Seattle Public Library</p>
+					<div>
+						 <ul id="hud-left" class="two"></ul>
+						 <ul id="hud-right"class="two"></ul>
+					</div>
+					<!-- <div>
+						 <button type="button" name="button" class = "btn btn-secondary btn-sm">Duration Dots</button>
+					</div> -->
+					<div class="controlPanel">
+						<p id = "dot">Duration Dots</p>
+						<p id = "frame">Frame</p>
+						<p id = "mesh">Mesh</p>
+						<p id = "label">Label</p>
+					</div>
+
+					<div class="movies">
+						<p id = "sw1">Star Wars I (1999)</p>
+						<p id = "sw2">Star Wars II (2002)</p>
+						<p id = "sw3">Star Wars III (2005)</p>
+						<p id = "sw4">Star Wars IV (1977)</p>
+						<p id = "sw5">Star Wars V (1980)</p>
+						<p id = "sw6">Star Wars VI (1983)</p>
+					</div>
+
+
+					<!-- <button type="button" name="button" class = "btn"></button>
+					<button type="button" name="button" class = "btn"></button>
+					<button type="button" name="button" class = "btn"></button>
+					<button type="button" name="button" class = "btn"></button>
+					<button type="button" name="button" class = "btn"></button>
+					<button type="button" name="button" class = "btn"></button>
+					<button type="button" name="button" class = "btn"></button>
+					<button type="button" name="button" class = "btn"></button>
+					<button type="button" name="button" class = "btn"></button> -->
+			</div>
+			<script src="sketch.js"></script>
+	<!-- <div class="container">
+		<button type="button" class="btn btn-outline-secondary">Secondary</button>
+	</div> -->
+
+</body>
+</html>
