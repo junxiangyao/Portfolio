@@ -43,7 +43,7 @@
                 <!-- <p> <b>May 2020 - July 2020</b></p> -->
               </div>
             </div>
-            <div class="col-1-2" style="padding-top:90px">
+            <div class="col-1-2 cover-img-top">
               <picture>
                 <img src="img/cookwith/cover.png" alt="cover">
               </picture>
@@ -260,9 +260,9 @@
       <div class="flex-ul-3">
         <li>
         <!-- <div class="col-1-3"> -->
-        <div style="padding:0 100px">
+        <div class="finding-img">
           <picture>
-            <img src="img/coffeechat/Guidance.png" alt="Difficult">
+            <img src="img/cookwith/Follow Recipe O.png" alt="Difficult">
           </picture>
         </div>
           <p>
@@ -271,9 +271,9 @@
         </li>
         <li>
         <!-- <div class="col-1-3"> -->
-        <div style="padding:0 100px">
+        <div class="finding-img">
           <picture>
-            <img src="img/coffeechat/Money.png" alt="frustration">
+            <img src="img/cookwith/Frustration O.png" alt="frustration">
           </picture>
         </div>
           <p>
@@ -282,9 +282,9 @@
         </li>
         <li>
         <!-- <div class="col-1-3"> -->
-        <div style="padding:0 100px">
+        <div class="finding-img">
           <picture>
-            <img src="img/coffeechat/Controversial.png" alt="multiple thread">
+            <img src="img/cookwith/Multitask O.png" alt="multiple thread">
           </picture>
         </div>
 
@@ -302,62 +302,78 @@
           Observations
          </h3>
       </div>
-      <div class="row-non-equal">
-        <div class="col-1-3">
+      <div class="row-text-carousel">
+        <div class="text-carousel-1-3-j">
           <p>
             To gain a deeper understanding of the recipe following process, we decided to observe how people used recipes in their kitchen.
-            We observed 3 people cooking and baking with recipes they found.
+            We observed 3 people cooking and baking with recipes they found. One of the journey maps documenting our observations is shown on the right.
+            <br>
+            <br>
+            We syntheized the data from all 3 observations and found 5 major pain points.
           </p>
         </div>
-        <div class="col-2-3">
-          <picture>
+          <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 60px">
+            <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
+              <div class="carousel-cell-expl"><img src="img/cookwith/Journey 1.png" class="carousel-cell-image-expl" style="background-color: #fff"></div>
+              <div class="carousel-cell-expl"><img src="img/cookwith/Journey 2.png" class="carousel-cell-image-expl" style="background-color: #fff"></div>
+              <div class="carousel-cell-expl"><img src="img/cookwith/Journey 3.png" class="carousel-cell-image-expl" style="background-color: #fff"></div>
+            </div>
+          <!-- <picture>
             <img src="img/cookwith/PlaceHolder.png" alt="Observation">
-          </picture>
+          </picture> -->
         </div>
       </div>
     </div>
-
+    <br>
     <div class="subsection">
       <div class="sub-title">
         <h3>
           Pain Points
          </h3>
       </div>
+      <br>
+      <!-- style="padding-right:30px;" -->
       <div class="row">
-        <div class="col-1-2" style="padding-right:10px;">
+        <div class="col-1-2-non-btm-margin left-painpoint img-painpoint">
           <h5>Ingredients Are Not Ready</h5>
           <p>
             "The meat takes much longer to defrost than I expected."
-          </p>
-          <p>
+          <!-- </p>
+          <p> -->
+          <br>
+          <!-- <br> -->
             "I forgot to buy the corn starch."
           </p>
         </div>
-        <div class="col-1-2" style="margin-bottom:20px;">
+
+        <!-- style="margin-bottom:20px;" -->
+        <div class="col-1-2-non-btm-margin right-painpoint img-painpoint">
           <h5>Forgetting Details</h5>
           <div style="display:flex; flex-direction: row;">
-            <div style="width:50%; ">
+            <div style="width:50%;">
               <p>
                 "I forgot to keep the spaghetti water. Now I have to boil the spaghetti again."
               </p>
             </div>
             <div style="width:50%; margin-top: 20px; margin-left:10px;">
               <picture>
-                <img src="img/cookwith/PlaceHolder.png" alt="Observation">
+                <img src="img/cookwith/reboil.png" alt="Boil Again for Spagetti Water">
               </picture>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="row" style="margin-bottom:0">
-        <div class="col-1-2" style="padding-right:10px; margin-bottom: 30px">
+<!-- style="margin-bottom:0" -->
+      <div class="row" >
+        <!-- style="padding-right:30px; margin-bottom: 80px" -->
+        <div class="col-1-2 left-painpoint">
           <h5>Need More Instructions</h5>
           <p>
             "I am not sure about the size of the meat I should cut into."
           </p>
         </div>
-        <div class="col-1-2" style="margin-bottom: 30px">
+         <!-- style="margin-bottom: 80px" -->
+        <div class="col-1-2 right-painpoint">
           <h5>Distraction from Multitasks</h5>
           <p>
             "I heated the pan for too long on the stove top while I am chopping onions."
@@ -379,7 +395,7 @@
         </div>
         <div class="col-2-3" style="margin-top:20px">
           <picture>
-            <img src="img/cookwith/PlaceHolder.png" alt="Observation">
+            <img src="img/cookwith/device.png" alt="Dealing with Devices">
           </picture>
         </div>
       </div>
@@ -488,9 +504,11 @@
           <div class="row-non-equal">
             <div class="col-1-3" style="padding-right: 2%;">
               <p>
-                As I want to balance guiding people with the steps and offering flexibility for people to use, I think this system should be tailored to cooking methods as different cooking methods have different characteristics.
+                To balance the guidance and the flexibility, I think this system should be tailored to cooking methods as different cooking methods have different characteristics.
                 <br><br>
-                I divided the cooking methods into 4 categories according to the attention required in cooking.
+                I divided the cooking methods into 4 categories according to the attention required in cooking:
+
+                <br>
                 The first one requires constant attention while cooking.
                 The other 3 categories don't require constant attention, and they are the opportunity for multitasking.
                 The 2nd and 3rd categories require people's attention when they are done.
@@ -608,23 +626,25 @@
             <h3>Prototyping and Testing</h3>
           </div>
           <div class="row-non-equal">
-            <div class="col-1-4">
+            <div class="col-1-3">
               <p>
                 We did 3 rounds of iteration from wireframes to high-fidelity prototype.
                 I also conducted 3 usability testing sessions to validate our ideas.
     					</p>
             </div>
-            <div class="col-3-4">
+            <div class="col-2-3">
               <picture>
                 <img src="img/cookwith/Placeholder.png" alt="Evolution">
               </picture>
             </div>
           </div>
         </div>
+        <br>
         <div class="subsection">
           <div class="sub-title">
             <h3>Changes from Testing</h3>
           </div>
+          <br>
           <div class="subsubsection">
             <div class="subsub-title">
               <h5>Adding Timers to the Tasks Requiring Constant Attention</h5>
@@ -681,8 +701,8 @@
         </div> -->
       </section>
       <div class="row">
-        <div class="col-1-2" style="background-color: #FA5316; color:white">
-          <div style="padding: 120px;">
+        <div class="col-1-2" style="background-color: #333; color:white">
+          <div class="metrics">
               <h4>Metrics</h4>
               <p>
                 Here are 3 metrics that should be tracked to measure the design decisions:
@@ -696,8 +716,8 @@
 
           </div>
         </div>
-        <div class="col-1-2" style="background-color: #333; color:white">
-          <div style="padding: 120px;">
+        <div class="col-1-2" style="background-color: #FA5316 ; color:white">
+          <div class="future">
               <h4>Future Steps</h4>
               <p>
                 <b>Designing for AR</b>
@@ -750,6 +770,58 @@
         <img src="img/coffeechat/cover.png" alt="Cover for CoffeeChat">
       </picture>
     </div> -->
+
+    <section class="other-projects">
+      <div class="row">
+
+        <div class="project-wrapper-small" >
+          <div id="coffeechatcover" class="project-content" onclick="window.location.href= 'coffeechat.html';return false">
+            <a href="coffeechat.html">
+              <picture>
+                <img src="img/1.png" alt="Cover for CoffeeChat">
+              </picture>
+            </a>
+            <h4 onclick="window.location.href= 'coffeechat.html';return false">CoffeeChat</h4>
+            <p onclick="window.location.href= 'coffeechat.html';return false">
+              Service Design / Prototyping / Testing
+              <!-- Facilitates the connections between students and the industry. -->
+            </p>
+          </div>
+        </div>
+
+        <div class="project-wrapper-small" >
+              <div id="ccmcover" class="project-content" onclick="window.location.href= 'updating.html';return false">
+                <a href="updating.html">
+                    <picture>
+                      <img style="border-radius: 25px;" src="img/2.png" alt="Cover for Creativity for Children">
+                    </picture>
+                </a>
+                <h4 onclick="window.location.href= 'updating.html';return false">Creativity Lab</h4>
+                <p onclick="window.location.href= 'updating.html';return false">
+                  Social Innovation / Prototyping / Testing
+                  <!-- Facilitates the connections between students and the industry. -->
+                </p>
+              </div>
+        </div>
+
+
+
+        <div class="project-wrapper-small" >
+              <div id="vrsmallcover" class="project-content" onclick="window.location.href= 'updating.html';return false">
+                <a href="updating.html">
+                    <picture>
+                      <img src="img/0.png" alt="Cover for VR Data Viz">
+                    </picture>
+                </a>
+                <h4 onclick="window.location.href= 'updating.html';return false">Visualizing Data in VR</h4>
+                <p onclick="window.location.href= 'updating.html';return false">
+                  3D Interface / Unity (C#) / Oculus Rift
+                </p>
+              </div>
+        </div>
+
+      </div>
+    </section>
 
     <footer id="contact">
       <div class="container">

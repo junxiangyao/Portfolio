@@ -43,7 +43,7 @@
     </nav>
     <main>
       <!-- #F4F0EF FFA014-->
-      <div style="background-color:#F4F0EF;color:#333" class="hero-section">
+      <div style="background-color:#F4F0EF;color:#333;" class="hero-section">
         <div class="introduction" >
           <div class="row-non-equal">
             <div class="col-2-3">
@@ -85,7 +85,7 @@
               </li> -->
             <li>
               <h5>Team</h5>
-                <p style="margin-top:5px">Solo Project <br> (Part of the research data are from <a style="color:green" href="">this project</a>).</p>
+                <p style="margin-top:5px">Solo Project <br> (Part of the research data are from <a style="color:green" href="updating-research.html">this project</a>).</p>
               <!-- <h5>Tools</h5>
               <p style="margin-top:5px">Figma <br> Balsamiq <br> Keynote <br> MURAL <br> Miro</p> -->
               </li>
@@ -130,7 +130,7 @@
              <h4>Because of the mismatch between academia and industry, college students need practical advice to prepare for their careers.</h4>
              <p>
                <!-- <br> -->
-               Many college students are facing a long and hard pathway to start their careers. When they graduate, it is typical for them to take some time to transition to the job market and find the position that leverage their skill and experience from school. Under COVID-19, students are facing a more complicated reality as their future became more uncertain.
+               <!-- Many college students are facing a long and hard pathway to start their careers. When they graduate, it is typical for them to take some time to transition to the job market and find the position that leverage their skill and experience from school. Under COVID-19, students are facing a more complicated reality as their future became more uncertain. -->
              </p>
              <br>
              <ul class="flex-ul-3">
@@ -384,7 +384,7 @@
             <div class="flex-ul-3">
               <li>
               <!-- <div class="col-1-3"> -->
-              <div style="padding:0 100px">
+              <div class="finding-img">
                 <picture>
                   <img src="img/coffeechat/Guidance.png" alt="Guidance">
                 </picture>
@@ -399,7 +399,7 @@
               </li>
               <li>
               <!-- <div class="col-1-3"> -->
-              <div style="padding:0 100px">
+              <div  class="finding-img">
                 <picture>
                   <img src="img/coffeechat/Money.png" alt="Money">
                 </picture>
@@ -411,7 +411,7 @@
               </li>
               <li>
               <!-- <div class="col-1-3"> -->
-              <div style="padding:0 100px">
+              <div class="finding-img">
                 <picture>
                   <img src="img/coffeechat/Controversial.png" alt="controversial">
                 </picture>
@@ -675,13 +675,13 @@
               <h3>WireFrames</h3>
             </div>
             <div class="row-non-equal">
-              <div class="col-1-4">
+              <div class="col-1-3">
                 <p>
                   I first sketched out the low fedelity wireframes on paper, and then used Figma to create mid-fidelity wireframes accordingly.
                   Next, I used these wireframes to make a clickable mid-fidelity prototype in Figma for user testing.
                 </p>
               </div>
-              <div class="col-3-4">
+              <div class="col-2-3">
                 <picture>
                   <img src="img/coffeechat/sketch&wireframe.png" alt="Iteration">
                 </picture>
@@ -725,6 +725,7 @@
             <div class="sub-title">
               <h3>Design Choices</h3>
             </div>
+            <br>
             <div class="subsubsection">
               <div class="subsub-title">
                 <h5>Displaying Availability</h5>
@@ -736,6 +737,8 @@
                     <br><br>
                     Inspired by Google Calendar, my solution is to ask users to choose the duration, pick an ideal slot, and pick the start time of the call at the end.
                     From A/B testing, I learned that users prefer this one over the pattern Calendarly is using, because CoffeeChat is more straightforward and all the tasks can be done in one page.
+                    <br>
+                    <br>
                     <br>
                     <br>
                     <!-- Below is how this screen evolved based on the feedback from critiques and testing sessions. -->
@@ -758,17 +761,21 @@
                   <p>
                     In the early phases, the coffee cup is considered only a representation of the numeric price to downplay this service's transactional aspect.
                     So users will need to memorize the exchanging ratio.
-                    Though in the testing sessions with students, participants found it acceptable, they agreed that this could be more intuitive.
+                    <!-- Though in the testing sessions with students, participants found it acceptable but not intuitive enough. -->
                   <br>
                   <br>
                   <!-- Attempts to remind users of the monetary value of the cups: -->
 
-                  From the testing sessions with professionals, I realized that I need to go deeper to design a complete token system and think more about viability.
+                    From the testing sessions with professionals, I realized that I need to go deeper to design a complete token system and think more about viability.
 
                   <br><br>
-                  Thus, in the new token system, coffee cup tokens became an independent payment method instead of a euphemism of the numeric price.
-                  As users don't have to memorize the cup's monetary value anymore, the interaction became more intuitive.
+                    Thus, in the new token system, coffee cup tokens became an independent payment method instead of a euphemism of the numeric price.
+                    As users don't have to memorize the cup's monetary value anymore, the interaction became more intuitive.
                   <!-- This is how a problem of UI and interaction is solved by designing the system. -->
+                  <br>
+                  <br>
+                  <br>
+                  <br>
                   </p>
                 </div>
                 <div class="col-2-3">
@@ -786,9 +793,10 @@
               <div class="row-non-equal">
                 <div class="col-1-3">
                   <p>
-                    When I tested it with students, the star rating system seems fine as it helps students to choose professionals to work with.
+                    When I tested it with students, the star rating system seems fine.
+                    <!-- as it helps students to choose professionals to work with. -->
                     However, I realized that the consultation session from professionals' goodwill shouldn't be rated with stars from the testing with professionals.
-                    The real coffee chats shouldn't be rated this way either.
+                    <!-- The real coffee chats shouldn't be rated this way either. -->
                     So I redesigned the feedback system as thumb-ups and optional text-based feedback that could be sent privately to the consultants at the end of each session.
                   <br>
                   <br>
@@ -837,9 +845,7 @@
                   <li>  The ratio of question-based consultation to video sessions and how it changes over time.</li>
                   <li>  The average ratio of slots paid with tokens to the ones paid with money and how it changes over time.</li>
                 </ol>
-
             </p>
-
           </div>
         </div>
         <div class="col-1-2" style="background-color: #F4F0EF;">
@@ -926,15 +932,15 @@
               </div>
         </div>
         <div class="project-wrapper-small" >
-              <div id="ccmcover" class="project-content" onclick="window.location.href= 'creativitylab.html';return false">
-                <a href="creativitylab.html">
+              <div id="ccmcover" class="project-content" onclick="window.location.href= 'updating.html';return false">
+                <a href="updating.html">
                     <picture>
                       <img style="border-radius: 25px;" src="img/2.png" alt="Cover for Creativity for Children">
                     </picture>
                 </a>
-                <h4 onclick="window.location.href= 'creativitylab.html';return false">Creativity Lab</h4>
-                <p onclick="window.location.href= 'creativitylab.html';return false">
-                  Social Impact / Research / Prototyping / Testing
+                <h4 onclick="window.location.href= 'updating.html';return false">Creativity Lab</h4>
+                <p onclick="window.location.href= 'updating.html';return false">
+                  Social Innovation / Prototyping / Testing
                   <!-- Facilitates the connections between students and the industry. -->
                 </p>
               </div>
@@ -943,15 +949,15 @@
 
 
         <div class="project-wrapper-small" >
-              <div id="vrsmallcover" class="project-content" onclick="window.location.href= 'creativitylab.html';return false">
-                <a href="creativitylab.html">
+              <div id="vrsmallcover" class="project-content" onclick="window.location.href= 'updating.html';return false">
+                <a href="updating.html">
                     <picture>
                       <img src="img/0.png" alt="Cover for VR Data Viz">
                     </picture>
                 </a>
-                <h4 onclick="window.location.href= 'creativitylab.html';return false">Visualizing Temporal Data in VR</h4>
-                <p onclick="window.location.href= 'creativitylab.html';return false">
-                  3D Interface / Data Viz / Unity (C#) / Oculus Rift
+                <h4 onclick="window.location.href= 'updating.html';return false">Visualizing Data in VR</h4>
+                <p onclick="window.location.href= 'updating.html';return false">
+                  3D Interface / Unity (C#) / Oculus Rift
                 </p>
               </div>
         </div>

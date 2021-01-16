@@ -23,7 +23,7 @@ let mainNavLinks = document.querySelectorAll("#side ul li a");
 let side = document.querySelectorAll("#side");
 let mainSections = document.querySelectorAll("main section");
 // document.body.scrollHeight
-let width=window.innerWidth;
+
 let lastId;
 let cur = [];
 
@@ -38,16 +38,22 @@ let cur = [];
 
 window.addEventListener("scroll", event => {
   let fromTop = window.scrollY;
-  // console.log(width);
+  let width=window.innerWidth;
+  console.log(width);
   if (fromTop < 600){
     side[0].style.display = "none";
   }else{
-    side[0].style.display = "block";
-    if(fromTop < 640){
-      side[0].classList.remove("show");
+    if(width>1024){
+      side[0].style.display = "block";
+      if(fromTop < 640){
+        side[0].classList.remove("show");
+      }else{
+        side[0].classList.add("show");
+      }
     }else{
-      side[0].classList.add("show");
+      side[0].style.display = "none";
     }
+
     // if(width>=1024){
     // }
   }
