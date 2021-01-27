@@ -412,6 +412,13 @@ p ol li{
   /* padding-right: 4%; */
 }
 
+.full-width-img img{
+  padding:50px 50px;
+  	/* max-width:800px; */
+    /* text-align:center;
+    margin: 0 auto; */
+}
+
 #token img{
 	width:100%;
 }
