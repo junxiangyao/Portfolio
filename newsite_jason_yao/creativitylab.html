@@ -54,7 +54,7 @@
             </div>
             <div class="col-1-3 cover-img-top">
               <picture>
-                <img src="img/creativitylab/PlaceHolder.png"  alt="cover">
+                <img src="img/creativitylab/Cover.png"  alt="cover">
               </picture>
             </div>
           </div>
@@ -191,7 +191,7 @@
             <div class="row key-feature">
               <div class="col-1-2 feature-pic">
                 <picture >
-                  <img src="img/creativitylab/PlaceHolder.png" alt="Activity Prompts">
+                  <img src="img/creativitylab/KF1.png" alt="Activity Prompts">
                 </picture>
               </div>
               <div class="col-1-2 feature-description">
@@ -220,7 +220,7 @@
               </div>
               <div class="col-1-2 feature-pic">
                 <picture>
-                  <img src="img/creativitylab/PlaceHolder.png" alt="Documentation">
+                  <img src="img/creativitylab/KF2.png" alt="Documentation">
                 </picture>
               </div>
             </div>
@@ -232,7 +232,7 @@
             <div class="row key-feature">
               <div class="col-1-2 feature-pic">
                 <picture>
-                  <img src="img/creativitylab/PlaceHolder.png" alt="Share">
+                  <img src="img/creativitylab/KF3.png" alt="Share">
                 </picture>
               </div>
               <div class="col-1-2 feature-description">
@@ -259,7 +259,7 @@
               </div>
               <div class="col-1-2 feature-pic">
                 <picture>
-                  <img src="img/creativitylab/PlaceHolder.png" alt="Merchandise Store">
+                  <img src="img/creativitylab/KF4.png" alt="Merchandise Store">
                 </picture>
               </div>
             </div>
@@ -545,7 +545,7 @@
               <!-- <div class="col-1-3"> -->
               <div class="finding-img">
                 <picture>
-                  <img src="img/creativitylab/Explorative.png" alt="Explorative">
+                  <img src="img/creativitylab/Explorative_s.png" alt="Explorative">
                 </picture>
 
               </div>
@@ -562,7 +562,7 @@
               <!-- <div class="col-1-3"> -->
               <div class="finding-img">
                 <picture>
-                  <img src="img/creativitylab/Encouraging.png" alt="Encouraging">
+                  <img src="img/creativitylab/Encouraging_s.png" alt="Encouraging">
                 </picture>
 
               </div>
@@ -576,7 +576,7 @@
               <!-- <div class="col-1-3"> -->
               <div class="finding-img">
                 <picture>
-                  <img src="img/creativitylab/Energetic.png" alt="Energetic">
+                  <img src="img/creativitylab/Energetic_s.png" alt="Energetic">
                 </picture>
               </div>
                 <h5>Energetic</h5>
@@ -646,22 +646,24 @@
             <br>
             <div class="subsubsection">
               <div class="subsub-title">
-                <h5>Adding Timers to the Tasks Requiring Constant Attention</h5>
+                <h5>Activity Prompts Page</h5>
               </div>
               <div class="row-non-equal">
                 <div class="col-1-3">
-                  <p>We assumed that for tasks like "stir fry for 1 minute,"  users wouldn't bother to set a timer for such a short time,
-                    as this types of task is the first category of cooking methods that requires full attention of people.
+                  <p>
+                    Activities curated by the educators are displayed as cards.
+                    In our previous iterations, we had activities without images to allow the generation of open-ended ideas for children and save more screen real estate for other content.
                     <br>
                     <br>
-                    However, from the usability testing, this timer is a crucial checkpoint for people lacking cooking experience.
-                    It is the most concrete way for them to know that the food is ready, compared with terms like "stir fry until its golden."
-                    So we added another type of timer as shown in the image.
+                    However, while testing, we learned that parents prefer seeing images to understand what this activity is about. So we added a cover image. We removed the check box for material gathering since people find it unnecessary.
+                    <br>
+                    <br>
+                    <!-- We also added cues to show the time needed and activity level to help parents gauge what they were going to do and according to our testing results. -->
                   </p>
                 </div>
                 <div class="col-2-3">
                   <picture>
-                    <img src="img/creativitylab/PlaceHolder.png"  alt="short-timer">
+                    <img src="img/creativitylab/Prompts.png"  alt="Prompts">
                   </picture>
                 </div>
               </div>
@@ -669,26 +671,47 @@
             <br><br>
             <div class="subsubsection">
               <div class="subsub-title">
-                <h5>Displaying Ingredients</h5>
+                <h5>Activity Instructions</h5>
               </div>
               <div class="row-non-equal">
                 <div class="col-1-3">
                   <p>
-                    When designing the instruction screen in step-by-step mode, we split the ingredients and the instruction.
-                    We have two major variations of displaying:
-                  <ol type="A">
-                    <li>Using bullet points with colors/formats related to the corresponding ingredient as distinguishers.</li>
+                    One challenge is to balance between reducing the guidance to encourage active exploration and providing enough information in case children are stuck.
+                    Also, from testing, we realized that parents want to limit screen time for their children.
                     <br>
-                    <li>Using PNG images of ingredients and put this list on top of the instructions.    </li>
-                  </ol>
                     <br>
-                    From A/B testings, people prefer the first variant, but bullet points are less intuitive than the PNG images.
-                    So the new iteration combines the two variants.
+                    Thus, we specifically chose not to put video content and other supportive information directly in the instructions so that children could focus more on creating by themselves.
+                    They could find those information on the hint page if needed.
+                    <br>
+                    <br>
                   </p>
                 </div>
                 <div class="col-2-3">
                   <picture>
-                    <img src="img/creativitylab/PlaceHolder.png" alt="Ingredients">
+                    <img src="img/creativitylab/Activity.png" alt="Activity">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <br><br>
+            <div class="subsubsection">
+              <div class="subsub-title">
+                <h5>Using Claps instead of Likes</h5>
+              </div>
+              <div class="row-non-equal">
+                <div class="col-1-3">
+                  <p>
+                    For feedback metrics, users can clap multiple times for other children's work.
+                    This feature could help create a supportive environment that focuses on encouraging rather than competing.
+                    <br>
+                    <br>
+                    Compared with other binary feedback metrics (eg. Like), this aligns more with our first insight:
+                    <b>creative learning occurs in the interactions with supportive environments.</b>
+                  </p>
+                </div>
+                <div class="col-2-3">
+                  <picture>
+                    <img src="img/creativitylab/Claps.png" alt="Claps">
                   </picture>
                 </div>
               </div>
@@ -750,14 +773,76 @@
           <h2>Reflections</h2>
         </div>
         <div class="paragraph">
-          <p>This project helped me learn the process of end-to-end product design and understand why system thinking is crucial in experience design.
-            When designing a platform containing both service providers and receivers, it is important to include both sides of users in designing the system.
-            Even though I can only start with one side of the platform, I need to understand other users to make decisions.
-            Design decisions and features for one side are usually decided by the need and preference of the other side.
+          <p>
+            <b>Keeping an open mind for change.</b>
+            <br>
+            When COVID-19 hit San Francisco in March, our design research is still in progress.
+            There are a lot of unexpected changes in this process.
+            Our major directions pivoted 4 times due to unforeseen constraints.
+            I realized that keeping an open mind for change is critical from the experience of completing this project.
+            Otherwise, we may miss the chance to leverage the advantages we still possess.
           </p>
+          <p>
+            <b>Communication is the key.</b>
+            <br>
+            As we are a team of 5 designers, keeping everyone on the same page is necessary but difficult, not to mention facilitating remote collaborations within such an uncertain time.
+            As the team's project manager, I learned that it is essential to find the minimum level of consensus to make decisions and move forward and to make sure our effort and content are not lost in our communication.
+          </p>
+          <br>
+          <br>
+          <br>
+          <br>
         </div>
       </section>
     </main>
+    <hr>
+    <section class="other-projects">
+      <div class="row">
+
+        <div class="project-wrapper-small" >
+          <div id="coffeechatcover" class="project-content" onclick="window.location.href= 'coffeechat.html';return false">
+            <a href="coffeechat.html">
+              <picture>
+                <img src="img/1.png" alt="Cover for CoffeeChat">
+              </picture>
+            </a>
+            <h4 onclick="window.location.href= 'coffeechat.html';return false">CoffeeChat</h4>
+            <p onclick="window.location.href= 'coffeechat.html';return false">
+              Service Design / Prototyping / Testing
+              <!-- Facilitates the connections between students and the industry. -->
+            </p>
+          </div>
+        </div>
+        <div class="project-wrapper-small" >
+              <div id="kitchencover" class="project-content" onclick="window.location.href= 'cookwith.html';return false">
+                <a href="cookwith.html">
+                  <picture>
+                    <img src="img/3.png" alt="Cover for Kitchen Inovatoin App">
+                  </picture>
+                </a>
+                <h4 onclick="window.location.href= 'cookwith.html';return false">Cookwith</h4>
+                <p onclick="window.location.href= 'cookwith.html';return false">
+                  System Design / Research / Prototyping
+                  <!-- Facilitates the connections between students and the industry. -->
+                </p>
+              </div>
+        </div>
+        <div class="project-wrapper-small" >
+              <div id="vrsmallcover" class="project-content" onclick="window.location.href= 'updating.html';return false">
+                <a href="updating.html">
+                    <picture>
+                      <img src="img/0.png" alt="Cover for VR Data Viz">
+                    </picture>
+                </a>
+                <h4 onclick="window.location.href= 'updating.html';return false">Visualizing Data in VR</h4>
+                <p onclick="window.location.href= 'updating.html';return false">
+                  3D Interface / Unity (C#) / Oculus Rift
+                </p>
+              </div>
+        </div>
+
+      </div>
+    </section>
 
 
     <!-- <div>
