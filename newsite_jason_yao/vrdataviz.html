@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Junxiang Yao">
+    <meta name="description" content="Digitalizing the coffee chats between students and professionals">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visualizing Time-Oriented  Data in VR</title>
+    <link rel="shortcut icon" href="img/Yao_VR.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/casestudy.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <div class="logo">
+            <a href="index.html"> <span class=""><b>JUNXIANG YAO</b></span></a>
+          </div>
+          <nav class="stroke">
+            <ul>
+              <li><a href="index.html">Works</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <nav id="side">
+      <ul>
+        <li><a href="#intro">  <span class="dot"></span>  Introduction</a></li>
+        <li><a href="#solution_loc"><span class="dot"></span> Result</a></li>
+        <li><a href="#research_loc"><span class="dot"></span>  Research</a></li>
+        <li><a href="#ideation_loc"><span class="dot"></span>  Ideation</a></li>
+        <li><a href="#iteration_loc"><span class="dot"></span>  Iteration</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div style="
+        background-image: url('../img/5.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:white" class="hero-section">
+        <div class="introduction" >
+
+
+              <div class="title" style="text-align:center; padding-top:25%">
+                <h1>Visualizing Time-Oriented Data in VR</h1>
+                <h5>3D Interaction Design & Spatial Image-Making </h5>
+
+                <!-- <p> <b>May 2020 - July 2020</b></p> -->
+              </div>
+
+        </div>
+      </div>
+
+      <div id="intro">
+        <section class="introduction">
+          <!-- <h4>Introduction</h4> -->
+
+          <ul id="hori">
+            <li class="paragraph">
+              <h5>Objective</h5>
+              <p style="margin-top:5px"> Creating interaction patterns and 3d interfaces for visualizing data in VR | Exploring image-making in VR. </p>
+            </li>
+            <li>
+              <h5>My Role</h5>
+                 <p style="margin-top:5px">Literature Review  <br> Data Visualization <br> 3D UI Design <br> User Testing </p>
+
+                   <h5>Team</h5>
+                   <p style="margin-top:5px">Solo Peoject</li>
+            <!-- <li>
+              <h5>Duration</h5>
+                <p style="margin-top:5px">May, 2020 - July, 2020 <br> (9 Weeks)</p></li> -->
+
+            <li>
+              <h5>Tools</h5>
+                <p style="margin-top:5px">Unity 3D <br> C# <br> Oculus Rift <br> VRTK <br> Processing</p>
+              </li>
+            <li><h5>Advisors</h5>
+              <p style="margin-top:5px">George Legrady, <br> Tobias Hollerer, <br> Marko Peljhan</p>
+              <h5>Duration</h5>
+                <p style="margin-top:5px">Mar, 2019 - Jun, 2019</p>
+            </li>
+          </ul>
+
+          <ul id="vert" style="padding:10px;">
+            <li><h5>Objective</h5>
+            <p style="margin-top:5px">
+              To initiate a change by studying how technology can be conducive to children’s creative learning and to help our community partner, Children’s Creativity Museum (CCM,) to further expand their mission and increase their social impact.</p>
+            </li>
+            <li><h5>My Role</h5>
+                 <p>Literature Review, Data Visualization Design, 3D UI Design, Testing </li>
+            <li><h5>Team</h5>
+              <p>Solo Project</p>
+            </li>
+              <!-- <p>(Some of the research data were used from <a style="color:green" href="">this project</a>.)</p></li> -->
+            <li><h5>Tools</h5>
+              <p>Unity 3D (C#), Oculus Rift, VRTK, Processing</p>
+            </li>
+            <li><h5>Duration</h5>
+              <p>Mar, 2019 - Jun, 2019</li>
+            <li><h5>Advisor</h5>
+              <p>George Legrady, Tobias Hollerer, Marko Peljhan</p></li>
+          </ul>
+          <br>
+          <hr>
+        </section>
+      </div>
+      <div id="solution_loc">
+        <section>
+          <div class="section-title">
+            <h2>Overview</h2>
+          </div>
+          <div class="flex">
+    				<div class="paragraph">
+    					<p>
+                As an exploration of visualizing information in a virtual reality environment,
+                this project attempts to combine visual complexity with a convenient and manageable information presentation system.
+                It focuses on displaying the comparison and composition patterns in the dataset.
+                <br>  <br>
+                This project aims to design a universal pattern to visualize time-oriented data, including numeric and text-based datasets.
+
+                This project visualized the daily check-out data of Star Wars movies from the Seattle Public Library (SPL) and the news headlines from the Seattle Times on the corresponding dates from 2005 to 2018.
+
+                <br><br>
+    					</p>
+    				</div>
+    				<div class="small-hero-img">
+              <picture>
+                <img src="img/vrdataviz/Hero.png" alt="Hero">
+              </picture>
+    				</div>
+    			</div>
+        </section>
+
+        <section class="">
+          <div class="section-title">
+            <h2>Key Features</h2>
+          </div>
+  <!-- 浅绿 #A5D74D 深绿 #6E9B25 #506D22-->
+  <!-- style="background-color: #506D22; color:white;" -->
+          <div class="key-feature-wrapper" >
+            <div class="row key-feature">
+              <div class="col-1-2 feature-description">
+                <div class="">
+                  <h4>1.Mapping Calendar</h4>
+                  <p>
+                    The dates from January 1st, 2005, to December 31st, 2018, are mapped on the floor. Thus, there will be a corresponding date to any location on the floor. The user can retrieve the daily data by working/teleporting to the location of a particular date.
+                  </p>
+                </div>
+              </div>
+              <div class="col-1-2 feature-pic">
+                <picture >
+                  <img src="img/vrdataviz/Date.gif" alt="Mapping Calendar">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="key-feature-wrapper" >
+            <div class="row key-feature">
+              <div class="col-1-2 feature-description">
+                <div class="">
+                  <h4>2.Checking Daily Data</h4>
+                  <p>
+                      Each data node floating above a specific date contains the daily data of a particular category (differentiated by different colors). The larger the daily quantitative data is, the higher the node will be. The user can hover over the node to check on the detail.
+                  </p>
+                </div>
+              </div>
+              <div class="col-1-2 feature-pic">
+                <picture >
+                  <img src="img/vrdataviz/Check.gif" alt="Checking Detail">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="key-feature-wrapper" >
+            <div class="row key-feature">
+              <div class="col-1-2 feature-description">
+                <div class="">
+                  <h4>3.Minimap</h4>
+                  <p>
+                    Because the size of this structure is too large for the user to observe the overview of the visualization, a minimap with a radius of 15 centimeters was attached to the left controller. This minimap contains a smaller replica of the full-scaled visualization, which enables the user to observe the overview with greater ease. They can also click on the minimap to teleport in the space.
+                  </p>
+                </div>
+              </div>
+              <div class="col-1-2 feature-pic">
+                <picture >
+                  <img src="img/vrdataviz/Minimap.gif" alt="Mapping Calendar">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="key-feature-wrapper" >
+            <div class="row key-feature">
+              <div class="col-1-2 feature-description">
+                <div class="">
+                  <h4>4.Interface for Scaling</h4>
+                  <p>
+                    To fill the significant gap in size between the minimap and the full-scale structure, a scaling interface that would be used to shrink the scene was added to recognize more details in the overview.  Users can also use this interface to teleport and check the daily data.
+                  </p>
+                </div>
+              </div>
+              <div class="col-1-2 feature-pic">
+                <picture >
+                  <img src="img/vrdataviz/scaling.gif" alt="Mapping Calendar">
+                </picture>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="paragraph">
+            <div class="sub-title">
+              <h3>Conceptual Model</h3>
+            </div>
+            <p>
+              Here is the conceptual model that illustrates the functional components and hierarchy of this project.
+            </p>
+            <picture class="full-width-img">
+              <img src="img/creativitylab/IA.png" style="padding-bottom:0"alt="Sitemap">
+            </picture>
+          </div>
+
+
+          <br>
+          <br><br>
+          <br>
+
+          <div class="introduction">
+              <hr>
+          </div>
+        </section>
+      </div>
+      <div id="research_loc">
+        <section class="research">
+          <div class="section-title">
+            <h2>Data Visualization</h2>
+          </div>
+          <div class="subsection">
+            <div class="sub-title">
+              <h3>Data Base</h3>
+            </div>
+            <div class="row-text-carousel">
+              <div class="text-carousel-1-3">
+                <p>
+                  To explore image-making in virtual reality and figure out a solution to visualize multidimensional data, I used both numeric and text-based datasets.
+                  <br>
+                  <br>
+                  The data used in this project are daily check-out data of the Star Wars movies retrieved from the Seattle Public Library (SPL) and the local news headlines on corresponding dates from the Seattle Times.
+                  I retrieved the desired numeric dataset in MySQL Workbench and saved them in CSV files.
+                </p>
+              </div>
+              <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 20px">
+                <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/MySQL.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/CSV.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="subsection">
+            <div class="sub-title">
+              <h3>Previous Version</h3>
+            </div>
+            <div class="row-text-carousel">
+              <div class="text-carousel-1-3">
+                <p>
+                  This project is based on the <a href="/starWarsNebula/index.html"> <b>Star Wars Nebula</b></a>, an earlier data visualization work I created in 2016, using the same dataset from SPL.
+                  The goal was to reveal the pattern of the check-out times and the borrowing duration of the items related to the movies in the Star Wars franchise and to design an innovative way to present numeric data.
+                  <br>
+                  <br>
+                  In the visualization, two levels of temporal granularity (year and month) were used in designing the form based on the format of the data. These data were divided into six categories containing the check-out data of one movie in the franchise, respectively.
+                </p>
+              </div>
+              <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 20px">
+                <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/SWN_1.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/SWN_2.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/SWN_3.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/SWN_4.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/SWN_5.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/SWN_6.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="subsection">
+            <div class="sub-title">
+              <h3>New Form</h3>
+            </div>
+            <div class="row-text-carousel">
+              <div class="text-carousel-1-3">
+                <p>
+                  For the new version, I used a smaller granularity of data, day, combined with text-based data in the visualization. So I designed a new form.
+                  <br>
+                  <br>
+                  In the coordinate system,  I used concentric circles to divide the floor. Each ring contains data from one year. And those circles were also divided into 12 sections clockwise to map the data from 12 months.
+                  Each of these sections will be further divided into smaller parts evenly for daily data.
+                </p>
+              </div>
+              <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 20px">
+                <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/Spiral.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/Sector.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="row-text-carousel">
+            <div class="text-carousel-1-3">
+              <p>
+                The data was divided into different categories and represented by different colors. The data nodes from each category will be mapped on the floor. The node's elevation from the base plane represents the corresponding daily check-out data of that category. The data nodes are connected to their neighbors from the same categories by lines.
+              </p>
+            </div>
+            <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 20px">
+              <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
+                <div class="carousel-cell-full"><img src="img/vrdataviz/Height.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                <div class="carousel-cell-full"><img src="img/vrdataviz/Neighbors.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- <div class="hmw_section" style="background-color: #FFBC25;">
+          <div class="hmw" style="text-align: ">
+              <h4 style="color: #745000;">- DESIGN OPPORTUNITY -</h4>
+              <h3 style="color: #200E32;">How might we take CCM's physical space and translate it into a digital product to spread creative confidence in children from home? </h3>
+          </div>
+        </div> -->
+      </div>
+
+      <div id="ideation_loc">
+        <section class="ideation">
+          <div class="section-title">
+            <h2>3D Interaction Design</h2>
+          </div>
+          <div class="subsection">
+            <div class="sub-title">
+              <h3>Major Interaction Tasks</h3>
+            </div>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
+                  <ul style="list-style-type:none; padding: 0px">
+                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
+                    <br>
+                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
+                    <br>
+                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
+                  </ul>
+                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
+                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/vrdataviz/PlaceHolder.png" alt="Evolution">
+                </picture>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="sub-title">
+              <h4>1. Overview</h4>
+            </div>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
+                  <ul style="list-style-type:none; padding: 0px">
+                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
+                    <br>
+                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
+                    <br>
+                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
+                  </ul>
+                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
+                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/vrdataviz/Overview.gif" alt="Evolution">
+                </picture>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="sub-title">
+              <h4>2. Zoom</h4>
+            </div>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
+                  <ul style="list-style-type:none; padding: 0px">
+                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
+                    <br>
+                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
+                    <br>
+                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
+                  </ul>
+                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
+                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/vrdataviz/PlaceHolder.png" alt="Evolution">
+                </picture>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="sub-title">
+              <h4>3. Filter</h4>
+            </div>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
+                  <ul style="list-style-type:none; padding: 0px">
+                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
+                    <br>
+                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
+                    <br>
+                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
+                  </ul>
+                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
+                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/vrdataviz/PlaceHolder.png" alt="Evolution">
+                </picture>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="sub-title">
+              <h4>4. Details-on-Demand</h4>
+            </div>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
+                  <ul style="list-style-type:none; padding: 0px">
+                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
+                    <br>
+                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
+                    <br>
+                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
+                  </ul>
+                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
+                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/vrdataviz/PlaceHolder.png" alt="Evolution">
+                </picture>
+              </div>
+            </div>
+            <br>
+            <br>
+          </div>
+
+
+          <!-- </div> -->
+        </section>
+      </div>
+
+
+      <div id="iteration_loc">
+        <section class="iteration">
+          <div class="section-title">
+            <h2>Process</h2>
+          </div>
+          <div class="subsection">
+            <div class="sub-title">
+              <h3>Processing Prototype</h3>
+            </div>
+            <div class="row-text-carousel">
+              <div class="text-carousel-1-3">
+                <p>
+
+                  Most of the testing sessions were conducted through Zoom. We used Figma, and Google Slides to facilitate the testing sessions.
+                  We gathered our feedbacks into rainbow spreadsheets and refined our design accordingly.
+                </p>
+              </div>
+              <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 60px">
+                <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/S1.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/S2.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/Code.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/P1.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/P2.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/P3.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/P4.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <!-- <div class="carousel-cell-full"><img src="img/vrdataviz/P5.png" class="carousel-cell-image-full" style="background-color: #fff"></div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="subsection">
+            <div class="sub-title">
+              <h3>Rebuilding in Unity 3D with FPS Control</h3>
+            </div>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
+                  <ul style="list-style-type:none; padding: 0px">
+                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
+                    <br>
+                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
+                    <br>
+                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
+                  </ul>
+                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
+                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                </p>
+              </div>
+              <div class="col-2-3" style="padding:20px">
+                <picture>
+                  <img src="img/vrdataviz/rebuild.gif" alt="Rebuilt in Unity">
+                </picture>
+              </div>
+            </div>
+          </div>
+
+          <div class="subsection">
+            <div class="sub-title">
+              <h3>Developing Teleporting Features in VR</h3>
+            </div>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
+                  <ul style="list-style-type:none; padding: 0px">
+                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
+                    <br>
+                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
+                    <br>
+                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
+                  </ul>
+                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
+                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/vrdataviz/PlaceHolder.png" alt="Evolution">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="subsection">
+            <div class="sub-title">
+              <h3>Assemling in VR</h3>
+            </div>
+            <div class="row-non-equal">
+              <div class="col-1-3">
+                <p>
+                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
+                  <ul style="list-style-type:none; padding: 0px">
+                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
+                    <br>
+                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
+                    <br>
+                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
+                  </ul>
+                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
+                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                </p>
+              </div>
+              <div class="col-2-3">
+                <picture>
+                  <img src="img/vrdataviz/Unity.gif" alt="Unity">
+                </picture>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div style="background-color: #8E6D61; color: white; padding-top: 30px; padding-bottom: 30px;">
+
+          </div> -->
+        </section>
+      </div>
+
+      <div id="iteration_loc">
+        <section class="iteration">
+          <div class="section-title">
+            <h2>Testing</h2>
+          </div>
+          <div class="subsection">
+            <div class="sub-title">
+              <h3>Usability Testing</h3>
+            </div>
+            <div class="row-text-carousel">
+              <div class="text-carousel-1-3">
+                <p>
+
+                  Most of the testing sessions were conducted through Zoom. We used Figma, and Google Slides to facilitate the testing sessions.
+                  We gathered our feedbacks into rainbow spreadsheets and refined our design accordingly.
+                  <!-- We started with brainstorming sessions to generate ideas.
+                  After we decided on our value proposition based on our design opportunity, we created a business model canvas for our solution. We then prioritized our ideas in a 2 by 2 matrics. -->
+                </p>
+              </div>
+              <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 60px">
+                <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
+                  <div class="carousel-cell-full"><img src="img/creativitylab/Testing-1.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/creativitylab/Testing-3.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/creativitylab/Testing-2.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/creativitylab/Rainbow.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <!-- <div style="background-color: #8E6D61; color: white; padding-top: 30px; padding-bottom: 30px;">
+
+          </div> -->
+        </section>
+      </div>
+
+      <section class="reflections">
+        <div class="section-title">
+          <h2>Reflections</h2>
+        </div>
+        <div class="paragraph">
+          <p>
+            <b>Future Steps</b>
+            <br>
+            When COVID-19 hit San Francisco in March, our design research is still in progress.
+            There are a lot of unexpected changes in this process.
+            Our major directions pivoted 4 times due to unforeseen constraints.
+            I realized that keeping an open mind for change is critical from the experience of completing this project.
+            Otherwise, we may miss the chance to leverage the advantages we still possess.
+          </p>
+          <p>
+            <b>Learning by Doing</b>
+            <br>
+            As we are a team of 5 designers, keeping everyone on the same page is necessary but difficult, not to mention facilitating remote collaborations within such an uncertain time.
+            As the team's project manager, I learned that it is essential to find the minimum level of consensus to make decisions and move forward and to make sure our effort and content are not lost in our communication.
+          </p>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+      </section>
+    </main>
+    <hr>
+    <section class="other-projects">
+      <div class="row">
+
+        <div class="project-wrapper-small" >
+          <div id="coffeechatcover" class="project-content" onclick="window.location.href= 'coffeechat.html';return false">
+            <a href="coffeechat.html">
+              <picture>
+                <img src="img/1.png" alt="Cover for CoffeeChat">
+              </picture>
+            </a>
+            <h4 onclick="window.location.href= 'coffeechat.html';return false">CoffeeChat</h4>
+            <p onclick="window.location.href= 'coffeechat.html';return false">
+              Service Design / Prototyping / Testing
+              <!-- Facilitates the connections between students and the industry. -->
+            </p>
+          </div>
+        </div>
+        <div class="project-wrapper-small" >
+              <div id="kitchencover" class="project-content" onclick="window.location.href= 'cookwith.html';return false">
+                <a href="cookwith.html">
+                  <picture>
+                    <img src="img/3.png" alt="Cover for Kitchen Inovatoin App">
+                  </picture>
+                </a>
+                <h4 onclick="window.location.href= 'cookwith.html';return false">Cookwith</h4>
+                <p onclick="window.location.href= 'cookwith.html';return false">
+                  System Design / Research / Prototyping
+                  <!-- Facilitates the connections between students and the industry. -->
+                </p>
+              </div>
+        </div>
+        <div class="project-wrapper-small" >
+              <div id="vrsmallcover" class="project-content" onclick="window.location.href= 'updating.html';return false">
+                <a href="updating.html">
+                    <picture>
+                      <img src="img/0.png" alt="Cover for VR Data Viz">
+                    </picture>
+                </a>
+                <h4 onclick="window.location.href= 'updating.html';return false">Visualizing Data in VR</h4>
+                <p onclick="window.location.href= 'updating.html';return false">
+                  3D Interface / Unity (C#) / Oculus Rift
+                </p>
+              </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- <div>
+      <picture>
+        <source srcset="img/coffeechat/cover@1.png" media="(max-width:767px)">
+        <img src="img/coffeechat/cover.png" alt="Cover for CoffeeChat">
+      </picture>
+    </div> -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-title">
+          <h2>Get in Touch</h2>
+        </div>
+        <div class="contact-btns">
+          <a href="http://www.linkedin.com/in/junxiangyao" target="_blank">
+            <div id="linkedin-btn"></div>
+          </a>
+          <a href="mailto:yaojxjason@gmail.com">
+            <div id="email-btn"></div>
+          </a>
+        </div>
+        <div style="text-align:center">
+          <p>Copyright © 2021 Junxiang Yao</p>
+        </div>
+      </div>
+    </footer>
+    <script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
