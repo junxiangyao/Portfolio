@@ -34,10 +34,10 @@
     <nav id="side">
       <ul>
         <li><a href="#intro">  <span class="dot"></span>  Introduction</a></li>
-        <li><a href="#solution_loc"><span class="dot"></span> Result</a></li>
-        <li><a href="#research_loc"><span class="dot"></span>  Research</a></li>
-        <li><a href="#ideation_loc"><span class="dot"></span>  Ideation</a></li>
-        <li><a href="#iteration_loc"><span class="dot"></span>  Iteration</a></li>
+        <li><a href="#solution_loc"><span class="dot"></span> Overview</a></li>
+        <li><a href="#research_loc"><span class="dot"></span>  Visualization</a></li>
+        <li><a href="#ideation_loc"><span class="dot"></span>  3D Interaction</a></li>
+        <li><a href="#iteration_loc"><span class="dot"></span>  Process</a></li>
       </ul>
     </nav>
     <main>
@@ -110,6 +110,7 @@
               <p>George Legrady, Tobias Hollerer, Marko Peljhan</p></li>
           </ul>
           <br>
+          <br>
           <hr>
         </section>
       </div>
@@ -147,74 +148,86 @@
   <!-- 浅绿 #A5D74D 深绿 #6E9B25 #506D22-->
   <!-- style="background-color: #506D22; color:white;" -->
           <div class="key-feature-wrapper" >
+            <div class="key-feature">
+                <h4>1.Mapping Calendar</h4>
+            </div>
             <div class="row key-feature">
-              <div class="col-1-2 feature-description">
-                <div class="">
-                  <h4>1.Mapping Calendar</h4>
+              <div class="col-1-3">
                   <p>
                     The dates from January 1st, 2005, to December 31st, 2018, are mapped on the floor. Thus, there will be a corresponding date to any location on the floor. The user can retrieve the daily data by working/teleporting to the location of a particular date.
                   </p>
-                </div>
               </div>
-              <div class="col-1-2 feature-pic">
+              <div class="col-2-3">
                 <picture >
                   <img src="img/vrdataviz/Date.gif" alt="Mapping Calendar">
                 </picture>
               </div>
             </div>
           </div>
+          <br>
+          <br>
           <div class="key-feature-wrapper" >
-            <div class="row key-feature">
-              <div class="col-1-2 feature-description">
-                <div class="">
+            <div class="key-feature">
                   <h4>2.Checking Daily Data</h4>
+            </div>
+            <div class="row key-feature">
+              <div class="col-1-3">
                   <p>
-                      Each data node floating above a specific date contains the daily data of a particular category (differentiated by different colors). The larger the daily quantitative data is, the higher the node will be. The user can hover over the node to check on the detail.
+                    Each data node floating above a specific date contains the daily data of a particular category (differentiated by different colors).
+                    The larger the daily quantitative data is, the higher the node will be.
+                    The user can hover over the node to check on the detail.
                   </p>
-                </div>
               </div>
-              <div class="col-1-2 feature-pic">
+              <div class="col-2-3">
                 <picture >
                   <img src="img/vrdataviz/Check.gif" alt="Checking Detail">
                 </picture>
               </div>
             </div>
           </div>
+          <br>
+          <br>
           <div class="key-feature-wrapper" >
+            <div class="key-feature">
+              <h4>3.Minimap</h4>
+            </div>
             <div class="row key-feature">
-              <div class="col-1-2 feature-description">
-                <div class="">
-                  <h4>3.Minimap</h4>
+              <div class="col-1-3">
                   <p>
-                    Because the size of this structure is too large for the user to observe the overview of the visualization, a minimap with a radius of 15 centimeters was attached to the left controller. This minimap contains a smaller replica of the full-scaled visualization, which enables the user to observe the overview with greater ease. They can also click on the minimap to teleport in the space.
+                    Because the size of this structure is too large for the user to observe the overview of the visualization, a minimap with a radius of 15 centimeters was attached to the left controller.
+                    This minimap contains a smaller replica of the full-scaled visualization, which enables the user to observe the overview with greater ease.
+                    They can also click on the minimap to teleport in the space.
                   </p>
-                </div>
               </div>
-              <div class="col-1-2 feature-pic">
+              <div class="col-2-3">
                 <picture >
                   <img src="img/vrdataviz/Minimap.gif" alt="Mapping Calendar">
                 </picture>
               </div>
             </div>
           </div>
+          <br>
+          <br>
           <div class="key-feature-wrapper" >
+            <div class="key-feature">
+              <h4>4.Interface for Scaling</h4>
+            </div>
             <div class="row key-feature">
-              <div class="col-1-2 feature-description">
-                <div class="">
-                  <h4>4.Interface for Scaling</h4>
+              <div class="col-1-3">
                   <p>
-                    To fill the significant gap in size between the minimap and the full-scale structure, a scaling interface that would be used to shrink the scene was added to recognize more details in the overview.  Users can also use this interface to teleport and check the daily data.
+                    To fill the significant gap in size between the minimap and the full-scale structure, a scaling interface that would be used to shrink the scene was added to recognize more details in the overview.
+                    Users can also use this interface to teleport and check the daily data.
                   </p>
-                </div>
               </div>
-              <div class="col-1-2 feature-pic">
+              <div class="col-2-3">
                 <picture >
                   <img src="img/vrdataviz/scaling.gif" alt="Mapping Calendar">
                 </picture>
               </div>
             </div>
           </div>
-
+          <br>
+          <br>
 
           <div class="paragraph">
             <div class="sub-title">
@@ -223,8 +236,8 @@
             <p>
               Here is the conceptual model that illustrates the functional components and hierarchy of this project.
             </p>
-            <picture class="full-width-img">
-              <img src="img/creativitylab/IA.png" style="padding-bottom:0"alt="Sitemap">
+            <picture >
+              <img src="img/vrdataviz/IA.png" style="padding-bottom:0"alt="Sitemap">
             </picture>
           </div>
 
@@ -329,8 +342,34 @@
             </div>
           </div>
 
+
         </section>
-        <!-- <div class="hmw_section" style="background-color: #FFBC25;">
+        <div style="background-color: #F3F3F3; padding: 40px 0;">
+          <div class="subsection" style="width:75%">
+            <div class="sub-title">
+              <h4>Advantages of the New Form</h4>
+            </div>
+            <div class="row">
+              <div class="col-1-2-l">
+                <p><b>Observable Overview</b></p>
+                <p>
+                  To show the overview of the visualization, a compact form to visualize the data is ideal since the user should be able to see the whole picture at a glance.
+                  A circular shape saves more space than other formats.
+                </p>
+              </div>
+              <div class="col-1-2-r">
+                <p><b>Enhancing Patterns</b></p>
+                <p>
+                  Periodic patterns are more apparent in a spiral or circular structure.
+                  This structure compares the data from the same date in different years, which is a goal inherited from the earlier version.
+                  The lines connecting all neighbors of the nodes bring more comparisons and thus intensify the pattern visually.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="hmw_section" >
           <div class="hmw" style="text-align: ">
               <h4 style="color: #745000;">- DESIGN OPPORTUNITY -</h4>
               <h3 style="color: #200E32;">How might we take CCM's physical space and translate it into a digital product to spread creative confidence in children from home? </h3>
@@ -350,21 +389,17 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
-                  <ul style="list-style-type:none; padding: 0px">
-                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
-                    <br>
-                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
-                    <br>
-                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
-                  </ul>
+                  According to Ben Shneiderman's famous paper, <em>The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations</em>,
+                  there are 7 major interaction tasks in data visualization applications in general.
+                  This project used the includes the first 4 tasks.
+                  And I realized these interaction tasks in VR based on the form and the space.
                   <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
                   I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
                 </p>
               </div>
               <div class="col-2-3">
                 <picture>
-                  <img src="img/vrdataviz/PlaceHolder.png" alt="Evolution">
+                  <img src="img/vrdataviz/Tasks.png" alt="Evolution">
                 </picture>
               </div>
             </div>
@@ -376,21 +411,16 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
-                  <ul style="list-style-type:none; padding: 0px">
-                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
-                    <br>
-                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
-                    <br>
-                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
-                  </ul>
+                  The minimap attached to the Oculus left controller will provide an overview of the entire visualization.
+                  The user could observe the overview just like looking at a wristwatch to check the time. Once the user found any interesting pattern,
+                  he/she can teleport to that location to check the detail.
                   <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
                   I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
                 </p>
               </div>
               <div class="col-2-3">
                 <picture>
-                  <img src="img/vrdataviz/Overview.gif" alt="Evolution">
+                  <img src="img/vrdataviz/Overview.png" alt="Evolution">
                 </picture>
               </div>
             </div>
@@ -402,21 +432,13 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
-                  <ul style="list-style-type:none; padding: 0px">
-                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
-                    <br>
-                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
-                    <br>
-                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
-                  </ul>
-                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
-                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                  To check the detail, the user can walk or teleport in the visualization.
+                  I also added a scaling interface. The user could use it to shrink the large-scale graphics down to anywhere from ten to thirty percent of its original size.
                 </p>
               </div>
               <div class="col-2-3">
                 <picture>
-                  <img src="img/vrdataviz/PlaceHolder.png" alt="Evolution">
+                  <img src="img/vrdataviz/Zoom.png" alt="Evolution">
                 </picture>
               </div>
             </div>
@@ -428,21 +450,14 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
-                  <ul style="list-style-type:none; padding: 0px">
-                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
-                    <br>
-                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
-                    <br>
-                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
-                  </ul>
-                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
-                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                  The users can use the buttons to show and hide lines based on the month, year, and movie they belong to.
+                  These buttons and UI components were located on a virtual plane attached to the left hand.
+                  This virtual plane will remain hidden unless the user activates it using the controller.
                 </p>
               </div>
               <div class="col-2-3">
                 <picture>
-                  <img src="img/vrdataviz/PlaceHolder.png" alt="Evolution">
+                  <img src="img/vrdataviz/Filter.png" alt="Evolution">
                 </picture>
               </div>
             </div>
@@ -454,21 +469,12 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
-                  <ul style="list-style-type:none; padding: 0px">
-                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
-                    <br>
-                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
-                    <br>
-                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
-                  </ul>
-                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
-                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                  The user could use the ray-pointer to point to the data nodes to check the detail of the data, similar to the mouse-hovering and tooltips on desktop applications.
                 </p>
               </div>
               <div class="col-2-3">
                 <picture>
-                  <img src="img/vrdataviz/PlaceHolder.png" alt="Evolution">
+                  <img src="img/vrdataviz/Details_on_demand.png" alt="Evolution">
                 </picture>
               </div>
             </div>
@@ -494,9 +500,10 @@
             <div class="row-text-carousel">
               <div class="text-carousel-1-3">
                 <p>
-
-                  Most of the testing sessions were conducted through Zoom. We used Figma, and Google Slides to facilitate the testing sessions.
-                  We gathered our feedbacks into rainbow spreadsheets and refined our design accordingly.
+                  I started with converting my sketch and ideas into code.
+                  I used Processing to build the visualization prototype.
+                  From the process, I learned the limitations of interacting with multidimensional data visualization through a 2D screen, as zooming and changing focus are very tricky with mouse and keyboard.
+                  This could easily be solved by using VR and 3D Interaction.
                 </p>
               </div>
               <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 60px">
@@ -521,16 +528,8 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
-                  <ul style="list-style-type:none; padding: 0px">
-                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
-                    <br>
-                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
-                    <br>
-                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
-                  </ul>
-                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
-                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                  Then I transferred the Processing code into C# in Unity 3D.
+                  I used the first-person shooting (FPS) camera from Unity's developing asset and the keyboard control to prototype the experience of walking around inside the visualization.
                 </p>
               </div>
               <div class="col-2-3" style="padding:20px">
@@ -548,21 +547,15 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
-                  <ul style="list-style-type:none; padding: 0px">
-                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
-                    <br>
-                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
-                    <br>
-                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
-                  </ul>
-                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
-                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                  As the interaction logic changed drastically from 2D screen to 3D space, I experimented and developed several C# scripts for teleporting, including the minimap.
+                  And I connected Oculus Rift to Unity to see the result from here.
+                  Teleporting is essential to this project's interaction as it is the main method for users to retrieve data.
+                  It can also reduce the possibility of cyber-sickness.
                 </p>
               </div>
-              <div class="col-2-3">
+              <div class="col-2-3" style="padding:20px">
                 <picture>
-                  <img src="img/vrdataviz/PlaceHolder.png" alt="Evolution">
+                  <img src="img/vrdataviz/Teleporting.png" alt="Teleporting">
                 </picture>
               </div>
             </div>
@@ -574,19 +567,10 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
-                  <ul style="list-style-type:none; padding: 0px">
-                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
-                    <br>
-                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
-                    <br>
-                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
-                  </ul>
-                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
-                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
+                  I merged the data visualization scene and the teleporting scene into the final VR space. Next, I wrote the C# scripts for the remaining interaction tasks with Oculus Rift Connected.
                 </p>
               </div>
-              <div class="col-2-3">
+              <div class="col-2-3" style="padding:20px">
                 <picture>
                   <img src="img/vrdataviz/Unity.gif" alt="Unity">
                 </picture>
@@ -606,25 +590,33 @@
             <h2>Testing</h2>
           </div>
           <div class="subsection">
-            <div class="sub-title">
+            <!-- <div class="sub-title">
               <h3>Usability Testing</h3>
-            </div>
+            </div> -->
             <div class="row-text-carousel">
               <div class="text-carousel-1-3">
                 <p>
-
-                  Most of the testing sessions were conducted through Zoom. We used Figma, and Google Slides to facilitate the testing sessions.
-                  We gathered our feedbacks into rainbow spreadsheets and refined our design accordingly.
+                  I did 2 rounds of iteration with 2 rounds of testing.
+                  <!-- The first round is with my advisors and coleagues. -->
+                  The second round of testing is conducted during a exhibition, I asked the visitors to do some tasks in the VR space and fill out a google form.
+                  <br>
+                  <br>
+                  From the 16 forms I received, users didn't feel dizziness bothering them while they were using the application.
+                  However, since VR is still a new field that many users may not have yet experienced, there is a learning curve for people to use VR applications.
+                  Feedback suggests adding more tutorials, like instruction animations, at the beginning.
                   <!-- We started with brainstorming sessions to generate ideas.
                   After we decided on our value proposition based on our design opportunity, we created a business model canvas for our solution. We then prioritized our ideas in a 2 by 2 matrics. -->
                 </p>
               </div>
               <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 60px">
                 <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Testing-1.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Testing-3.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Testing-2.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Rainbow.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/Testing 1.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/Testing 2.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/Result 1.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/Result 2.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/Result 3.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/Result 4.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/vrdataviz/Result 5.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
                 </div>
               </div>
             </div>
@@ -637,6 +629,11 @@
           </div> -->
         </section>
       </div>
+      <div class="">
+        <picture>
+          <img src="img/vrdataviz/SW Reading.png" alt="SW Reading Day">
+        </picture>
+      </div>
 
       <section class="reflections">
         <div class="section-title">
@@ -646,17 +643,18 @@
           <p>
             <b>Future Steps</b>
             <br>
-            When COVID-19 hit San Francisco in March, our design research is still in progress.
-            There are a lot of unexpected changes in this process.
-            Our major directions pivoted 4 times due to unforeseen constraints.
-            I realized that keeping an open mind for change is critical from the experience of completing this project.
-            Otherwise, we may miss the chance to leverage the advantages we still possess.
+            This project was done before I studied interaction design at California College of the Arts.
+            Thus, there are several usability issues revealed from testing that could be solved using human-centered design methods.
+            Also, I couldn't find better datasets that contain clearer insights into human behavior due to time constraints.
+            I will explore more datasets and topics and update this project to add more reflective values to this project.
           </p>
           <p>
             <b>Learning by Doing</b>
             <br>
-            As we are a team of 5 designers, keeping everyone on the same page is necessary but difficult, not to mention facilitating remote collaborations within such an uncertain time.
-            As the team's project manager, I learned that it is essential to find the minimum level of consensus to make decisions and move forward and to make sure our effort and content are not lost in our communication.
+            The process of developing this project is my journey of learning Unity 3D and its C# scripts.
+            This is the first time I started to work on an entirely new software and coding language without much preparation.
+            I enjoyed this learning by doing process as I learned things fast this way.
+            I think it is similar to the logic behind rapid prototyping: constant and early feedback from trying is essential to make progress.
           </p>
           <br>
           <br>
@@ -697,20 +695,21 @@
                 </p>
               </div>
         </div>
+
         <div class="project-wrapper-small" >
-              <div id="vrsmallcover" class="project-content" onclick="window.location.href= 'updating.html';return false">
-                <a href="updating.html">
+              <div id="ccmcover" class="project-content" onclick="window.location.href= 'updating.html';return false">
+                <a href="creativitylab.html">
                     <picture>
-                      <img src="img/0.png" alt="Cover for VR Data Viz">
+                      <img style="border-radius: 25px;" src="img/2.png" alt="Cover for Creativity for Children">
                     </picture>
                 </a>
-                <h4 onclick="window.location.href= 'updating.html';return false">Visualizing Data in VR</h4>
-                <p onclick="window.location.href= 'updating.html';return false">
-                  3D Interface / Unity (C#) / Oculus Rift
+                <h4 onclick="window.location.href= 'creativitylab.html';return false">Children's Creativity App</h4>
+                <p onclick="window.location.href= 'creativitylab.html';return false">
+                  Social Innovation / Prototyping / Testing
+                  <!-- Facilitates the connections between students and the industry. -->
                 </p>
               </div>
         </div>
-
       </div>
     </section>
 

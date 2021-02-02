@@ -228,8 +228,19 @@ main {
   /* background-color: #ffe4c4; */
   padding: 20px 0;
   display: inline-block;
-  width: 100%;
+  margin: 0 auto;
+  width:100%;
 }
+
+#hero .container {
+  margin: 0 auto;
+  width: 86%;
+}
+
+#hero .container h1,h2{
+  line-height:1.8;
+}
+
 
 nav{
   display: inline-block;
@@ -1033,7 +1044,7 @@ Large devices (1024px or larger)
 
   #hero {
     /* background-color: #ffe4c4; */
-    padding: 30px 0 100px 0;
+    /* padding: 30px 0 100px 0; */
   }
 
   header {
