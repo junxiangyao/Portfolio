@@ -10,6 +10,9 @@ img {
   padding-top:72px;
   /* padding-bottom:36px; */
 }
+b{
+  font-weight: 600;
+}
 
 hr{
     border: 0;
@@ -46,6 +49,11 @@ h2 {
   margin-bottom:50px;
 }
 
+#hero  h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom:20px;
+}
 h3 {
   font-size: 1.5em;
   font-weight: 400;
@@ -572,6 +580,9 @@ section {
   text-align: center;
 }
 
+.footer-title h2{
+  margin-bottom: 16px;
+}
 .contact-btns{
   text-align: center;
   margin: 0 auto;

@@ -401,7 +401,7 @@ p ol li{
 }
 
 .col-2-3-t{
-  flex-basis: 67%;
+  flex-basis: 64%;
   /* justify-content: space-around; */
   /* align-items: center; */
 }
