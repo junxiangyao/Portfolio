@@ -6,7 +6,7 @@
     <meta name="description" content="Digitalizing the coffee chats between students and professionals">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Visualizing Time-Oriented  Data in VR</title>
-    <link rel="shortcut icon" href="img/Yao_VR.png"/>
+    <link rel="shortcut icon" href="img/LOGO.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/casestudy.css">
@@ -18,7 +18,7 @@
       <div class="container">
         <div class="navtoggle" id="myNavtoggle">
           <div class="logo">
-            <a href="index.html"> <span class=""><b>JUNXIANG YAO</b></span></a>
+            <a href="index.html"> <img src="img/LOGO.png" alt="" style="max-width:32px; display:block"></a>
           </div>
           <nav class="stroke">
             <ul>
@@ -42,7 +42,7 @@
     </nav>
     <main>
       <div style="
-        background-image: url('../img/5.png');
+        background-image: url('../img/vrdataviz/Cover.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -50,9 +50,10 @@
         <div class="introduction" >
 
 
-              <div class="title" style="text-align:center; padding-top:25%">
+              <div class="title" style="text-align:left; padding-top:25%">
                 <h1>Visualizing Time-Oriented Data in VR</h1>
-                <h5>3D Interaction Design & Spatial Image-Making </h5>
+                <h5>A 3D interaction design and spatial image-Making project, <br>
+                   driven by <b>Oculus Rift</b> and <b>Unity 3D</b>.</h5>
 
                 <!-- <p> <b>May 2020 - July 2020</b></p> -->
               </div>
@@ -266,8 +267,8 @@
                   To explore image-making in virtual reality and figure out a solution to visualize multidimensional data, I used both numeric and text-based datasets.
                   <br>
                   <br>
-                  The data used in this project are daily check-out data of the Star Wars movies retrieved from the Seattle Public Library (SPL) and the local news headlines on corresponding dates from the Seattle Times.
-                  I retrieved the desired numeric dataset in MySQL Workbench and saved them in CSV files.
+                  The data used in this project are <b>daily check-out data of the Star Wars movies</b> retrieved from the <b>Seattle Public Library (SPL)</b> and the local news headlines on corresponding dates from the <b>Seattle Times</b>.
+                  I retrieved the desired numeric dataset in <b>MySQL</b> Workbench and saved them in <b>CSV</b> files.
                 </p>
               </div>
               <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 20px">
@@ -286,7 +287,7 @@
               <div class="text-carousel-1-3">
                 <p>
                   This project is based on the <a href="/starWarsNebula/index.html"> <b>Star Wars Nebula</b></a>, an earlier data visualization work I created in 2016, using the same dataset from SPL.
-                  The goal was to reveal the pattern of the check-out times and the borrowing duration of the items related to the movies in the Star Wars franchise and to design an innovative way to present numeric data.
+                  The goal was to <b>reveal the pattern of the check-out times and the borrowing duration</b> of the items related to the movies in the Star Wars franchise and to design an innovative way to present numeric data.
                   <br>
                   <br>
                   In the visualization, two levels of temporal granularity (year and month) were used in designing the form based on the format of the data. These data were divided into six categories containing the check-out data of one movie in the franchise, respectively.
@@ -391,7 +392,7 @@
                 <p>
                   According to Ben Shneiderman's famous paper, <em>The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations</em>,
                   there are 7 major interaction tasks in data visualization applications in general.
-                  This project used the includes the first 4 tasks.
+                  This project used the includes the first 4 tasks: <b>Overview</b>, <b>Zoom</b>, <b>Filter</b>, and <b>Details-on-Demand</b>.
                   And I realized these interaction tasks in VR based on the form and the space.
                   <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
                   I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
@@ -411,9 +412,9 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  The minimap attached to the Oculus left controller will provide an overview of the entire visualization.
+                  The <b>minimap</b> attached to the Oculus left controller will provide an overview of the entire visualization.
                   The user could observe the overview just like looking at a wristwatch to check the time. Once the user found any interesting pattern,
-                  he/she can teleport to that location to check the detail.
+                  he/she can <b>teleport</b> to that location to check the detail <b>by clicking on the minimap</b>.
                   <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
                   I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
                 </p>
@@ -432,8 +433,8 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  To check the detail, the user can walk or teleport in the visualization.
-                  I also added a scaling interface. The user could use it to shrink the large-scale graphics down to anywhere from ten to thirty percent of its original size.
+                  To check the detail, the user can <b>walk or teleport</b> in the visualization.
+                  I also added a <b>scaling</b> interface. The user could use it to shrink the large-scale graphics down to anywhere from ten to thirty percent of its original size.
                 </p>
               </div>
               <div class="col-2-3">
@@ -451,7 +452,7 @@
               <div class="col-1-3">
                 <p>
                   The users can use the buttons to show and hide lines based on the month, year, and movie they belong to.
-                  These buttons and UI components were located on a virtual plane attached to the left hand.
+                  These <b>buttons</b> and <b>UI components</b> were located on a virtual plane attached to the left hand.
                   This virtual plane will remain hidden unless the user activates it using the controller.
                 </p>
               </div>
@@ -469,7 +470,7 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  The user could use the ray-pointer to point to the data nodes to check the detail of the data, similar to the mouse-hovering and tooltips on desktop applications.
+                  The user could use the <b>ray-pointer</b> to point to the data nodes to check the detail of the data, <b>similar to the mouse-hovering</b> and tooltips on desktop applications.
                 </p>
               </div>
               <div class="col-2-3">
@@ -495,15 +496,17 @@
           </div>
           <div class="subsection">
             <div class="sub-title">
-              <h3>Processing Prototype</h3>
+              <h3>Starting with Developing a Processing Prototype</h3>
             </div>
             <div class="row-text-carousel">
               <div class="text-carousel-1-3">
                 <p>
                   I started with converting my sketch and ideas into code.
                   I used Processing to build the visualization prototype.
-                  From the process, I learned the limitations of interacting with multidimensional data visualization through a 2D screen, as zooming and changing focus are very tricky with mouse and keyboard.
-                  This could easily be solved by using VR and 3D Interaction.
+                  From the process, I learned the limitations of interacting with multidimensional data visualization through a 2D screen, as <b>zooming and changing focus are very tricky with mouse and keyboard.
+                    <br>
+                    <br>
+                  This could easily be solved by using VR and 3D Interaction.</b>
                 </p>
               </div>
               <div class="carousel-2-3" style="margin-top: 20px; margin-bottom: 60px">
@@ -530,6 +533,9 @@
                 <p>
                   Then I transferred the Processing code into C# in Unity 3D.
                   I used the first-person shooting (FPS) camera from Unity's developing asset and the keyboard control to prototype the experience of walking around inside the visualization.
+                  <br>
+                  <br>
+                  <b>The result showed that changing focus became easier since users now have the freedom to move around and look at where ever they want in the space.</b>
                 </p>
               </div>
               <div class="col-2-3" style="padding:20px">
@@ -547,8 +553,10 @@
             <div class="row-non-equal">
               <div class="col-1-3">
                 <p>
-                  As the interaction logic changed drastically from 2D screen to 3D space, I experimented and developed several C# scripts for teleporting, including the minimap.
-                  And I connected Oculus Rift to Unity to see the result from here.
+                  As <b>the interaction logic changed drastically from 2D screen to 3D space</b>, I experimented and developed several C# scripts for teleporting, including the minimap.
+                  And I connected Oculus Rift to Unity to check the results.
+                  <br>
+                  <br>
                   Teleporting is essential to this project's interaction as it is the main method for users to retrieve data.
                   It can also reduce the possibility of cyber-sickness.
                 </p>
@@ -562,7 +570,7 @@
           </div>
           <div class="subsection">
             <div class="sub-title">
-              <h3>Assembling in VR</h3>
+              <h3>Developing Features in VR</h3>
             </div>
             <div class="row-non-equal">
               <div class="col-1-3">
@@ -603,7 +611,7 @@
                   <br>
                   From the 16 forms I received, users didn't feel dizziness bothering them while they were using the application.
                   However, since VR is still a new field that many users may not have yet experienced, there is a learning curve for people to use VR applications.
-                  Feedback suggests adding more tutorials, like instruction animations, at the beginning.
+                  <b>Feedback suggests adding more tutorials, like instruction animations, at the beginning.</b>
                   <!-- We started with brainstorming sessions to generate ideas.
                   After we decided on our value proposition based on our design opportunity, we created a business model canvas for our solution. We then prioritized our ideas in a 2 by 2 matrics. -->
                 </p>
@@ -674,14 +682,14 @@
                 <img src="img/1.png" alt="Cover for CoffeeChat">
               </picture>
             </a>
-            <h4 onclick="window.location.href= 'coffeechat.html';return false">CoffeeChat</h4>
+          </div>
+          <div class="small-info">
+            <h4><a href="coffeechat.html">CoffeeChat</a></h4>
             <p onclick="window.location.href= 'coffeechat.html';return false">
-              End-to-end / Mobile / Prototyping / Testing
-              <!-- Facilitates the connections between students and the industry. -->
+              End-to-end | Prototyping | Testing
             </p>
           </div>
         </div>
-
         <div class="project-wrapper-small" >
               <div id="ccmcover" class="project-content" onclick="window.location.href= 'creativitylab.html';return false">
                 <a href="creativitylab.html">
@@ -689,11 +697,11 @@
                       <img style="border-radius: 25px;" src="img/2.png" alt="Cover for Creativity for Children">
                     </picture>
                 </a>
-                <h4 onclick="window.location.href= 'creativitylab.html';return false">Children's Creativity App</h4>
+              </div>
+              <div class="small-info">
+                <h4><a href="creativitylab.html">Children's Creativity App</a></h4>
                 <p onclick="window.location.href= 'creativitylab.html';return false">
-                   Client Project / Mobile / UX Design
-                  <!-- Facilitates the connections between students and the industry. -->
-                </p>
+                Client Project | Mobile | UX Design  </p>
               </div>
         </div>
 
@@ -704,15 +712,13 @@
                     <img src="img/3.png" alt="Cover for Kitchen Inovatoin App">
                   </picture>
                 </a>
-                <h4 onclick="window.location.href= 'cookwith.html';return false">Cookwith</h4>
+              </div>
+              <div class="small-info">
+                <h4><a href="cookwith.html">Cookwith</a></h4>
                 <p onclick="window.location.href= 'cookwith.html';return false">
-                    Experience Design / Mobile / Prototyping
-                  <!-- Facilitates the connections between students and the industry. -->
-                </p>
+                Experience Design | Prototyping    </p>
               </div>
         </div>
-
-
       </div>
     </section>
 

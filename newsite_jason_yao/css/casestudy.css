@@ -10,6 +10,7 @@
 }
 
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -521,6 +522,39 @@ p ol li{
 row ol li{
   padding: 8px 0;
 }
+
+.small-info{
+  padding:20px 6px;
+}
+
+h4 a,
+h4 a:after,
+h4 a:before {
+  transition: all .5s;
+}
+
+h4 a{
+  position: relative;
+}
+
+h4 a:after{
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  /* background: #fdfdfd; */
+  height: 2px;
+}
+
+h4 a:hover:after {
+  width: 100%;
+}
+
 
 
 
