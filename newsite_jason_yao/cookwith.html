@@ -42,7 +42,7 @@
     </nav>
     <main>
       <div style="background-color:#FA5316;color:white" class="hero-section">
-        <div class="introduction" >
+        <div class="introduction case-study-container" >
           <div class="row-non-equal">
             <div class="col-1-2">
               <div class="title">
@@ -53,7 +53,7 @@
             </div>
             <div class="col-1-2 cover-img-top">
               <picture>
-                <img src="img/cookwith/cover.png" alt="cover">
+                <img class="hero-mock-up" src="img/cookwith/cover.png" alt="cover">
               </picture>
             </div>
           </div>
@@ -66,7 +66,7 @@
         </picture>
       </div> -->
       <div id="intro">
-        <section class="introduction">
+        <section class="introduction case-study-container">
           <!-- <h4>Introduction</h4> -->
 
           <ul id="hori">
@@ -118,7 +118,7 @@
           <br>
           <hr>
         </section>
-        <section>
+        <section class="case-study-container">
             <div class="section-title">
               <h2>
                 Challenge
@@ -133,7 +133,7 @@
         </section>
 
         <div class="hmw_section" style="background-color: #FA5316; color:white">
-          <div class="hmw">
+          <div class="hmw case-study-container">
             <h4 style="color: #FFE0D7">PROBLEM STATEMENT</h4>
               <h3>How might we reduce the stress in trying a new recipe so that they can enjoy the experience more?</h3>
           </div>
@@ -142,7 +142,7 @@
 
 
       <div id="solution_loc">
-              <section>
+              <section class="case-study-container">
                 <div class="section-title" >
                   <h2>Solution</h2>
                 </div>
@@ -161,7 +161,7 @@
           			</div>
               </section>
 
-              <section class="">
+              <section class="container">
                 <!-- <div class="section-title">
                   <h2>Key Features</h2>
                 </div> -->
@@ -169,7 +169,7 @@
                   <div class="row key-feature">
                     <div class="col-1-2 feature-pic">
                       <picture >
-                        <img src="img/cookwith/KF1.png" alt="Flexible">
+                        <img class="key-feature-img" src="img/cookwith/KF1.png" alt="Flexible">
                       </picture>
                     </div>
                     <div class="col-1-2 feature-description">
@@ -199,7 +199,7 @@
                     </div>
                     <div class="col-1-2 feature-pic">
                       <picture>
-                        <img src="img/cookwith/KF2.png" alt="Recipe Broken Down">
+                        <img class="key-feature-img"  src="img/cookwith/KF2.png" alt="Recipe Broken Down">
                       </picture>
                     </div>
                   </div>
@@ -209,7 +209,7 @@
                   <div class="row key-feature">
                     <div class="col-1-2 feature-pic">
                       <picture>
-                        <img src="img/cookwith/KF3.png" alt="Notification">
+                        <img class="key-feature-img"  src="img/cookwith/KF3.png" alt="Notification">
                       </picture>
                     </div>
                     <div class="col-1-2 feature-description">
@@ -229,7 +229,7 @@
 
       <div id="research_loc">
         <div style="background-color: #FFF8F5; padding: 30px 0;">
-          <section class="research" style="margin-bottom:0;">
+          <section class="research case-study-container" style="margin-bottom:0;">
             <div class="section-title">
               <h2>Research</h2>
             </div>
@@ -444,14 +444,14 @@
             </div> -->
 
             <div class="hmw_section" style="background-color: #FA5316; ">
-              <div class="hmw" style="color: white; ">
+              <div class="hmw case-study-container" style="color: white; ">
                   <h4 style="color: #FFE0D7">DESIGN OPPORTUNITY #1</h4>
                   <h3>How might we reduce the communication gap of following a recipe while cooking?</h3>
               </div>
             </div>
 
 
-          <section class="research">
+          <section class="research case-study-container">
             <div class="subsection" style="margin-top: 100px">
               <div class="sub-title">
                 <h3>
@@ -491,7 +491,7 @@
           </section>
         </div>
           <div class="hmw_section" style="background-color: #FA5316; ">
-            <div class="hmw" style="color: white; ">
+            <div class="hmw case-study-container" style="color: white; ">
                 <h4 style="color: #FFE0D7"> DESIGN OPPORTUNITY #2</h4>
                 <h3>How might we achieve a balance between guidance and flexibility in our solution?</h3>
             </div>
@@ -499,7 +499,7 @@
       </div>
 
       <div id="ideation_loc">
-        <section class="ideation">
+        <section class="ideation case-study-container">
           <div class="section-title">
             <h2>Ideation</h2>
           </div>
@@ -690,7 +690,7 @@
       </div>
 
       <div id="iteration_loc">
-        <section class="iteration">
+        <section class="iteration case-study-container">
           <div class="section-title">
             <h2>Iteration</h2>
           </div>
@@ -808,7 +808,7 @@
           </div>
         </div>
       </div>
-      <section class="reflections">
+      <section class="reflections case-study-container">
         <div class="section-title">
           <h2>Reflections</h2>
         </div>
@@ -837,20 +837,27 @@
       </div> -->
 
     </main>
-    <!-- <br>
-    <br>
-    <br> -->
+  <section class="case-study-container">
     <hr>
+  </section>
 
-    <!-- <div>
-      <picture>
-        <source srcset="img/coffeechat/cover@1.png" media="(max-width:767px)">
-        <img src="img/coffeechat/cover.png" alt="Cover for CoffeeChat">
-      </picture>
-    </div> -->
-
-    <section class="other-projects">
+    <section class="other-projects case-study-container">
       <div class="row">
+
+        <div class="project-wrapper-small" >
+              <div id="ccmcover" class="project-content" onclick="window.location.href= 'creativitylab.html';return false">
+                <a href="creativitylab.html">
+                    <picture>
+                      <img style="border-radius: 25px;" src="img/2.png" alt="Cover for Creativity for Children">
+                    </picture>
+                </a>
+              </div>
+              <div class="small-info">
+                <h4><a href="creativitylab.html">Children's Creativity App</a></h4>
+                <p onclick="window.location.href= 'creativitylab.html';return false">
+                End-to-end | Strategy | Education   </p>
+              </div>
+        </div>
 
         <div class="project-wrapper-small" >
           <div id="coffeechatcover" class="project-content" onclick="window.location.href= 'coffeechat.html';return false">
@@ -863,25 +870,9 @@
           <div class="small-info">
             <h4><a href="coffeechat.html">CoffeeChat</a></h4>
             <p onclick="window.location.href= 'coffeechat.html';return false">
-              End-to-end | Prototyping | Testing
+              End-to-end | Strategy | Career Development
             </p>
           </div>
-        </div>
-
-        <div class="project-wrapper-small" >
-              <div id="ccmcover" class="project-content" onclick="window.location.href= 'creativitylab.html';return false">
-                <a href="creativitylab.html">
-                    <picture>
-                      <img style="border-radius: 25px;" src="img/2.png" alt="Cover for Creativity for Children">
-                    </picture>
-                </a>
-              </div>
-              <div class="small-info">
-                <!-- <h5 style="color:#4AB2C5; font-weight:700;">UX/UI Consultant</h5> -->
-                <h3><a href="creativitylab.html">Children's Creativity App</a></h3>
-                <p onclick="window.location.href= 'creativitylab.html';return false">
-                Client Project | Mobile | UX Design  </p>
-              </div>
         </div>
 
 
@@ -897,7 +888,7 @@
               <div class="small-info">
                 <h4><a href="vrdataviz.html">Visualizing Data in VR</a></h4>
                 <p onclick="window.location.href= 'vrdataviz.html';return false">
-                  3D Interface | Unity (C#) | Oculus Rift
+                  Spatial UI | Unity (C#) | Oculus Rift
                 </p>
               </div>
 

@@ -40,26 +40,30 @@
     <br>
     <div id="hero">
       <div class="container">
-        <br>
-        <br>
-        <br>
-        <h1 style="font-weight:500">Hi! I am Jason, a Product Designer who codes.
-          <!-- Hi, I am Jason!
-I am a Product/UX designer who has experience with web, mobile, data viz and AR/VR.
-For my next gig, I am looking to be a part of future tech that enables me to build something exciting for my community. -->
-
-<!--   Previously experienced in mobile, web, data viz, AR/VR. -->
-
-<!-- I am currently looking to be a part of future tech, something that enables me to build exciting products for my audience. -->
-<!-- -->
-        <span style="font-weight:300; font-size:20px; padding-top: 8px; padding-bottom: 16px">I am currently designing the user experience for The Programming Foundation's website and learning platform. Previously, I worked with WanderKit, the Children's Creativity Museum, and CivicMakers.</span>
-        <span style="font-weight:300; font-size:20px;">I have designed digital interactive experience for 5+ years, and worked on solving problems in <a href="coffeechat.html">mentor pairing</a>, <a href="creativitylab.html">education</a>, <a href="cookwith.html">cooking</a>, communication, and visualizing information in 3D and AR/<a href="vrdataviz.html">VR</a>.</span>
-          <!-- <span style="font-weight:300; font-size:20px; line-height: 4.0">Previously experienced in mobile, web, SaaS, Data Visualization, and AR/VR. </span> -->
-        </h1>
-
-
-        <!-- <canvas id="canvas" width="300" height="300"></canvas> -->
-        <!-- <p></p> -->
+        <div class="hero-flex">
+          <div class="hero-text">
+            <h1 style="font-weight:700; color:#543AF6">
+            <span>
+              Hi! I am Jason Yao,
+            </span> 
+            <span style="font-weight:400; color:#666666">
+            a UX/UI Designer who codes. 
+            </span> 
+            <p style="font-weight:400; font-size:20px; color:#333333"> 
+               I am currently designing digital user experience at Momentum Design Lab with 3+ years designing software product.
+            <span id="additional_text">
+               Worked in fintech, cybersecurity, education, telecommunication, and visualizing data in 3D and AR/VR.</span>
+            </p>
+          </div>
+          <div class="hero-img">
+           <!--  <picture> -->
+               <img src="img/selfportrait.svg" alt="Hello!">
+            <!-- </picture> -->
+          </div>
+        </div>
+      </div>
+      <div class="scroll_down">
+        <img src="img/scroll_down.svg" alt="Scroll to Explore">
       </div>
     </div>
     <br>
@@ -67,9 +71,89 @@ For my next gig, I am looking to be a part of future tech that enables me to bui
     <br>
     <!-- <br> -->
   </main>
-  <main style="padding-bottom:90px">
-    <div id="work-section" style="padding-top: 88px; margin-top: -88px;">
+  <main style="padding-bottom:90px" >
+    <div id="work-section" style="padding-top: 88px; margin-top: -88px;" class="container" >
       <div class="project-wrapper-flex" >
+        <div id="eccover" class="project-content cover-flex" onclick="window.location.href= '#';return false">
+          <a href="#">
+              <picture>
+                <img style="border-radius: 12px;" src="img/0.png" alt="Cover for Emergency Call Handler">
+              </picture>
+          </a>
+          <!-- <h3 onclick="window.location.href= 'creativitylab.html';return false">Children's Creativity App</h3>
+          <p onclick="window.location.href= 'creativitylab.html';return false">
+            Client Project / Mobile / UX Design
+          </p> -->
+        </div>
+        <div class="project-info info-flex-r">
+          <h5 style="color:#00529b; font-weight:700;">Product Design for 911 Software Provider</h5>
+          <h2><a href="#">Emergency Call Handling Platform</a></h2>
+          <p onclick="window.location.href= '#';return false">
+            SAAS | END-TO-END PRODUCT DESIGN | Telecommunication
+          </p>
+          <p onclick="window.location.href= '#';return false">
+            Facilitating and streamlining the 911 call handling experience to deliver instructions and dispatch resources to callers.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-wrapper-flex" >
+        <div class="project-info info-flex-l">
+          <h5 style="color:#BD462E; font-weight:700;">Coalfire</h5>
+          <h2><a href="coalfire.html">Revolutionizing Compliance and Auditing</a></h2>
+          <p onclick="window.location.href= 'coalfire.html';return false">
+            SAAS | UX/UI DESIGN | CYBERSECURITY
+          </p>
+          <p onclick="window.location.href= 'coalfire.html';return false">
+            Transforming Coalfire's current Audit, Risk, and Compliance platform into an intuitive compliance tracking experience.
+          </p>
+        </div>
+        <div id="cfcover" class="project-content cover-flex" onclick="window.location.href= 'coalfire.html';return false">
+          <a href="coalfire.html">
+            <picture>
+              <img src="img/0.png" alt="Cover for Coalfire">
+            </picture>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-wrapper-flex" >
+        <div id="ccmcover" class="project-content cover-flex" onclick="window.location.href= 'creativitylab.html';return false">
+          <a href="creativitylab.html">
+              <picture>
+                <img style="border-radius: 12px;" src="img/0.png" alt="Cover for Creativity for Children">
+              </picture>
+          </a>
+          <!-- <h3 onclick="window.location.href= 'creativitylab.html';return false">Children's Creativity App</h3>
+          <p onclick="window.location.href= 'creativitylab.html';return false">
+            Client Project / Mobile / UX Design
+          </p> -->
+        </div>
+        <div class="project-info info-flex-r">
+          <h5 style="color:#4AB2C5; font-weight:700;">Children's Creativity Museum</h5>
+          <h2><a href="creativitylab.html">Children's Creativity App</a></h2>
+          <p onclick="window.location.href= 'creativitylab.html';return false">
+            END-TO-END PRODUCT DESIGN | PRODUCT STRATEGY | EDUCATION
+          </p>
+          <p onclick="window.location.href= 'creativitylab.html';return false">
+            A platform that fosters creativity through activity prompts, curated content, and documentation of children's creative growth.
+            <!-- A platform that fosters creativity through activity prompts, curated content, and documentation of children's creative growth. -->
+          </p>
+        </div>
+      </div>
+
+      <div class="project-wrapper-flex" >
+        <div class="project-info info-flex-l">
+          <h5 style="color:#6400FF; font-weight:700;">Self-Directed Project</h5>
+          <h2><a href="coffeechat.html">CoffeeChat</a></h2>
+          <p onclick="window.location.href= 'coffeechat.html';return false">
+            END-TO-END PRODUCT DESIGN | PRODUCT STRATEGY | CAREER DEVELOPMENT
+            <!-- Facilitates the connections between students and the industry. -->
+          </p>
+          <p onclick="window.location.href= 'coffeechat.html';return false">
+            An iOS app that helps students to seek career advice from industry professionals.
+          </p>
+        </div>
         <div id="coffeechatcover" class="project-content cover-flex" onclick="window.location.href= 'coffeechat.html';return false">
           <a href="coffeechat.html">
             <picture>
@@ -77,55 +161,8 @@ For my next gig, I am looking to be a part of future tech that enables me to bui
             </picture>
           </a>
         </div>
-        <div class="project-info info-flex-r">
-          <h5 style="color:#6400FF; font-weight:700;">Self-Directed Project</h5>
-          <h2><a href="coffeechat.html">CoffeeChat</a></h2>
-          <p onclick="window.location.href= 'coffeechat.html';return false">
-            END-TO-END | MOBILE | PROTOTYPING | TESTING
-            <!-- Facilitates the connections between students and the industry. -->
-          </p>
-          <p onclick="window.location.href= 'coffeechat.html';return false">
-            An iOS app that helps students to seek career advice from industry professionals.
-          </p>
-        </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="project-wrapper-flex" >
-        <div class="project-info info-flex-l">
-          <h5 style="color:#4AB2C5; font-weight:700;">UX/UI Consultant @ Children's Creativity Museum</h5>
-          <h2><a href="creativitylab.html">Children's Creativity App</a></h2>
-          <p onclick="window.location.href= 'creativitylab.html';return false">
-            PRODUCT DESIGN | UX RESEARCH | MOBILE UI
-          </p>
-          <p onclick="window.location.href= 'creativitylab.html';return false">
-            Spearheaded the design of a digital platform that fosters creativity through activity prompts, curated content, and documentation of children's creative growth.
-            <!-- A platform that fosters creativity through activity prompts, curated content, and documentation of children's creative growth. -->
-          </p>
-        </div>
-            <div id="ccmcover" class="project-content cover-flex" onclick="window.location.href= 'creativitylab.html';return false">
-              <a href="creativitylab.html">
-                  <picture>
-                    <img style="border-radius: 12px;" src="img/0.png" alt="Cover for Creativity for Children">
-                  </picture>
-              </a>
-              <!-- <h3 onclick="window.location.href= 'creativitylab.html';return false">Children's Creativity App</h3>
-              <p onclick="window.location.href= 'creativitylab.html';return false">
-                Client Project / Mobile / UX Design
-              </p> -->
-            </div>
 
-      </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
       <div class="project-wrapper-flex" >
             <div id="kitchencover" class="project-content cover-flex" onclick="window.location.href= 'cookwith.html';return false">
               <a href="cookwith.html">
@@ -145,16 +182,11 @@ For my next gig, I am looking to be a part of future tech that enables me to bui
                 EXPERIENCE DESIGN | PROTOTYPING | SYSTEM THINKING
               </p>
               <p onclick="window.location.href= 'coffeechat.html';return false">
-                Led the design of a digital cooking assistant that guides and supports people cooking with recipes.
+                A digital cooking assistant that guides and supports people cooking with recipes.
               </p>
             </div>
       </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
       <div class="project-wrapper-flex" >
         <div class="project-info info-flex-l">
           <h5 style="color:#FC1268; font-weight:700;">Master's Thesis in Media Arts and Technology</h5>
@@ -180,9 +212,7 @@ For my next gig, I am looking to be a part of future tech that enables me to bui
             </div>
 
       </div>
-      <br>
-      <br>
-      <br>
+
       <!-- <div class="project-wrapper" >
             <div id="qhcover" class="project-content" onclick="window.location.href= 'coffeechat.html';return false">
               <a href="coffeechat.html">
@@ -264,7 +294,7 @@ For my next gig, I am looking to be a part of future tech that enables me to bui
     <br>
     <br>
   </main>
-  <div id = "exploration">
+  <div id = "exploration" >
     <h2>Exploration</h2>
     <ul id="filters" class="clearfix">
       <li><span class="filter active" data-filter=".design, .interactiveArt, .dataViz">All</span></li>
@@ -272,7 +302,7 @@ For my next gig, I am looking to be a part of future tech that enables me to bui
       <li><span class="filter" data-filter=".dataViz">Data Visualization</span></li>
       <li><span class="filter" data-filter=".interactiveArt">Interactive Art</span></li>
     </ul>
-    <div id="projectlist">
+    <div id="projectlist" class="container">
       <div class="explore interactiveArt" data-cat="interactiveArt">
         <div class="explore-wrapper">
           <a href="updating.html" class="text-title">
@@ -398,14 +428,14 @@ For my next gig, I am looking to be a part of future tech that enables me to bui
     </div>
   </div>
 
-  <div class="" style="text-align: center; padding: 10px 0 90px 0;  background-color: #333;">
+  <!-- <div class="" style="text-align: center; padding: 10px 0 90px 0;  background-color: #333;">
 
     <br>
     <br>
     <br>
     <p style="line-height:2.0; font-weight:300; color:white; font-size:20px;">This website has been coded from scratch by HTML, CSS, and JavaScript. <br>
       Get in touch if you are interested in my process.</p>
-  </div>
+  </div> -->
 <!-- </div> -->
 
   <footer id="contact">
@@ -422,6 +452,9 @@ For my next gig, I am looking to be a part of future tech that enables me to bui
           <div id="email-btn"></div>
         </a>
       </div>
+      <br>
+      <br>
+      <br>
       <!-- <div class="contact-btn">
         <a href="mailto:yaojxjason@gmail.com">
           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">

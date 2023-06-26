@@ -1,14 +1,53 @@
 /*
 Colors used:
 */
+.container{
+  margin: 0 120px;
+}
+.case-study-container{
+  margin: 0 120px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.hero-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-text{
+  width: 50%;
+}
+.hero-img{
+  width: 50%;
+  padding: 64px;
+  padding-right: 0;
+  padding-left: 128px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+#additional_text{
+  display:  inline;
+}
 
 img {
   width: 100%;
 }
 
+.hero-img img{
+  max-width: 92%;
+}
+
+
+
 .cover-img-top{
-  padding-top:72px;
+  /*padding-top:72px;*/
   /* padding-bottom:36px; */
+  display: flex;
+  align-items: center;
 }
 b{
   font-weight: 600;
@@ -21,6 +60,8 @@ hr{
     background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 
@@ -28,7 +69,7 @@ body {
   /* background-color: #ffffff; */
   font-family: 'Open Sans', sans-serif;
   font-size: 14px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
+  font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
   background-color:#fdfdFd;
@@ -47,6 +88,7 @@ h2 {
   font-size: 2em;
   font-weight: 600;
   margin-bottom:50px;
+  margin-top: 16px;
 }
 
 .project-info h2 {
@@ -58,6 +100,11 @@ h2 {
   font-weight: 600;
   margin-bottom:20px;
 }
+
+#work-section{
+  line-height: 1.6;
+}
+
 h3 {
   font-size: 1.5em;
   font-weight: 400;
@@ -267,8 +314,9 @@ a:focus {
 }
 
 #linkedin-btn:hover {
-    background-image: url("../img/contact/linkedin_highlight.png");
+  background-image: url("../img/contact/linkedin_highlight.png");
 }
+
 #email-btn{
   background-image: url("../img/contact/email_line.png");
   background-position: center;
@@ -296,10 +344,6 @@ a:focus {
   box-sizing: border-box;
 }
 
-.container {
-  padding: 0 15px;
-}
-
 .center {
   text-align: center;
 }
@@ -310,13 +354,14 @@ a:focus {
 }
 
 header {
-  background-color: white;
+  /*background-color: white;*/
+  background-color:#fdfdfd;
   padding: 10px 0;
   position: fixed;
   width: 100%;
-  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+/*  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
   -moz-box-shadow:    0px 2px 8px 0px rgba(50, 50, 50, 0.5);
-  box-shadow:         0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         0px 2px 8px 0px rgba(50, 50, 50, 0.5);*/
   z-index: 1;
 }
 
@@ -324,22 +369,36 @@ main {
   padding-top: 133px;
 }
 
-#hero {
-  /* background-color: #ffe4c4; */
-  padding: 20px 0;
-  display: inline-block;
-  margin: 0 auto;
-  width:100%;
+  #hero {
+    position: relative;
+    height: 90vh;
+  }
+
+  .scroll_down{
+    position: absolute;
+    top:  auto;
+    bottom:  0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .scroll_down img{
+   max-width: 24px;
+  }
+
+
+#hero h1{
+  /*line-height:1.8;*/
 }
 
-#hero .container {
-  margin: 0 auto;
-  /* width: 86%; */
+#hero h2{
+  /*line-height:1.8;*/
 }
 
-#hero .container h1,h2{
-  line-height:1.8;
-}
+
 
 
 nav{
@@ -399,10 +458,9 @@ nav.stroke ul li a:hover:after {
 }
 
 #work-section{
-  width : 84%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  gap: 128px;
 }
 
 #work-section-single{
@@ -422,7 +480,6 @@ nav.stroke ul li a:hover:after {
 }
 
 .project-wrapper-flex{
-  /* width : 50%; */
   padding: 12px;
   position: relative;
   flex-direction: row;
@@ -660,6 +717,33 @@ nav.stroke ul li a:hover:after {
   background-color: #BB1515;
 }
 
+
+#eccover{
+  background-color: #EBF5FF;
+  background-image: url("../img/ec_cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#eccover:hover {
+  background-color: #00529B;
+}
+
+#cfcover{
+  background-color: #E1E9F0;
+  background-image: url("../img/coalfire_cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cfcover:hover {
+  background-color: #E05A32;
+}
+
+
+
 #headshot{
   max-width: 25%;
   margin-left: auto;
@@ -672,19 +756,19 @@ nav.stroke ul li a:hover:after {
 }
 
 #my-story, #skills-tools, .introduction, .paragraph{
-  width: 66%;
-  margin-left: auto;
-  margin-right: auto;
+  /*width: 66%;*/
+/*  margin-left: auto;
+  margin-right: auto;*/
 }
 .hmw{
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  /*width: 50%;*/
+/*  margin-left: auto;
+  margin-right: auto;*/
 }
 
-.research{
+/*.research{
   width: 80%;
-}
+}*/
 
 
 .about-title{
@@ -695,6 +779,7 @@ nav.stroke ul li a:hover:after {
   text-align: center;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin:  0 auto;
 }
 .hmw h3{
   line-height: 2.0;
@@ -746,10 +831,6 @@ section {
   padding-bottom: 30px;
 }
 .subsection{
-  width:66%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 30px;
   margin-bottom: 90px;
 }
@@ -780,6 +861,7 @@ footer{
   background-color: black;
   color:white;
   border:solid black;
+  padding-top: 64px;
 }
 
 
@@ -850,6 +932,15 @@ Small screens up to 640px
     padding-top:30px;
   }
 
+  .container{
+    margin:  0 20px;
+  }
+  .case-study-container{
+    margin:  0 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
   header {
     /* text-align: unset; */
     padding: 20px 0 13px;
@@ -905,7 +996,7 @@ Small screens up to 640px
   }
 
   body{
-    font-weight: 200;
+    font-weight: 400;
     font-size: 12px;
     /* background-color: green; */
   }
@@ -928,8 +1019,25 @@ Small screens up to 640px
     text-align: center;
   }
 
+  .project-info{
+    order: 1;
+    width: 100%;
+    padding-top: 32px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
+  .project-wrapper-flex{
+    flex-direction: column;
+  }
+  
+  #work-section{
+    gap: 32px;
+  }
 
+  #additional_text{
+    display:  none;
+  }
   /* .section-title{
     text-align: left;
     width:92%;
@@ -937,11 +1045,18 @@ Small screens up to 640px
 
   #hero .container h1{
     font-weight: 200;
-    font-size: 17px;
+    /*font-size: 17px;*/
     /* background-color: green; */
   }
 
+  h2{
+    margin-top: 8px;
+  }
 
+  .project-wrapper-flex{
+    padding-left:  0px;
+    padding-right: 0px;
+  }
 
   .logo{
       margin: 0 auto;
@@ -950,10 +1065,25 @@ Small screens up to 640px
       /* padding: 10px 0 4px; */
   }
 
+  .hero-flex{
+    flex-direction: column;
+  }
+  .hero-text{
+   width: 100%;
+   padding-top: 64px;
+  }
+  .hero-img{
+   padding-left: 0px;
+   padding-top: 0px;
+   padding-bottom: 128px;
+
+   width: 80%;
+  }
+
 
 
   #my-story, #skills-tools, .introduction, .paragraph, .hmw{
-    width: 92%;
+    /*width: 92%;*/
   }
 
   .project-wrapper{
@@ -962,9 +1092,6 @@ Small screens up to 640px
     position: relative;
   }
 
-  #work-section{
-    width : 96%;
-  }
 
   #vrdvcover img{
     border-radius: 25px;
@@ -1085,6 +1212,33 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
+  .container{
+    margin:  0 30px;
+  }
+  .case-study-container{
+    margin:  0 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .project-info{
+    order: 1;
+    width: 100%;
+    padding-top: 32px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #work-section{
+    gap: 64px;
+  }
+/*
+    .info-flex-r{
+    padding-left: 0;
+  }*/
+  .project-wrapper-flex{
+    flex-direction: column;
+  }
+
   nav {
     width: auto;
     float: right;
@@ -1109,24 +1263,28 @@ Medium devices (640px and larger)
   .subsection{
     margin-top: 20px;
     margin-bottom: 40px;
-    width:92%;
+    /*width:92%;*/
+  }
+
+  .hero-img{
+   padding-left: 0px;
+  }
+
+  .hero-img img{
+    max-width: 100%;
   }
 
 
 
 
-
   #my-story, #skills-tools, .introduction, .paragraph, .hmw{
-    width: 92%;
+    /*width: 92%;*/
   }
 
   .sub-title, .subsub-title{
     text-align: center;
   }
 
-  #work-section{
-    width : 96%;
-  }
   #vrdvcover img{
     border-radius: 25px;
     /* position:static; */
@@ -1207,6 +1365,20 @@ Medium devices (640px and larger)
 }
 
 /* ==============================
+Smaller devices (1440px or smaller)
+================================= */
+@media only (min-width: 1024px) and (max-width: 1440px) {
+/*  .info-flex-r{
+    padding-left: 0;
+  }*/
+
+  .hero-img{
+   padding-right: 0;
+   padding-left: 64px;
+  }
+}
+
+/* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
@@ -1215,10 +1387,6 @@ Large devices (1024px or larger)
   }
   #hero span {
     display: block;
-  }
-  .container {
-    padding: 0 10%;
-    /* max-width: 1200px; */
   }
   .container h1 {
     font-weight: 400;
@@ -1231,16 +1399,8 @@ Large devices (1024px or larger)
   .subsection{
     margin-top: 20px;
     margin-bottom: 40px;
-    width:92%;
   }
 
-
-
-
-  #hero {
-    /* background-color: #ffe4c4; */
-    /* padding: 30px 0 100px 0; */
-  }
 
   header {
     text-align: unset;
@@ -1262,13 +1422,28 @@ Large devices (1024px or larger)
   }
 }
 
+
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1680px) {
   body {
     font-size: 17px; /* Sets the font size to 16px */
   }
+ .container {
+    /*padding: 0 10%;*/
+     max-width: 1440px; 
+     margin:  0 auto;
+  }
+
+  .case-study-container{
+    max-width: 1440px; 
+    margin:  0 auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
   #hero span {
     display: block;
   }

@@ -9,6 +9,11 @@
   justify-content: space-between;
 }
 
+.title h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
 
 
 html {
@@ -110,6 +115,8 @@ background-color:#333
 .hero-section{
   /* height:720px */
   height:96vh;
+  display: flex;
+  align-items: center;
 }
 
 .small-hero-img{
@@ -216,10 +223,10 @@ background-color:#333
 }
 
 
-.ideation, .iteration, .decision, .other-projects{
+/*.ideation, .iteration, .decision, .other-projects{
   width:80%
 }
-
+*/
 #poster{
   width:50%;
 }
@@ -233,6 +240,12 @@ background-color:#333
   flex-basis: 37%;
   padding-left: 10px;
   padding-right: 20px;
+}
+
+#hori .half-paragraph{
+  flex-basis: 50%;
+  padding-left: 10px;
+  padding-right: 48px;
 }
 
 #hori li{
@@ -255,6 +268,21 @@ background-color:#333
   display: none;
   /* background-color: yellow; */
 }
+
+#deliverable{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+  /* background-color: yellow; */
+}
+
+.deliverable-section{
+  padding-top: 17px;
+  padding-left: 64px;
+}
+
 ol{
   margin:0;
   padding-left: 30px;
@@ -264,9 +292,14 @@ p ol li{
 }
 
 .key-feature{
+  /*
   width: 66%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
+}
+
+.key-feature-img{
+  padding: 10%;
 }
 
 .feature-description{
@@ -301,7 +334,7 @@ p ol li{
     flex-basis: 50%;
     /* padding: 10px; */
     align-items:center;
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
   }
 
   .col-1-2-non-btm-margin{
@@ -498,14 +531,16 @@ p ol li{
   padding-top:20px;
 }
 
+.hero-mock-up{
+  width: 80%;
+}
 
 .row-non-equal{
-  margin: 0; /* 25px top and bottom, 0 left and right */
   display: flex;
   flex-direction: row;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  /*max-width: 1200px;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
   justify-content: space-between;
 }
 
@@ -556,6 +591,9 @@ h4 a:hover:after {
 }
 
 
+.carousel-2-3{
+  margin-bottom: 64px;
+}
 
 
 /* ==============================
@@ -566,7 +604,8 @@ Small screens up to 640px
     font-size: 17px;
   }
   h1{font-size: 36px}
-  h2{font-size:20px}
+  h2{font-size:32px;margin-bottom: 32px}
+  h3{font-size:22px}
   .col-1-2-cg {
     flex-basis: 50%;
     padding: 10px;
@@ -633,15 +672,16 @@ Small screens up to 640px
   }
 
   .research, .small-hero-img, .ideation, .iteration, .decision, .other-projects{
-    width:96%
+    /*width:96%*/
   }
 
   .metrics{
-    padding: 20px 2%;
+    /*display: flex;*/
+    padding: 64px 20px 64px 20px;
   }
 
   .future{
-    padding: 20px 2%;
+    padding: 64px 20px 64px 20px;
   }
 
   .finding-img{
@@ -658,13 +698,13 @@ Small screens up to 640px
     width:50%
   }
 
-  .subsection{
+/*  .subsection{
     width:90%
-  }
+  }*/
 
   .key-feature-wrapper{
     margin: 0 auto;
-    width:90%
+    /*width:90%*/
   }
 
   .hero-section{
@@ -674,9 +714,22 @@ Small screens up to 640px
 
   .text-carousel-1-3{
     padding-right: 0;
+    width: 100%;
   }
   .text-carousel-1-3-j{
     padding-right: 0;
+    width: 100%;
+  }
+  .carousel-2-3{
+    width: 100%;
+    margin-bottom: 64px;
+  }
+  .row-text-carousel{
+    flex-direction: column;
+  }
+
+  .deliverable-section{
+    padding-left: 0px;
   }
 }
 
@@ -737,22 +790,22 @@ Medium devices (640px and larger)
     flex-direction: column;
   }
   .research, .small-hero-img, .ideation, .iteration, .decision, .other-projects{
-    width:96%
+    /*width:96%*/
   }
 
   .solution{
-    width:96%;
+    /*width:96%;*/
     margin-top: 60px;
     margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
   }
   .subsection{
-    width:90%
+    /*width:90%*/
   }
   .key-feature-wrapper{
-    width:90%;
-    margin: 0 auto;
+    /*width:90%;*/
+    /*margin: 0 auto;*/
   }
 
   .project-wrapper-small{
@@ -780,6 +833,25 @@ Medium devices (640px and larger)
   #token img{
     width:50%
   }
+  .text-carousel-1-3{
+    padding-right: 0;
+    width: 100%;
+  }
+  .carousel-2-3{
+    width: 100%;
+    margin-bottom: 64px;
+  }
+  .text-carousel-1-3-j{
+    padding-right: 0;
+    width: 100%;
+  }
+  .row-text-carousel{
+    flex-direction: column;
+  }
+
+  .deliverable-section{
+    padding-left: 0px;
+  }
 
 }
 
@@ -788,16 +860,8 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) and (max-width: 1150px){
     .research, .small-hero-img,.research, .ideation, .iteration, .decision, .other-projects{
-    width:92%
+    /*width:92%*/
   }
-  /* #token {
-    margin: 0 auto;
-  }
-
-  #token img{
-    width:50%
-  } */
-
 }
 
 /* ==============================
@@ -809,5 +873,20 @@ X-large devices (1440px or larger)
     max-width: 1440px;
     text-align: center;
     margin: 0 auto;
+  }
+
+
+  .metrics{
+     max-width: 720px;
+     padding-left: 0;
+     padding-right:  80px; 
+     margin-left: auto;
+     margin-right: 0;
+  }
+
+  .future{
+    max-width: 720px;
+    padding-right: 0;
+    padding-left: 80px;
   }
 }
