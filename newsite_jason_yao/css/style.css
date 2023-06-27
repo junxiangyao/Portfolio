@@ -136,19 +136,19 @@ a {
 span a{
   font-weight: 500;
 }
-
+/*
 h2 a,
 h2 a:after,
 h2 a:before {
-  transition: all .5s;
+  transition: all .2s;
 }
 
 
 span a,
 span a:after,
 span a:before {
-  transition: all .5s;
-}
+  transition: all .2s;
+}*/
 
 h2 a{
   position: relative;
@@ -157,7 +157,7 @@ h2 a{
 span a{
   position: relative;
 }
-h2 a:after{
+/*h2 a:after{
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -167,8 +167,7 @@ h2 a:after{
   content: '.';
   color: transparent;
   background: #aaa;
-  /* background: #fdfdfd; */
-  height: 2px;
+  height: 4px;
 }
 
 span a:after{
@@ -181,10 +180,10 @@ span a:after{
   content: '.';
   color: transparent;
   background: #aaa;
-  /* background: #fdfdfd; */
-  height: 1px;
-}
-span a:hover:after {
+  height: 4px;
+}*/
+
+/*span a:hover:after {
   width: 100%;
 }
 
@@ -195,14 +194,14 @@ h2 a:hover:after {
 h3 a,
 h3 a:after,
 h3 a:before {
-  transition: all .5s;
+  transition: all .2s;
 }
 
 h3 a{
   position: relative;
-}
+}*/
 
-h3 a:after{
+/*h3 a:after{
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -212,13 +211,12 @@ h3 a:after{
   content: '.';
   color: transparent;
   background: #aaa;
-  /* background: #fdfdfd; */
-  height: 2px;
-}
+  height: 4px;
+}*/
 
-h3 a:hover:after {
+/*h3 a:hover:after {
   width: 100%;
-}
+}*/
 
 /* a:visited {  */
 /* visited link */
@@ -420,6 +418,14 @@ nav > ul > li > a {
   /* font-weight: 700; */
   color: #4a4a4a;
 }
+.navtoggle{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stroke{
+  line-height: 1.0;
+}
 
 .navtoggle li:not(:last-child) {
   display: inline-block;
@@ -434,16 +440,22 @@ nav > ul > li > a:hover. */
 
 /* stroke */
 
-nav ul li a,
+/*nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
-  transition: all .5s;
+  transition: all .2s;
 }
-
+*/
 nav.stroke ul li a{
   position: relative;
 }
-nav.stroke ul li a:after{
+a{
+  /*transition: all .2s;*/
+}
+a:hover{
+  color: #4B0BFF;
+}
+/*nav.stroke ul li a:after{
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -453,15 +465,16 @@ nav.stroke ul li a:after{
   content: '.';
   color: transparent;
   background: #aaa;
-  /* background: #fdfdfd; */
   height: 1px;
-}
+}*/
 nav.stroke ul li a:hover:after {
   width: 100%;
 }
   #work-section-wrapper{
     background-color: #fff;
   }
+
+
 #work-section{
   display: flex;
   flex-wrap: wrap;
@@ -973,7 +986,7 @@ Small screens up to 640px
     margin: 0;
   }
 
-  .navtoggle li:not(:last-child) {
+/*  .navtoggle li:not(:last-child) {
     display: none;
   }
   .navtoggle li:last-child {
@@ -982,13 +995,14 @@ Small screens up to 640px
   .navtoggle, .navtoggle.responsive {
     position: relative;
   }
+
   .navtoggle li .icon {
     position: absolute;
     right: 0;
-    top: 2px;
-    /* font-size: 20px; */
+    top: 4px;
     color: black;
   }
+
   .navtoggle.responsive li  {
     display: block;
   }
@@ -996,6 +1010,7 @@ Small screens up to 640px
   .navtoggle.responsive nav {
     padding: 24px 0 0;
   }
+
   .navtoggle.responsive li  {
     display: block;
     padding: 10px 0;
@@ -1004,7 +1019,7 @@ Small screens up to 640px
 
   .navtoggle.responsive li:last-child  {
     padding: 0 0 10px;
-  }
+  }*/
 
   body{
     font-weight: 400;
@@ -1095,7 +1110,7 @@ Small screens up to 640px
   }
 
   .logo{
-      margin: 0 auto;
+      /*margin: 0 auto;*/
       /* display: inline-block; */
       max-width: 150px;
       /* padding: 10px 0 4px; */
@@ -1314,6 +1329,10 @@ Small screens up to 640px
 
   .button{
     padding: 8px 32px;
+    border: 2px solid #4a4a4a;
+  }  
+  .button:hover{
+    border: 2px solid black;
   }  
 }
 
@@ -1484,7 +1503,12 @@ Medium devices (640px and larger)
 
   .button{
     padding: 8px 32px;
+    border: 2px solid #4a4a4a;
   }  
+  .button:hover{
+    border: 2px solid black;
+  }  
+
 }
 
 /* ==============================

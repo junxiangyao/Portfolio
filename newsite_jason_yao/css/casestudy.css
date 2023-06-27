@@ -739,6 +739,14 @@ Small screens up to 640px
   .deliverable-section{
     padding-left: 0px;
   }
+
+  .col-2-3 picture{
+    padding-left: 0;
+  }
+
+  .col-1-2-r {
+    padding-left: 0;
+  }
 }
 
 
