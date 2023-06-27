@@ -371,7 +371,7 @@ main {
 
   #hero {
     position: relative;
-    height: 90vh;
+    height: 88vh;
   }
 
   .scroll_down{
@@ -388,6 +388,9 @@ main {
   .scroll_down img{
    max-width: 24px;
   }
+#selected-work-title{
+  display: none;
+}
 
 
 #hero h1{
@@ -456,7 +459,9 @@ nav.stroke ul li a:after{
 nav.stroke ul li a:hover:after {
   width: 100%;
 }
-
+  #work-section-wrapper{
+    background-color: #fff;
+  }
 #work-section{
   display: flex;
   flex-wrap: wrap;
@@ -900,6 +905,13 @@ footer{
   text-align: center;
 }
 
+ #updating_img{
+     max-width:30%; 
+     margin: 0 auto;
+ }
+
+
+
 .clickable{
   width: 100%;
   /* width: 1080px; */
@@ -913,7 +925,6 @@ footer{
   width: 100%;
   height: 100%;
   border: none; */
-
 }
 /* .svg { width:100%; } */
 
@@ -1006,6 +1017,23 @@ Small screens up to 640px
     margin-bottom: 60px;
   }
 
+  #hero {
+    position: relative;
+    height: auto;
+  }
+
+  .scroll_down{
+    display:  none;
+  }
+
+  #selected-work-title{
+   display: block;
+   margin-bottom: 0;
+   text-align: center;
+   width:  100%;
+   margin-bottom: 24px;
+ } 
+
   .project-info h3{
     /* text-align: center; */
   }
@@ -1022,7 +1050,7 @@ Small screens up to 640px
   .project-info{
     order: 1;
     width: 100%;
-    padding-top: 32px;
+    padding-top: 24px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -1030,10 +1058,18 @@ Small screens up to 640px
   .project-wrapper-flex{
     flex-direction: column;
   }
+
+
   
   #work-section{
-    gap: 32px;
+    gap: 0px;
   }
+
+  #work-section-wrapper{
+    background-color: #f6f6f6;
+  }
+
+
 
   #additional_text{
     display:  none;
@@ -1074,9 +1110,8 @@ Small screens up to 640px
   }
   .hero-img{
    padding-left: 0px;
-   padding-top: 0px;
-   padding-bottom: 128px;
-
+   padding-top: 24px;
+   padding-bottom: 64px;
    width: 80%;
   }
 
@@ -1140,17 +1175,83 @@ Small screens up to 640px
     opacity:0;
   }
 
-  /* #coffeechatcover {
-    background-color: #FFA014;
-  }
+#vrsmallcover {
+  /*background-image: url("../img/5i.png");*/
+  background-image: url("../img/5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*#vrsmallcover:hover {
+  background-image: url("../img/5.png");
+}*/
 
-  #ccmcover {
-    background-color: #FA5316;
-  }
+#vrlargecover {
+  /*background-image: url("../img/5il.png");*/
+  background-image: url("../img/5l.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*#vrlargecover:hover {
+  background-image: url("../img/5l.png");
+}*/
 
-  #kitchencover {
-    background-color: #74a30e;
-  } */
+#ccmcover .project-content{
+  /* color: #4a; */
+  border: none;
+  /* padding: 16px 32px; */
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  background-color: #f2f2f2;
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+.project-content h3{
+  font-size: 1.8em;
+  margin-block-start:0;
+  margin-block-end:0;
+}
+
+
+.project-content:hover{
+  color: white;
+}
+
+.project-text{
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#coffeechatcover {
+  /*background-color: #FFF2DE;*/
+  background-color: #FFA014;
+}
+
+#ccmcover {
+  /*background-color: #EDECEF;*/
+  background-color: #200E32;
+}
+
+#kitchencover{
+  /*background-color: #FFE5DD;*/
+  background-color: #FA5316;
+}
+
+#eccover{
+  /*background-color: #EBF5FF;*/
+  background-color: #00529B;
+}
+
+#cfcover{
+  /*background-color: #E1E9F0;*/
+  background-color: #E05A32;
+}
 
   #qhcover {
     background-color: #40434c;
@@ -1196,6 +1297,24 @@ Small screens up to 640px
   .cover-img-top{
     display: none;
   }
+
+
+  #headshot{
+    max-width: 50%;
+  }
+
+
+  #updating_notice h4{
+    font-size: 17px;
+  }
+
+  #updating_img{
+    max-width:50%; 
+  }
+
+  .button{
+    padding: 8px 32px;
+  }  
 }
 
 
@@ -1362,6 +1481,10 @@ Medium devices (640px and larger)
   .cover-img-top{
     display: none;
   }
+
+  .button{
+    padding: 8px 32px;
+  }  
 }
 
 /* ==============================

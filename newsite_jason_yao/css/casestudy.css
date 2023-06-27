@@ -627,6 +627,14 @@ Small screens up to 640px
   #vert{
     display: block;
   }
+  
+  #hori-3{
+    display:none;
+  }
+
+  #skills-tools h2{
+    padding-left: 0 !important;
+  }
 
   #poster{
     width:92%;
@@ -764,9 +772,18 @@ Medium devices (640px and larger)
   #hori{
     display:none;
   }
+
+  #hori-3{
+    display:none;
+  }
   #vert{
     display: block;
   }
+
+  #skills-tools h2{
+    padding-left: 0 !important;
+  }
+
 
     #poster{
       width:92%;
