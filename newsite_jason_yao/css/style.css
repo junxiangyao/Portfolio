@@ -41,7 +41,9 @@ img {
   max-width: 92%;
 }
 
-
+strong{
+  font-weight: 700;
+}
 
 .cover-img-top{
   /*padding-top:72px;*/
@@ -737,7 +739,7 @@ nav.stroke ul li a:hover:after {
 
 
 #eccover{
-  background-color: #EBF5FF;
+  background-color: #EBEFFF;
   background-image: url("../img/ec_cover.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -745,7 +747,7 @@ nav.stroke ul li a:hover:after {
 }
 
 #eccover:hover {
-  background-color: #00529B;
+  background-color: #1b3cc2;
 }
 
 #cfcover{
@@ -1333,7 +1335,11 @@ Small screens up to 640px
   }  
   .button:hover{
     border: 2px solid black;
-  }  
+  }
+
+  .stroke{
+    font-size: 14px;
+  }
 }
 
 
@@ -1530,7 +1536,8 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   body {
-    font-size: 17px; /* Sets the font size to 16px */
+    font-size: 17px; 
+    /* Sets the font size to 16px */
   }
   #hero span {
     display: block;

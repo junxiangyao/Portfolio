@@ -13,6 +13,25 @@
     <link rel="stylesheet" type="text/css" href="css/modal.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <style type="text/css">
+      .research_insights{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 12px;
+        gap: 12px;
+      } 
+      .research_insights img{
+        max-width:36px;
+      }
+      .research_insights h5{
+        font-weight: 700;
+        /*color: #142C8F;*/
+        color: #1B3CC2
+      }
+
+
+    </style>
   </head>
   <body>
     <header>
@@ -38,12 +57,12 @@
         <li><a href="#research_loc"><span class="dot"></span>  Research</a></li>
         <li><a href="#ideation_loc"><span class="dot"></span>  Ideation</a></li>
         <li><a href="#iteration_loc"><span class="dot"></span>  Iteration</a></li>
-        <li><a href="#solution_loc"><span class="dot"></span>  Deliverable</a></li>
-        <li><a href="#solution_loc"><span class="dot"></span>  Result</a></li>
+        <li><a href="#deliverable_loc"><span class="dot"></span>  Deliverables</a></li>
+        <li><a href="#feedback_loc"><span class="dot"></span>  Client's Feedback</a></li>
       </ul>
     </nav>
     <main>
-      <div style="background-color:#00529B;color:white" class="hero-section">
+      <div style="background-color:#1b3cc2;color:white" class="hero-section">
         <div class="introduction case-study-container" >
           <div class="row-non-equal">
             <div class="col-1-2">
@@ -54,7 +73,7 @@
             </div>
             <div class="col-1-2 cover-img-top">
               <picture>
-                <img  src="img/placeholder.png" alt="cover">
+                <img  src="img/emergencycall/cover.png" alt="cover">
               </picture>
             </div>
           </div>
@@ -68,20 +87,22 @@
 
           <!-- <div class="objective" style="padding:10px">
             <h5>Objective</h5>
-            <p style="margin-top:5px"><b>An exercise of end-to-end product design</b> <br> To study the challenges college students face when they prepare for their careers and how technology can facilitate the process.</p>
+            <p style="margin-top:5px"><strong>An exercise of end-to-end product design</strong> <br> To study the challenges college students face when they prepare for their careers and how technology can facilitate the process.</p>
           </div> -->
 
           <ul id="hori">
             <li class="half-paragraph">
               <h5>Overview</h5>
-              <p style="margin-top:5px"> Our client is one of the top vendors in the 911 call handling market. Their major product helps 911 centers ask questions and relay scene information fast and accurately to responders and provide actionable advice to callers to enhance scene safety and minimize liability exposure. This project is to redesign the user experience of their call handling product, the core of their product ecosystem, by understanding their users better.
+              <p style="margin-top:5px"> Our client is one of the top vendors in the 911 call handling market. Their major product helps 911 centers ask questions and relay scene information fast and accurately to responders and provide actionable advice to callers to enhance scene safety and minimize liability exposure. 
+                This project is to redesign the user experience of this call handling product, the core of their product ecosystem, by understanding their users better.
               </p>
             </li>
             <li>
                 <h5>My Role</h5>
                 <p style="margin-top:5px">UX Assessment <br> User Research <br> Design Strategy <br> Wireframing <br> Prototyping <br> Visual Design <br> Design Documentation <br> Design Library </li>
             <li>
-              <h5 style="margin-top:5px">Duration</h5>
+              <!-- <h5 style="margin-top:5px">Duration</h5> -->
+              <h5>Duration</h5>
                 <p style="margin-top:5px">October, 2022 - March, 2023</p>
             </li>
           </ul>
@@ -117,24 +138,26 @@
               </div>
               <div class="col-1-2-r">
                 <h3>Get ready for the future</h3>
-                <p>Besides solving the adoption issue, our client wants to increase their competence by being more adapted to handling calls beyond emergency calls (e.g., 311, 988, EOC, other government agencies,) and plan for what's next in emergency response beyond traditional call handling.
+                <p>Besides solving the adoption issue, our client wants to increase their competence by being more adapted to handling calls beyond emergency calls and plan for what's next in emergency response beyond traditional call handling.
                 </p>
               </div>
             </div>
         </section>
 
-        <div class="hmw_section" style="background-color: #ebf5ff;">
+        <div class="hmw_section" style="background-color: #f2f2f5;">
           <div class="hmw case-study-container">
-              <h3 style="color: #001629;">- PROBLEM STATEMENT -</h3>
-              <h3 style="color: #001629;">How might we develop a solution that is widely adopted and used on every call with future-ready features and capabilities?</h3>
+              <h3 style="color: #060d27;">- PROBLEM STATEMENT -</h3>
+              <h3 style="color: #060d27;">How might we develop a solution that is widely adopted and used on every call with future-ready features and capabilities?</h3>
           </div>
         </div>
+        <br>
+        <br>
         <section class="case-study-container">
            <div class="section-title">
              <h2>Process</h2>
            </div>
            <picture>
-             <img src="img/placeholder.png" alt="Process">
+             <img src="img/emergencycall/process.png" alt="Process">
            </picture>
         </section> 
 
@@ -150,103 +173,88 @@
           </div>
 
           <div class="subsection">
-            <div class="sub-title">
+<!--             <div class="sub-title">
               <h3>Identifying the Problem</h3>
-            </div>
-            <div class="row-text-carousel">
-              <div class="text-carousel-1-3">
-                <p>
-                  From secondary research, we learned that to increase their impact, one important direction is <b>to increase their digital footprint.</b>
+            </div> -->
+            <p>
+              We started with conducting a <strong>UX Asessment</strong> of the current product. Next, based on our learnings, we conducted ten <strong>1-hour user interviews</strong> with call handlers who currently use the platform and then synthesized the interviews to gain a better understanding. 
+              <br>
+              <br>
+              Here are some of the insights we gained:
+            </p> 
+        
+            <div class="row-non-equal" style>
+              <div class="col-1-2-l">
+                <div class="research_insights">
+                  <img src="img/emergencycall/speed.svg">
+                  <h5>Speed is the Key</h5> 
+                </div >
+                <p style="margin-top: 0;">
+                   For call handlers, what is on their minds is providing information to callers and dispatching the responders asap. Every second counts.
+              </p>
+
+              </div>
+              <div class="col-1-2-r">
+                <div class="research_insights">
+                  <img src="img/emergencycall/stress.svg">
+                  <h5>High Stress</h5> 
+                </div >
+             <!--  <h4 style="margin-bottom: 12px; font-weight: 600;">Stress</h4>   -->
+              <p style="margin-bottom:0; margin-top: 0;">
+                  Call handlers need to multitasking and thus are under high stress.
+                    This is in addition to being responsible for someone’s safety.
                   <br>
-                  <br>
-                  We then spent days in the museum volunteering and immersively observing how they worked and interacted with their users.
-                  We sent out surveys to understand the value of creative learning and the needs of parents.
-                  We learned that <b>parents value creative learning</b>, and many of them also <b>prefer tangible learning outcomes.</b>
                 </p>
               </div>
-              <div class="carousel-2-3" style="margin-top: 30px; margin-bottom: 20px">
-                <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Onsite Interviews.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Onsite Observations.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/INS.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Google Form.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                </div>
+            </div>
+<br>      <div class="row-non-equal" style>
+              <div class="col-1-2-l">
+                <div class="research_insights">
+                  <img src="img/emergencycall/unpredictable.png">
+                  <h5>Need Flexibility</h5> 
+                </div >
+                <!-- <h4 style="margin-bottom: 12px; font-weight: 600;">Need Flexibility</h4> -->
+                <p style="margin-top: 0;">
+                  Emergency calls, especially police calls, differ widely in terms of severity and protocol. Call handlers cannot rely on a script of questions to ask.
+                </p>
+              </div>
+              <div class="col-1-2-r">
+                <!-- <h4 style="margin-bottom: 12px; font-weight: 600;"></h4> -->
+                <div class="research_insights">
+                  <img src="img/emergencycall/tracking.svg">
+                  <h5>Tracking Questions</h5> 
+                </div >
+                <p style="margin-bottom:0; margin-top: 0;">
+                  Much of the strain on call handlers is deciding what questions to ask next and knowing which questions have already been answered without being asked. 
+                </p>
+              </div>
+            </div> 
+<br> 
+            <!-- <h4 style="margin-bottom: 12px; font-weight: 600;">Workspace Breakdown</h4> -->
+            <div class="research_insights">
+                  <img src="img/emergencycall/workspace.svg">
+                  <h5>Workspace Breakdown</h5> 
+                </div >
+            <div class="row-non-equal" style>
+              <div class="col-1-2-l">
+                <p style="margin-top: 0;">
+                  All of the participants use multiple screens in their workspace. On average they have <strong>6.44 monitors</strong>. 
+                  Thus, the new product we designed will need to be easy to browse and read through when surrounded by multiple monitors. 
+              </p>
+              </div>
+              <div class="col-1-2-r">
+                <picture>
+                  <img src="img/emergencycall/monitors.png" alt="Monitors">
+                </picture>
               </div>
             </div>
+         
           </div>
+
+
         </section>
-          <div style="background-color:#F2F1F3">
-            <section class="research case-study-container">
-              <div class="subsection">
-                <ul class="flex-ul-3" style="padding-top: 60px;">
-                  <li>
-                    <div class="">
-                      <p>
-                        We interviewed 5 parents and 3 educators from CCM to understand their thoughts on creative learning and their experience in the museum.
-                        <!-- <br>  <br>(Most of the research data were used from <a href="" style="color:green">this project</a>, which is a group project.) -->
-                      </p>
-                    </div>
-                  </li>
 
-                  <li>
-                    <div class="quote" style="color: #200E32">
-                      <p style="font-family: 'Libre Caslon Text', serif; font-weight: 100;margin:0" >
-                        <i>
-                        "I think every activity that my child does or is exposed to can help develop creativity.
-                        Having my child engage in experiences would enlarge his pool of thinking.
-                        The difficulty is to find those fun activities for him."
-                      </i>
-                      </p>
-                      <br>
-                      <p> -- Jeok, Parent</p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div class="quote" style="color: #200E32">
-                      <p style="font-family: 'Libre Caslon Text', serif;font-weight: 100;margin:0;">
-                        <i>
-                        "Everyone (Children) of all ages is just so happy to see what they create come to life with the help of technology. They're proud of what they have created ...
-                        I get to see little kids from one-year-olds to even parents being so happy coloring in a house or car.
-                        It's a family activity."
-                      </i>
-                        <!-- <br> -->
-                      </p>
-                      <br>
-                      <p>
-                        -- Fidelina, Museum Educator
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </section>
-
-
-          </div>
-
-          <section class="research case-study-container">
-          <div class="subsection">
-            <div class="sub-title">
-              <h3>Understanding the Problem | <span style="color:#aaa">Data Synthesizing & Remote Collaboration </span></h3>
-            </div>
-            <div class="row-text-carousel">
-              <div class="text-carousel-1-3">
-                <p>
-                  Covid-19 hit San Francisco while we were in the research phase.
-                  As we cannot meet in person anymore, and the museum was closed due to the pandemic, we had to <b>synthesize our data remotely</b> and use alternative research methods like <b>role-playing</b> and <b>co-designing</b> to gain a deeper understanding of the problem with the help of Zoom and Miro.
-                </p>
-              </div>
-              <div class="carousel-2-3" style="margin-top: 20px">
-                <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Affinity Mapping.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Role Play.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Co-Design.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="subsection">
+ <!--          <div class="subsection">
             <div class="sub-title">
               <h3>
                 Insights
@@ -254,62 +262,46 @@
             </div>
             <div class="flex-ul-3">
               <li>
-              <!-- <div class="col-1-3"> -->
               <div class="finding-img">
                 <picture>
                   <img src="img/creativitylab/Interaction.png" alt="Environment">
-                  <!-- <img src="img/creativitylab/Interaction lr.png" alt="Environment"> -->
                 </picture>
               </div>
                 <h5>A supportive environment is critical.</h5>
                 <p>
-                  <!-- As there is a mismatch between what society needs and what schools encourage,
-                  college students lack timelines and directions for career preparation. It is hard to find experienced people who understand their situation. -->
                   Creative learning does not occur in isolation; it exists in interactions with the environment.
                 </p>
-              <!-- </div> -->
               </li>
               <li>
-              <!-- <div class="col-1-3"> -->
               <div class="finding-img">
                 <picture>
                   <img src="img/creativitylab/Tangible.png" alt="Tangible Outcome">
-                  <!-- <img src="img/creativitylab/Tangible l.png" alt="Tangible Outcome"> -->
                 </picture>
               </div>
               <h5>Conflicting expectations of creative learning.</h5>
                 <p>
                   Parents associate their child's learning with tangible outcomes. However, creative learning is more process learning than product outcome.
                 </p>
-              <!-- </div> -->
               </li>
               <li>
-              <!-- <div class="col-1-3"> -->
               <div class="finding-img">
                 <picture>
                   <img src="img/creativitylab/Income.png" alt="Income">
-                  <!-- <img src="img/creativitylab/Income l.png" alt="Income"> -->
                 </picture>
               </div>
               <h5>CCM needs more income resources.</h5>
                 <p>
                   CCM as an organization cannot rely only on an income-based only on its physical space (memberships, tickets, rental). They need to expand and branch out more digitally.
                 </p>
-              <!-- </div> -->
               </li>
             </div>
-          </div>
-        </section>
-        <!-- #E4E2E6 -->
-        <div class="hmw_section" style="background-color: #FFBC25;">
-          <div class="hmw" style="text-align: ">
-              <h4 style="color: #745000;">- DESIGN OPPORTUNITY -</h4>
-              <h3 style="color: #200E32;">How might we take CCM's physical space and translate it into a digital product to spread creative confidence in children from home? </h3>
-              <!-- <h3>How might we help students to find professionals for advice with ease？</h3> -->
-          </div>
-        </div>
-      </div>
+          </div> -->
 
+        </section>
+        <section class="case-study-container">
+           <hr>
+        </section> 
+      </div>
       <div id="ideation_loc">
         <section class="ideation case-study-container">
           <div class="section-title">
@@ -317,116 +309,112 @@
           </div>
           <div class="subsection">
             <div class="sub-title">
-              <h3>Coming up with Ideas | <span style="color:#aaa">Brainstorming & Idea Prioritization </span></h3>
+              <h3>Collaborative Workshop</h3>
             </div>
             <div class="row-text-carousel">
               <div class="text-carousel-1-3">
                 <p>
-                  We started with brainstorming sessions to generate ideas.
-                  After we decided on our <b>value proposition</b> based on our design opportunity, we created a <b>business model canvas</b> for our solution.
-                  We realized that a <b>Merchandise Store</b> could help generating more revenue for CCM.
+                  To cap off the discovery phase of the engagement, we held a 2-day collaborative workshop with our client. 
                   <br>
                   <br>
-                  We then prioritized our ideas in a <b>2 by 2 matrics</b>. The features chosen should have high level of <b>feasiblity</b> and bring <b>transformational</b> value to CCM.
+                  In addition to sharing research findings, we worked together to create <strong>personas</strong>, map out the  <strong>current user journey</strong>, and build the  <strong>ideal user journey</strong>.
+                  <br>
+                  <br>
+                  Next, we discussed the feasibility and did <strong>Feature Prioritization</strong> to sort the features we plan to develop.
+
+                <br>
+                <br>
+                <!-- Based on these outcomes, we synthesized six <strong>Design Principles</strong> to guide our design process. -->
                 </p>
               </div>
               <div class="carousel-2-3" style="margin-top: 20px">
                 <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/BMC.png" class="carousel-cell-image-full IMG" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/2by2.png" class="carousel-cell-image-full IMG" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/2by2-1.png" class="carousel-cell-image-full IMG" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/2by2-2.png" class="carousel-cell-image-full IMG" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/2by2-3.png" class="carousel-cell-image-full IMG" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/2by2-4.png" class="carousel-cell-image-full IMG" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/emergencycall/persona.png" class="carousel-cell-image-full IMG" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/emergencycall/user journey.png" class="carousel-cell-image-full IMG" style="background-color: #fff"></div>
+                  <div class="carousel-cell-full"><img src="img/emergencycall/inspiration_n_prioritize.png" class="carousel-cell-image-full IMG" style="background-color: #fff"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="subsection">
+<!--           <div class="subsection">
             <div class="sub-title">
-              <h3>Conceptual Model</h3>
+              <h3>
+                Design Principles
+               </h3>
             </div>
-            <p>
-              I designed the general flow of the solution that integrates the 4 major features we chose: <b>Creative Activity Promptsb</b>, <b>Creativity Documentation</b>, <b>Share with Community</b>, and<b> Merchandise Store.</b>
-            </p>
-            <picture class="full-width-img">
-              <img src="img/creativitylab/Conceptual Model.png" alt="Conceptual Model">
-              <!-- <img src="img/creativitylab/Conceptual Model B.png" alt="Conceptual Model"> -->
-            </picture>
-            <!-- <div class="row-non-equal">
-              <div class="col-1-3">
-                <p>
-                  I designed the general flow of the solution that integrates the 4 major features we chose: Creative Activity Prompts, Creativity Documentation, Share with Community, and Merchandise Store.
-                </p>
-              </div>
-              <div class="col-2-3 project-image-wrapper">
+            <div class="flex-ul-3" style="padding-bottom: 0;">
+              <li>
+              <div class="finding-img">
                 <picture>
-                  <img src="img/creativitylab/Conceptual Model.png" alt="Conceptual Model">
+                  <img src="img/creativitylab/Explorative_s.png" alt="Explorative">
+                </picture>
+
+              </div>
+                <h5>Supportive UI</h5>
+                <p>Reduce call handler’s cognitive load and provide timely feedback.</p>
+              </li>
+              <li>
+              <div class="finding-img">
+                <picture>
+                  <img src="img/creativitylab/Encouraging_s.png" alt="Encouraging">
+                </picture>
+
+              </div>
+                <h5>High Readability and Scannability</h5>
+                <p>
+                  Call handlers need to work with multiple screens to go through a large amount of information in a timely manner. 
+                </p>
+              </li>
+              <li>
+              <div class="finding-img">
+                <picture>
+                  <img src="img/creativitylab/Energetic_s.png" alt="Energetic">
                 </picture>
               </div>
+                <h5>Easy to Find Features in Need</h5>
+                <p>
+                  Call handlers should be able to find the features they need as quick as possible. 
+                </p>
+              </li>
+            </div>
+            <div class="flex-ul-3">
+              <li>
+              <div class="finding-img">
+                <picture>
+                  <img src="img/creativitylab/Explorative_s.png" alt="Explorative">
+                </picture>
+
+              </div>
+              <h5>Streamline the Process</h5>
+                <p>
+                  Reduce the actions required and hide features and information that are not essential to the current task.
+                </p>
+              </li>
+              <li>
+              <div class="finding-img">
+                <picture>
+                  <img src="img/creativitylab/Encouraging_s.png" alt="Encouraging">
+                </picture>
+
+              </div>
+                <h5>Provide Flexibility</h5>
+                <p>
+                  Call handlers should use less structured way for gathering supportive information and be able to jump between multiple scripts freely.
+                </p>
+              </li>
+              <li>
+              <div class="finding-img">
+                <picture>
+                  <img src="img/creativitylab/Energetic_s.png" alt="Energetic">
+                </picture>
+              </div>
+                <h5>Scalable and Customizable UI</h5>
+                <p>
+                  Take future features and modules, and the customization needs of different agencies into account.
+                </p>
+              </li>
             </div>
           </div> -->
-          <!-- <div class="subsection"> -->
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-            <div class="sub-title">
-              <h4>How does our solution benefit stakeholders?</h4>
-            </div>
-            <p>
-              3 major stakeholders, <b>CCM</b>, <b>parents</b>, and <b>children</b>, will benefit from <b>functional</b>, <b>financial</b>, <b>emotional</b>, and <b>meaningful</b> values provided by our solution.
-            </p>
-            <picture class="full-width-img">
-              <img src="img/creativitylab/Value Flow.png" alt="Stakeholder Map">
-            </picture>
-
-            <br>
-            <br>
-            <br>
-            <br>
-            <!-- <div class="row-non-equal">
-              <div class="col-1-3">
-                <p>
-                  3 major stakeholders, CCM, parents, and children, will benefit from functional, financial, emotional, and meaningful values provided by our solution.
-                </p>
-              </div>
-              <div class="col-2-3 project-image-wrapper">
-                <picture>
-                  <img src="img/creativitylab/Value Flow.png" alt="Stakeholder Map">
-                </picture>
-              </div>
-            </div> -->
-          <!-- </div> -->
-          <!-- <div class="subsection"> -->
-            <div class="sub-title">
-              <h3>Information Architecture</h3>
-            </div>
-            <p>
-              After we figured out the conceptual model, we started creating the <b>user flows</b> of the major features.
-              <br>
-              We then created this <b>sitemap</b> based on the user flows validated from testing.
-            </p>
-            <picture class="full-width-img">
-              <img src="img/creativitylab/IA.png" style="padding-bottom:0"alt="Sitemap">
-            </picture>
-            <!-- <div class="row-non-equal">
-              <div class="col-1-3">
-                <p>
-                  After we figured out the conceptual model, we started creating the user flows of the 4 major features in our solution.
-                  <br>
-                  We then created this sitemap based on the user flows validated from testing.
-                </p>
-              </div>
-              <div class="col-2-3 project-image-wrapper">
-                <picture>
-                  <img src="img/creativitylab/IA.png" alt="Sitemap">
-                </picture>
-              </div>
-            </div> -->
-          </div>
         </section>
       </div>
       <section class="case-study-container">
@@ -438,193 +426,99 @@
           <div class="section-title">
             <h2>Iteration</h2>
           </div>
-          <div class="subsection">
-            <div class="sub-title">
-              <h3>
-                Design Principles
-               </h3>
-            </div>
-            <div class="flex-ul-3">
-              <li>
-              <!-- <div class="col-1-3"> -->
-              <div class="finding-img">
-                <picture>
-                  <img src="img/creativitylab/Explorative_s.png" alt="Explorative">
-                </picture>
-
-              </div>
-              <h5>Explorative</h5>
-                <p>
-                  Focus on process learning and not product creation.
-                </p>
-              </li>
-              <li>
-              <div class="finding-img">
-                <picture>
-                  <img src="img/creativitylab/Encouraging_s.png" alt="Encouraging">
-                </picture>
-
-              </div>
-                <h5>Encouraging</h5>
-                <p>
-                  Building a supportive environment for creation and expression on the platform.
-                </p>
-              <!-- </div> -->
-              </li>
-              <li>
-              <!-- <div class="col-1-3"> -->
-              <div class="finding-img">
-                <picture>
-                  <img src="img/creativitylab/Energetic_s.png" alt="Energetic">
-                </picture>
-              </div>
-                <h5>Energetic</h5>
-                <p>
-                  Playful, illuminative, and cheerful tone to spark creativity.
-                </p>
-              <!-- </div> -->
-              </li>
-            </div>
+          <div class="sub-title">
+            <h3>Wireframes</h3>
           </div>
-          <div class="subsection">
-            <div class="sub-title">
-              <h3>Prototyping</h3>
-            </div>
-            <div class="row-non-equal">
-              <div class="col-1-3">
-                <p>
-                  We iterated 9 times on our solution. We also did 3 rounds of testing within 6 weeks. The goals of each round are:
-                  <ul style="list-style-type:none; padding: 0px">
-                    <li><b>Round 1</b> - Rapid prototyping and testing the desirability of our features.</li>
-                    <br>
-                    <li><b>Round 2</b> - Testing refined features and their flows.</li>
-                    <br>
-                    <li><b>Round 3</b> - Testing higher fidelity prototype with refined Flows.</li>
-                  </ul>
-                  <!-- We did 3 rounds of iteration from wireframes to high-fidelity prototype.
-                  I also conducted 3 usability testing sessions to validate our ideas using Figma and Zoom. -->
-                </p>
+            <p>
+             After we created the <strong>User Flow</strong> diagrams and the <strong>Information Architecture</strong>, we started the wireframe sprints. 
+             We initiated the sprint with designing the key screens and worked with our clients to finalize the design of them. We then created the flows and linked them into clickable prototypes in Figma to communicate our design decisions to our client. 
+            </p>
+            <picture>
+               <img src="img/emergencycall/wireframes.png" alt="Wireframes">
+            </picture>
+            <br>
+            <br>
+            <br>
+          <div class="sub-title">
+            <h3>Visual Design</h3>
+          </div>
+            <p>
+              When the wireframing phase is reaching to the end, we started to create visual concepts and to transit the wireframe library to visual design library by applying visual details.
+            </p>
+            <picture>
+              <img src="img/emergencycall/visual.png" alt="Visual Design">
+            </picture>
+          </div>
+        </section>    
+      </div>
+
+      <div id="deliverable_loc">
+        <br>
+        <section class="iteration case-study-container">
+          <div class="section-title">
+            <h2>Deliverables</h2>
+          </div>
+          <h3>Design Library File</h3>
+            <div class="row-non-equal" style>
+              <div class="col-1-2-l">
+                <p style="margin-top: 0;">
+                  During the wireframe sprints, we created a components library in Figma as the design library that links to the wireframe file. After applying visual details to the components in the visual design phase, this file became the final design library including colors, fonts, icons, grids, shadows, and components with different states. 
+                  <br>
+                  <br>
+                  In addition to the Design Library file, we delivered the Wireframe file and the Visual Design file with clickable prototypes and annotations on design details.
+              </p>
               </div>
-              <div class="col-2-3">
+              <div class="col-1-2-r">
                 <picture>
-                  <img src="img/creativitylab/Iterations.png" alt="Evolution">
+                  <img src="img/emergencycall/design_library.png" alt="Design Library">
                 </picture>
               </div>
-            </div>
-          </div>
-          <br>
-          <div class="subsection">
-            <div class="sub-title">
-              <h3>Usability Testing</h3>
-            </div>
-            <div class="row-text-carousel">
-              <div class="text-carousel-1-3">
-                <p>
-
-                  Most of the testing sessions were conducted through <b>Zoom</b>. We used <b>Figma</b>, and <b>Google Slides</b> to facilitate the testing sessions.
-                  We gathered our feedbacks into <b>rainbow spreadsheets</b> and refined our design accordingly. I will talk about some of our learnings from testing in the next section.
-                  <!-- We started with brainstorming sessions to generate ideas.
-                  After we decided on our value proposition based on our design opportunity, we created a business model canvas for our solution. We then prioritized our ideas in a 2 by 2 matrics. -->
-                </p>
-              </div>
-              <div class="carousel-2-3" style="margin-top: 20px">
-                <div class="carousel_full" data-flickity='{ "autoPlay": 5000, "pauseAutoPlayOnHover": true, "prevNextButtons": false, "wrapAround": true, "imagesLoaded": true}'>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Testing-1.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Testing-3.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Testing-2.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                  <div class="carousel-cell-full"><img src="img/creativitylab/Rainbow.png" class="carousel-cell-image-full" style="background-color: #fff"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <br>
-          <div class="subsection">
-            <div class="sub-title">
-              <h3>Design Decisions</h3>
             </div>
             <br>
-            <div class="subsubsection">
-              <div class="subsub-title">
-                <h5>Activity Prompts Page</h5>
+            <br>
+          <h3>Development File</h3>
+            <div class="row-non-equal" style>
+              <div class="col-1-2-l">
+                <p style="margin-top: 0;">
+                  While we are wireframing the flows, we created a <strong>user stories</strong> file to keep track of the features we designed and to ensure our client and the design team are on the same page. 
+<br>
+<br>
+                  Based on this user stories file, we created a product requirements file with detailed descriptions of the features we designed and links to the figma files. This enables a smooth hand over from the design team to the development team. 
+              </p>
               </div>
-              <div class="row-non-equal">
-                <div class="col-1-3">
-                  <p>
-                    Activities curated by the educators are displayed as cards.
-                    In our previous iterations, we had activities without images to allow the generation of open-ended ideas for children and save more screen real estate for other content.
-                    <br>
-                    <br>
-                    However, while testing, <b>we learned that parents prefer seeing images to understand what this activity is about.</b> So we added a cover image. We removed the check box for material gathering since people find it unnecessary.
-                    <br>
-                    <br>
-                    <!-- We also added cues to show the time needed and activity level to help parents gauge what they were going to do and according to our testing results. -->
-                  </p>
-                </div>
-                <div class="col-2-3">
-                  <picture>
-                    <img src="img/creativitylab/Prompts.png"  alt="Prompts">
-                  </picture>
-                </div>
+              <div class="col-1-2-r">
+                <picture>
+                  <img src="img/emergencycall/production_file.png" alt="Production">
+                </picture>
               </div>
             </div>
-            <br><br>
-            <div class="subsubsection">
-              <div class="subsub-title">
-                <h5>Activity Instructions</h5>
-              </div>
-              <div class="row-non-equal">
-                <div class="col-1-3">
-                  <p>
-                    One challenge is to balance between reducing the guidance to encourage active exploration and providing enough information in case children are stuck.
-                    Also, from testing, we realized that parents want to limit screen time for their children.
-                    <br>
-                    <br>
-                    Thus, <b>we specifically chose not to put video content and other supportive information directly in the instruction screens</b> so that children could focus more on creating by themselves.
-                    They could find those information on the hint page if needed.
-                    <br>
-                    <br>
-                  </p>
-                </div>
-                <div class="col-2-3">
-                  <picture>
-                    <img src="img/creativitylab/Activity.png" alt="Activity">
-                  </picture>
-                </div>
-              </div>
-            </div>
-            <br><br>
-            <div class="subsubsection">
-              <div class="subsub-title">
-                <h5>Using Claps instead of Likes</h5>
-              </div>
-              <div class="row-non-equal">
-                <div class="col-1-3">
-                  <p>
-                    For feedback metrics, users can clap multiple times for other children's work.
-                    This feature could help create a supportive environment that focuses on encouraging rather than competing.
-                    <br>
-                    <br>
-                    Compared with other binary feedback metrics (eg. Like), this aligns more with our first insight:
-                    <b>creative learning occurs in the interactions with supportive environments.</b>
-                  </p>
-                </div>
-                <div class="col-2-3">
-                  <picture>
-                    <img src="img/creativitylab/Claps.png" alt="Claps">
-                  </picture>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- <div style="background-color: #8E6D61; color: white; padding-top: 30px; padding-bottom: 30px;">
-
-          </div> -->
         </section>
       </div>
 
-      <div class="row">
+      <div id="feedback_loc">
+        <br>
+        <section class="iteration case-study-container">
+          <div class="section-title">
+            <h2>Client's Feedback</h2>
+          </div>
+            <div class="row-non-equal" style>
+              <div class="col-1-2-l">
+                <p style="margin-top: 0;">
+                  We received <strong>5 out of 5</strong> rating from our client on Clutch.io, a website for clients to rate the services they received from agencies and one of our major sources for clients.
+                  <br><br>
+                  This is the first project our agency tried to combine the product design contract with a development contract. As the client is satisfied with the design work, they eventually agreed on <strong>extending the contract</strong> and hire us to develop this product.  
+              </p>
+              </div>
+              <div class="col-1-2-r">
+                <picture>
+                  <img src="img/emergencycall/feedback.png" alt="Feedback">
+                </picture>
+              </div>
+            </div>
+        </section>
+      </div>
+
+<!--       <div class="row">
         <div class="col-1-2" style="background-color: #200E32; color: white">
           <div class="metrics">
               <h4>Metrics</h4>
@@ -646,22 +540,21 @@
           <div class="future">
               <h4>Future Steps</h4>
               <p>
-                <b> Expanding to New Platforms</b>
+                <strong> Expanding to New Platforms</strong>
                 <br>
                    As people mentioned they want a tablet version of this app for their kid to follow the activity prompts, it is a clear next step for us.
                    Also, we will create a web app to better leverage CCM's powerful domain name, creativity.org.
               </p>
               <p>
-                <b> Integrating Onsite Activities</b>
+                <strong> Integrating Onsite Activities</strong>
                 <br>
                     To create a more holistic solution, we will look into opportunities to buld connection between our current solution with
                     CCM's other onsite activities and exhibits.
               </p>
               <p>
-                <b>Creating channels for CCM educators to host activities live on the app.</b>
+                <strong>Creating channels for CCM educators to host activities live on the app.</strong>
                 <br>
                 In our solution, the prompts and instructions would be written by CCM's educator.
-                <!-- One potential direction is to push this a step further. -->
                 As a supportive environment and appropriate guidance are essential for cultivating chidlren's creativity, we could creating channels for CCM educators to host activities live on the app.
               </p>
 
@@ -674,7 +567,7 @@
         </div>
         <div class="paragraph">
           <p>
-            <b>Keeping an open mind for change.</b>
+            <strong>Keeping an open mind for change.</strong>
             <br>
             When COVID-19 hit San Francisco in March, our design research is still in progress.
             There are a lot of unexpected changes in this process.
@@ -683,7 +576,7 @@
             Otherwise, we may miss the chance to leverage the advantages we still possess.
           </p>
           <p>
-            <b>Communication is the key.</b>
+            <strong>Communication is the key.</strong>
             <br>
             As we are a team of 5 designers, keeping everyone on the same page is necessary but difficult, not to mention facilitating remote collaborations within such an uncertain time.
             As the team's project manager, I learned that it is essential to find the minimum level of consensus to make decisions and move forward and to make sure our effort and content are not lost in our communication.
@@ -694,31 +587,34 @@
           <br>
         </div>
         <hr>
-      </section>
+      </section> -->
 
-      <div id="myModal" class="modal">
+<!--       <div id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="modal-content" id="img01">
         <div id="caption"></div>
       </div>
-
+ -->  
+     <section class="reflections case-study-container">
+        <hr>
+      </section> 
     </main>
     <section class="other-projects case-study-container">
       <div class="row">
         <div class="project-wrapper-small" >
-          <div id="coffeechatcover" class="project-content" onclick="window.location.href= 'coffeechat.html';return false">
-            <a href="coffeechat.html">
-              <picture>
-                <img src="img/1.png" alt="Cover for CoffeeChat">
-              </picture>
-            </a>
-          </div>
-          <div class="small-info">
-            <h4><a href="coffeechat.html">CoffeeChat</a></h4>
-            <p onclick="window.location.href= 'coffeechat.html';return false">
-              End-to-end | Strategy | Career Development
-            </p>
-          </div>
+              <div id="ccmcover" class="project-content" onclick="window.location.href= 'creativitylab.html';return false">
+                <a href="creativitylab.html">
+                    <picture>
+                      <img style="border-radius: 25px;" src="img/2.png" alt="Cover for Creativity for Children">
+                    </picture>
+                </a>
+              </div>
+              <div class="small-info">
+                <!-- <h5 style="color:#4AB2C5; font-weight:700;">UX/UI Consultant</h5> -->
+                <h4><a href="creativitylab.html">Children's Creativity App</a></h4>
+                <p onclick="window.location.href= 'creativitylab.html';return false">
+                End-to-end | Strategy | Education  </p>
+              </div>
         </div>
         <div class="project-wrapper-small" >
               <div id="kitchencover" class="project-content" onclick="window.location.href= 'cookwith.html';return false">
@@ -757,13 +653,6 @@
       </div>
     </section>
 
-
-    <!-- <div>
-      <picture>
-        <source srcset="img/coffeechat/cover@1.png" media="(max-width:767px)">
-        <img src="img/coffeechat/cover.png" alt="Cover for CoffeeChat">
-      </picture>
-    </div> -->
     <footer id="contact">
       <div class="container">
         <div class="footer-title">
