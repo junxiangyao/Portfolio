@@ -474,6 +474,7 @@ nav.stroke ul li a:hover:after {
 }
   #work-section-wrapper{
     background-color: #fff;
+    padding-bottom: 160px;
   }
 
 
@@ -1084,6 +1085,7 @@ Small screens up to 640px
 
   #work-section-wrapper{
     background-color: #f6f6f6;
+    padding-bottom: 0px;
   }
 
 
@@ -1514,6 +1516,11 @@ Medium devices (640px and larger)
   .button:hover{
     border: 2px solid black;
   }  
+
+  #work-section-wrapper{
+    background-color: #fff;
+    padding-bottom: 90px;
+  }
 
 }
 
