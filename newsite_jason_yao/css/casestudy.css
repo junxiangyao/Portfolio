@@ -692,7 +692,8 @@ Small screens up to 640px
   }
 
   .finding-img{
-     padding:0 40%
+     padding:0 32%;
+     padding-top: 32px;
   }
 
   #token {
@@ -745,6 +746,14 @@ Small screens up to 640px
 
   .col-1-2-r {
     padding-left: 0;
+  }
+
+  .full-width-img img{
+    padding:0px 0px;
+  }
+
+  .carousel-cell-full{
+    padding:0px 0px;
   }
 }
 
@@ -879,6 +888,10 @@ Medium devices (640px and larger)
 
   .col-1-2-r {
     padding-left: 0;
+  }
+
+  .carousel-cell-full{
+    padding:0px 0px;
   }
 
 }
