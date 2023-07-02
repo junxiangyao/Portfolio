@@ -246,7 +246,7 @@ a:focus {
   font-weight: 400;
   padding: 15px 60px;
   border-radius: 100px;
-  border: 3px solid #4a4a4a; /* width of the border, type, color */
+  border: 2px solid #4a4a4a; /* width of the border, type, color */
   transition: 1s opacity;
   -webkit-transition: all .5s ease; /* Safari and Chrome */
   -moz-transition: all .5s ease; /* Firefox */
@@ -263,7 +263,7 @@ a:focus {
   text-decoration: none;
   color: #ffffff;
   background-color: black;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 100px;
 }
 
@@ -274,7 +274,7 @@ a:focus {
   font-weight: 400;
   padding: 13px 5px;
   border-radius: 100px;
-  border: 3px solid #4a4a4a; /* width of the border, type, color */
+  border: 2px solid #4a4a4a; /* width of the border, type, color */
   transition: 1s opacity;
   -webkit-transition: all .5s ease; /* Safari and Chrome */
   -moz-transition: all .5s ease; /* Firefox */
@@ -286,13 +286,13 @@ a:focus {
   text-align:center;
 }
 
-.button-round:hover {
+.cover-img-top-round:hover {
   /* opacity: 0.8;  */
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
   color: #ffffff;
   background-color: black;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 100px;
 }
 
@@ -981,7 +981,7 @@ Small screens up to 640px
 
   .title{
     text-align: left;
-    padding: 100px 0 100px 0;
+    padding: 90px 0 30px 0;
     font-size: 24px;
   }
 
@@ -1264,7 +1264,7 @@ Small screens up to 640px
 
 #eccover{
   /*background-color: #EBF5FF;*/
-  background-color: #00529B;
+  background-color: #1b3cc2;
 }
 
 #cfcover{
@@ -1314,7 +1314,7 @@ Small screens up to 640px
   }
 
   .cover-img-top{
-    display: none;
+    /*display: none;*/
   }
 
 
@@ -1506,7 +1506,7 @@ Medium devices (640px and larger)
     background-color: #BB1515;
   }
   .cover-img-top{
-    display: none;
+    /*display: none;*/
   }
 
   .button{
@@ -1522,6 +1522,11 @@ Medium devices (640px and larger)
     padding-bottom: 90px;
   }
 
+    .title{
+    text-align: left;
+    padding: 90px 0 30px 0;
+    font-size: 24px;
+  }
 }
 
 /* ==============================
