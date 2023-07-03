@@ -581,6 +581,23 @@ h4 a{
   margin-bottom: 64px;
 }
 
+#darkNav{
+  color:  white;
+  background-color: #000;
+  -webkit-transition: all .3s ease; /* Safari and Chrome */
+  -moz-transition: all .3s ease; /* Firefox */
+  -ms-transition: all .3s ease; /* IE 9 */
+  -o-transition: all .3s ease; /* Opera */
+  transition: all .3s ease;
+}
+#darkNav nav > ul > li > a{
+  color:  white;
+  font-weight: 400;
+}
+
+#darkNav nav > ul > li > a:hover{
+  color: #6630ff;
+}
 
 /* ==============================
 Small screens up to 640px

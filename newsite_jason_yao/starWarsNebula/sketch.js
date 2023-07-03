@@ -143,7 +143,7 @@ function setup() {
 
   // console.log(Dw.EasyCam.INFO);
 
-  easycam = new Dw.EasyCam(this._renderer, {distance : 720});
+  easycam = new Dw.EasyCam(this._renderer, {distance : 800});
 
   label = new Label();
   //Predraw the spheres. Without this step, when enable sphere in draw() during runtime, the screen will freeze a bit
@@ -311,8 +311,9 @@ function initHUD(){
   title.style('margin','0 auto');
   hud[0].style('padding-left','10%');
   hud[1].style('padding-left','10%');
-  hud[1].style('padding-top','100px');
-  createElement('h1', "Star Wars Nebular").parent(title);
+  hud[1].style('padding-top','200px');
+  let majortitle = createElement('h2', "Star Wars Nebular").parent(title);
+  majortitle.style('margin-bottom','0');
   createElement('h5', "Checkout Times and Duration Data of the Former 6 in the Movie Series in Seattle Public Library").parent(title);
   dot_dom = createElement('p', "Duration Dots").parent(control_button);
   dot_dom.class("custom_button");

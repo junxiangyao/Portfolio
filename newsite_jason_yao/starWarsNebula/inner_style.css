@@ -13,6 +13,7 @@
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
+    padding-top: 32px;
 }
 
 .selectable-text{
@@ -44,18 +45,22 @@ nav ul{
   float: right;
 }
 
+#easycamhud .title{
+  margin-bottom: 0;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6;
-  margin:15px 0 0 0;
+  /*margin:15px 0 0 0;*/
   font-size:16px;
   padding-top: 0px;
 }
 .hud {
   position: fixed;
-  top: 40px;
+  /*top: 40px;*/
   margin: 0 auto;
   /* left: calc(-50vw + 50%);
   right: calc(-50vw + 50%); */
@@ -71,6 +76,16 @@ body {
 .panel{
   padding-top: 10px;
   background-color: rgba(0,0,0,0);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+a{
+  font-weight: 400;
+}
+a:hover{
+  color: #4B0BFF;
 }
 
 /*---------------------------------------------------
@@ -91,7 +106,7 @@ body {
   background: #ccc;
 }
 */
-.navbar{
+/*.navbar{
   background-color: #111;
   -webkit-box-shadow:  0 2px 12px 0 rgba(0, 0, 0, 0.4);
 -moz-box-shadow:  0 2px 12px 0 rgba(0, 0, 0, 0.4);
@@ -111,7 +126,7 @@ box-shadow:  0 2px 12px 0 rgba(0, 0, 0, 0.4);
 .navbar .navbar-nav>li>a:hover {
   color: white;
   background-color: #333;
-}
+}*/
 
 /*---------------------------------------------------
     clearing

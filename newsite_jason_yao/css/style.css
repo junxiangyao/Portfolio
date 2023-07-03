@@ -318,6 +318,12 @@ nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
+  display:  flex;
+  flex-direction: row;
+}
+.stroke > ul{
+  display:  flex;
+  flex-direction: row;
 }
 
 nav > ul > li > a {
@@ -335,13 +341,13 @@ nav > ul > li > a {
   line-height: 1.0;
 }
 
-.navtoggle li:not(:last-child) {
+/*.navtoggle li:not(:last-child) {
   display: inline-block;
 }
 
 .navtoggle li:last-child {
   display: none;
-}
+}*/
 
 nav.stroke ul li a{
   position: relative;
