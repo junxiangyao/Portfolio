@@ -42,8 +42,9 @@ const vr_cover_data = {
 }
 
 
-const  covers = document.getElementsByClassName("project-wrapper-flex");
-
+const  covers = document.getElementsByClassName("project-wrapper-small");
+console.log(covers);
+console.log("!!!!");
 if(window.innerWidth >= 1024){
 	for(let i = 0; i < covers.length; ++i){
 		for(let j = 0; j < covers[i].children.length; ++j){
@@ -81,6 +82,11 @@ if(window.innerWidth >= 1024){
 		}
 	}
 }
+
+
+
+
+
 
 
 

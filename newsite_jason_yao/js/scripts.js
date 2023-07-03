@@ -45,7 +45,20 @@ let cur = [];
 // });
 // Only not doing it here to keep this Pen dependency-free.
 
-window.addEventListener("scroll", event => {
+let path = window.location.pathname;
+let page = path.split("/").pop();
+let onCaseStudy = false;
+const caseStudyName = ["emergencycall.html","creativitylab.html","coalfire.html","vrdataviz.html","coffeechat.html","cookwith.html",]
+// console.log( page );
+for(let i = 0; i < caseStudyName.length; ++i){
+  if(page === caseStudyName[i]){
+    onCaseStudy = true;
+    break;
+  }
+}
+console.log( onCaseStudy );
+if(onCaseStudy){
+  window.addEventListener("scroll", event => {
   let fromTop = window.scrollY;
   let width=window.innerWidth;
   // console.log(width);
@@ -67,20 +80,22 @@ window.addEventListener("scroll", event => {
     // }
   }
 
-  mainNavLinks.forEach(link => {
-    let section = document.querySelector(link.hash);
-
-    if (
-      section.offsetTop - 10 <= fromTop &&
-      section.offsetTop + section.offsetHeight - 70 > fromTop
-    ) {
-      link.classList.add("current");
-    } else {
-      link.classList.remove("current");
-    }
+    mainNavLinks.forEach(link => {
+      let section = document.querySelector(link.hash);
+  
+      if (
+        section.offsetTop - 10 <= fromTop &&
+        section.offsetTop + section.offsetHeight - 70 > fromTop
+      ) {
+        link.classList.add("current");
+      } else {
+        link.classList.remove("current");
+      }
+    });
   });
+}
 
-});
+
 
 
 // /***********************
