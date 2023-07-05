@@ -1624,9 +1624,9 @@ function setup() {
   // if(windowWidth > 800){
   //   createCanvas(windowWidth,windowHeight);
   // }else{
-    createCanvas(windowWidth,windowHeight);
+  let canvas =  createCanvas(windowWidth,windowHeight);
   // }
-
+  canvas.position(0,32);
   //initialize the data
   print(table.get(0, 1));
   rows = table.getRowCount();

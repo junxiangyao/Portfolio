@@ -23,7 +23,7 @@ Colors used:
   width: 50%;
   padding: 64px;
   padding-right: 0;
-  padding-left: 128px;
+  padding-left: 32px;
   display: flex;
   justify-content: flex-end;
 }
@@ -52,7 +52,7 @@ strong{
   align-items: center;
 }
 b{
-  font-weight: 600;
+  font-weight: 700;
 }
 
 hr{
@@ -265,7 +265,7 @@ span a{
 header {
   /*background-color: white;*/
   background-color:#fdfdfd;
-  padding: 10px 0;
+  padding: 16px 0;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -331,6 +331,7 @@ nav > ul > li > a {
   text-transform: uppercase;
   /* font-weight: 700; */
   color: #4a4a4a;
+  font-size: 16px;
 }
 .navtoggle{
   display: flex;
@@ -855,6 +856,10 @@ Small screens up to 640px
     margin: 0;
   }
 
+  nav > ul > li > a {
+    font-size: 14px;
+  }
+
   body{
     font-weight: 400;
     font-size: 12px;
@@ -1182,7 +1187,7 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) and (max-width: 1024px){
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    /*padding: 20px 0 13px;*/
   }
 
   .container{
@@ -1366,7 +1371,7 @@ Smaller devices (1440px or smaller)
 
   .hero-img{
    padding-right: 0;
-   padding-left: 64px;
+   padding-left: 16px;
   }
 }
 
@@ -1397,7 +1402,7 @@ Large devices (1024px or larger)
 
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    /*padding: 20px 0 13px;*/
   }
 
   nav {
