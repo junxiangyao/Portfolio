@@ -4,6 +4,14 @@ Colors used:
 .container{
   margin: 0 120px;
 }
+
+.hero-container{
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .case-study-container{
   margin: 0 120px;
   padding-top: 32px;
@@ -74,7 +82,7 @@ body {
   font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
-  background-color:#fdfdFd;
+  background-color:#fff;
   /* background: #e3cebd; */
 }
 
@@ -264,7 +272,7 @@ span a{
 
 header {
   /*background-color: white;*/
-  background-color:#fdfdfd;
+  background-color:#fff;
   padding: 16px 0;
   position: fixed;
   width: 100%;
