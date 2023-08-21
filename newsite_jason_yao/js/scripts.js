@@ -23,7 +23,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
+let boolean = true;
 
 /****************
     Side Nav
@@ -32,6 +32,7 @@ let mainNavLinks = document.querySelectorAll("#side ul li a");
 let side = document.querySelectorAll("#side");
 let mainSections = document.querySelectorAll("main section");
 // document.body.scrollHeight
+
 
 let lastId;
 let cur = [];
@@ -48,7 +49,7 @@ let cur = [];
 let path = window.location.pathname;
 let page = path.split("/").pop();
 let onCaseStudy = false;
-const caseStudyName = ["emergencycall.html","creativitylab.html","coalfire.html","vrdataviz.html","coffeechat.html","cookwith.html",]
+const caseStudyName = ["emergencycall.html","creativitylab.html","coalfire.html","vrdataviz.html","coffeechat.html","cookwith.html","airetail.html"]
 // console.log( page );
 for(let i = 0; i < caseStudyName.length; ++i){
   if(page === caseStudyName[i]){

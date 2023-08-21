@@ -665,6 +665,25 @@ nav.stroke ul li a:hover:after {
 }
 
 
+#airetailcover a{
+  background-image: url("../img/airetail_cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#airetailcover{
+  /*background-color: #F9EFFF;*/
+  background-color: #E6ECF1
+}
+
+#airetailcover:hover {
+  background-color: #002747;
+}
 
 
 
