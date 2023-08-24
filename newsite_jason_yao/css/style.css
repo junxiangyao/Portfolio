@@ -678,12 +678,36 @@ nav.stroke ul li a:hover:after {
 
 #airetailcover{
   /*background-color: #F9EFFF;*/
-  background-color: #E6ECF1
+  background-color: #F7EBFF;
 }
 
 #airetailcover:hover {
-  background-color: #002747;
+  /*background-color: #3A2D41;*/
+  /*background-color: #3A1B4B;*/
+  /*background-color:#554061*/
+  background-color:#6B318D
 }
+
+#cybersensecover a{
+  background-image: url("../img/cybersense_cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#cybersensecover{
+  /*background-color: #F9EFFF;*/
+  background-color: #F1F5F9;
+}
+
+#cybersensecover:hover {
+  background-color: #001E36;
+}
+
 
 
 
@@ -1143,6 +1167,15 @@ Small screens up to 640px
   #debutcover {
     /* background-color: #FF0000; */
     background-color: #BB1515;
+  }
+  #airetailcover{
+    /*background-color: #F9EFFF;*/
+    /*background-color: #3A1B4B;*/
+    /*background-color:#554061;*/
+    background-color:#6B318D
+  }
+  #cybersensecover{
+   background-color: #001E36;
   }
 
   .prototype_container{

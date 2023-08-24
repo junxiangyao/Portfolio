@@ -49,7 +49,7 @@ let cur = [];
 let path = window.location.pathname;
 let page = path.split("/").pop();
 let onCaseStudy = false;
-const caseStudyName = ["emergencycall.html","creativitylab.html","coalfire.html","vrdataviz.html","coffeechat.html","cookwith.html","airetail.html"]
+const caseStudyName = ["emergencycall.html","creativitylab.html","coalfire.html","vrdataviz.html","coffeechat.html","cookwith.html","airetail.html","cybersense.html"]
 // console.log( page );
 for(let i = 0; i < caseStudyName.length; ++i){
   if(page === caseStudyName[i]){
